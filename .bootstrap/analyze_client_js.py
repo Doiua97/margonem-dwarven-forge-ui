@@ -40,7 +40,6 @@ for title,pat in patterns:
     if len(ms)>40: lines.append(f'_Only first 40 of {len(ms)} matches shown._')
     lines.append('')
 
-# Extract likely literal class/selector strings related to layout.
 terms=['hud','positioner','inventory','equipment','stats','mini-map','left-column','right-column','bottom-panel','chat','game-window']
 strings=re.findall(r'(["\'])(.{1,180}?)\1',data)
 vals=[]
@@ -52,3 +51,4 @@ lines += ['## Relevant string literals',f'Unique matches: **{len(vals)}**','']
 for s in vals[:300]: lines.append(f'- `{s.replace("`","\\`")}`')
 out.write_text('\n'.join(lines),encoding='utf-8')
 print(out)
+# trigger
