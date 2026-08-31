@@ -1,4 +1,4 @@
-:root{--forge-hud:url('../../assets/hud.svg?v=0.7.0');--forge-iron:url("../../assets/iron.png?v=0.7.0");--forge-frame:url("../../assets/frame.svg?v=0.7.0");--forge-middle:url("../../assets/middle.svg?v=0.7.0");--forge-header:url("../../assets/header.svg?v=0.7.0");--forge-control:url("../../assets/control.svg?v=0.7.0");--forge-track:url("../../assets/track.svg?v=0.7.0");--ink:#151314;--ink2:#201b1c;--heading:#e0d7cd;--text:#e9e3dd;--muted:#b3a7a6;--line:#453b3d;--accent:#9d3537}
+:root{--forge-hud:url('../assets/hud.svg?v=0.7.1');--forge-iron:url("../assets/iron.png?v=0.7.1");--forge-frame:url("../assets/frame.svg?v=0.7.1");--forge-middle:url("../assets/middle.svg?v=0.7.1");--forge-header:url("../assets/header.svg?v=0.7.1");--forge-control:url("../assets/control.svg?v=0.7.1");--forge-track:url("../assets/track.svg?v=0.7.1");--ink:#151314;--ink2:#201b1c;--heading:#e0d7cd;--text:#e9e3dd;--muted:#b3a7a6;--line:#453b3d;--accent:#9d3537}
 .game-window-positioner{position:relative;transform-origin:top left;font-family:Segoe UI,Arial,sans-serif;font-size:12px}
 .layer.interface-layer .positioner.top>.bg,.layer.interface-layer .positioner.bottom>.bg,.layer.interface-layer .positioner.bottom>.bg-additional-widget-left,.layer.interface-layer .positioner.bottom>.bg-additional-widget-right{background:none;box-shadow:none}
 .layer.interface-layer .positioner.top .hud-container{left:16px;top:14px;margin:0;width:370px;height:92px;background-image:var(--forge-hud);background-position:0 0;background-repeat:no-repeat;border:0;box-shadow:none;color:var(--text)}
@@ -146,22 +146,22 @@
 .game-window-positioner .character_wrapper .stats-wrapper .resists .value{font-size:9px;letter-spacing:-.3px}
 
 
-.character_wrapper .pvp-btn{background:url('../../assets/icons.svg?v=0.7.0') -704px 0;width:32px;height:32px}
-.layer.interface-layer .positioner.top .matchmaking-timer{background:url('../../assets/icons.svg?v=0.7.0') -736px 0;width:32px;height:32px}
-.layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{background:url('../../assets/icons.svg?v=0.7.0') -800px 0;width:32px;height:32px;transform:scale(.65);transform-origin:top left}
+.character_wrapper .pvp-btn{background:url('../assets/icons.svg?v=0.7.1') -704px 0;width:32px;height:32px}
+.layer.interface-layer .positioner.top .matchmaking-timer{background:url('../assets/icons.svg?v=0.7.1') -736px 0;width:32px;height:32px}
+.layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{background:url('../assets/icons.svg?v=0.7.1') -800px 0;width:32px;height:32px;transform:scale(.65);transform-origin:top left}
 .layer.interface-layer .positioner.top .hud-container .map_ball{background:none;border:2px solid #7a8b78;border-radius:50%;box-sizing:border-box}
 .layer.interface-layer .positioner.top .hud-container .map_ball.green{background:#56775e}
 .layer.interface-layer .positioner.top .hud-container .map_ball.yellow{background:#a88e49}
 .layer.interface-layer .positioner.top .hud-container .map_ball.red{background:#8d3b43}
 .layer.interface-layer .positioner.top .hud-container .map_ball.orange{background:#a9673d}
-.battle-controller .toggle-battle{background:url('../../assets/icons.svg?v=0.7.0') -594px 0/auto 22px;width:22px;height:22px}
+.battle-controller .toggle-battle{background:url('../assets/icons.svg?v=0.7.1') -594px 0/auto 22px;width:22px;height:22px}
 .battle-controller .toggle-battle.show-more{background-position:-594px 0}
-.battle-controller .battle-content .surrender{background:url('../../assets/icons.svg?v=0.7.0') -784px 0/auto 28px;width:28px;height:28px}
-.character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -551px 0/auto 19px;width:19px;height:19px}
-.character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -570px 0/auto 19px;width:19px;height:19px}
-.character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -589px 0/auto 19px;width:19px;height:19px}
-.character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -608px 0/auto 19px;width:19px;height:19px}
-.battle-controller .attach-icon{background:url('../../assets/icons.svg?v=0.7.0') -680px 0/auto 20px}
+.battle-controller .battle-content .surrender{background:url('../assets/icons.svg?v=0.7.1') -784px 0/auto 28px;width:28px;height:28px}
+.character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -551px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -570px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -589px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -608px 0/auto 19px;width:19px;height:19px}
+.battle-controller .attach-icon{background:url('../assets/icons.svg?v=0.7.1') -680px 0/auto 20px}
 
 .extended-stats .scroll-pane [data-herostat="damage-fire"] .value,.extended-stats .scroll-pane [data-herostat="res-fire"] .value,.character_wrapper .stats-wrapper .js-res-fire{color:#ff6a6d}
 .extended-stats .scroll-pane [data-herostat="damage-lightning"] .value,.extended-stats .scroll-pane [data-herostat="res-lightning"] .value,.character_wrapper .stats-wrapper .js-res-light{color:#f1d45c}
@@ -174,12 +174,12 @@
 .news-panel .news-classic-tile .requires-level{color:#c8656d}
 :is(.inventory_wrapper,.equipment-wrapper,.loot-window) .interface-element-one-item-slot-background-to-repeat,:is(.inventory_wrapper,.equipment-wrapper,.loot-window) .interface-element-one-item-slot-2{background:#171315;box-shadow:inset 0 0 0 1px #43343a}
 
-.game-window-positioner .character_wrapper .pvp-btn{background:url('../../assets/icons.svg?v=0.7.0') -704px 0;width:32px;height:32px}
-.game-window-positioner .character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -551px 0/auto 19px}
-.game-window-positioner .character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -570px 0/auto 19px}
-.game-window-positioner .character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -589px 0/auto 19px}
-.game-window-positioner .character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../../assets/icons.svg?v=0.7.0') -608px 0/auto 19px}
-.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot .eq-cl{background-image:url('../../assets/icons.svg?v=0.7.0');background-size:auto 26px}
+.game-window-positioner .character_wrapper .pvp-btn{background:url('../assets/icons.svg?v=0.7.1') -704px 0;width:32px;height:32px}
+.game-window-positioner .character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -551px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -570px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -589px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../assets/icons.svg?v=0.7.1') -608px 0/auto 19px}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot .eq-cl{background-image:url('../assets/icons.svg?v=0.7.1');background-size:auto 26px}
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="1"] .eq-cl{background-position:-208px 0}
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="2"] .eq-cl{background-position:-390px 0}
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="3"] .eq-cl{background-position:-832px 0}
@@ -188,7 +188,7 @@
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="6"] .eq-cl{background-position:-780px 0}
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="7"] .eq-cl{background-position:-832px 0}
 .game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="8"] .eq-cl{background-position:-260px 0}
-.addons-panel .one-addon-on-list .addon-img.icon{background:url('../../assets/icons.svg?v=0.7.0') -640px 0}
+.addons-panel .one-addon-on-list .addon-img.icon{background:url('../assets/icons.svg?v=0.7.1') -640px 0}
 
 .layer.interface-layer .main-buttons-container>.widget-button{box-shadow:inset 0 0 0 1px #392d31}
 .game-window-positioner{container-type:size;container-name:corner-forge;--cf-widget:44px;--cf-group:308px;--cf-step:316px;--cf-row:52px;--cf-top:calc(var(--cf-widget) + var(--cf-widget) + 28px);--cf-tray-width:calc(var(--cf-group) + var(--cf-group) + var(--cf-group) + 44px);--cf-tray-height:calc(var(--cf-widget) + var(--cf-widget) + 20px)}
@@ -306,7 +306,7 @@ body[data-res="920x555"] .positioner.top .hud-container,body[data-res="1173x555"
 .dialogue-window .content :is(.npc-message-scroll,.answers-scroll,.scroll-pane){overflow-x:hidden!important}
 .dialogue-window .content .answers-scroll{height:auto!important;max-height:225px;overflow-y:auto!important}
 .dialogue-window .content .answers li{margin:0 4px 0 30px;padding:8px 8px 9px 10px;box-sizing:border-box;line-height:1.25}
-.dialogue-window .content .answers li div.icon{left:-29px;top:4px;width:24px;height:24px;background-image:url('../../assets/icons.svg?v=0.7.0')!important;background-size:auto 24px!important;background-position:-312px 0!important;background-repeat:no-repeat!important}
+.dialogue-window .content .answers li div.icon{left:-29px;top:4px;width:24px;height:24px;background-image:url('../assets/icons.svg?v=0.7.1')!important;background-size:auto 24px!important;background-position:-312px 0!important;background-repeat:no-repeat!important}
 .dialogue-window .content .answers li div.line_exit{background-position:-624px 0!important}
 .dialogue-window .content .answers li div.line_new_quest{background-position:-216px 0!important}
 .dialogue-window .content .answers li div.line_cont_quest{background-position:-312px 0!important}
@@ -322,7 +322,7 @@ body[data-res="920x555"] .positioner.top .hud-container,body[data-res="1173x555"
 :is(.alerts-layer,.mAlert-mobile-layer,.mAlert-layer,.console-layer) .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option{background:#21171a;border-color:#4b343b;color:var(--text)}
 :is(.alerts-layer,.mAlert-mobile-layer,.mAlert-layer,.console-layer) .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled){background:#462328;border-color:#9d3537;color:#fff}
 :is(.alerts-layer,.mAlert-mobile-layer,.mAlert-layer,.console-layer) .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option.disabled{background:#171315;color:#766c6d}
-.chat-channel-card-wrapper .chat-channel-card .chat-channel-card-icon{width:24px;height:24px;background-image:url('../../assets/icons.svg?v=0.7.0')!important;background-size:auto 24px!important;background-repeat:no-repeat!important;opacity:.72;filter:drop-shadow(0 1px 1px #000)}
+.chat-channel-card-wrapper .chat-channel-card .chat-channel-card-icon{width:24px;height:24px;background-image:url('../assets/icons.svg?v=0.7.1')!important;background-size:auto 24px!important;background-repeat:no-repeat!important;opacity:.72;filter:drop-shadow(0 1px 1px #000)}
 .chat-channel-card-wrapper .chat-channel-card:is(.active,:hover) .chat-channel-card-icon{opacity:1;filter:drop-shadow(0 0 3px #a9414d)}
 .chat-channel-card-wrapper .chat-channel-card.GENERAL-channel .chat-channel-card-icon{background-position:-96px 0!important}
 .chat-channel-card-wrapper .chat-channel-card.GLOBAL-channel .chat-channel-card-icon{background-position:0 0!important}

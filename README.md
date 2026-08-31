@@ -1,4 +1,4 @@
-# Corner Forge 0.7.0
+# Corner Forge 0.7.1
 
 Corner Forge zmienia układ i oprawę klasycznego klienta Margonem na czarno-czerwony interfejs. Motyw nie kopiuje pól z danymi: CSS przestawia i skórkuje te same elementy DOM, które klient aktualizuje informacjami z serwera.
 
@@ -7,7 +7,7 @@ Corner Forge zmienia układ i oprawę klasycznego klienta Margonem na czarno-cze
 Zainstaluj [install/dwarven-forge.user.js](install/dwarven-forge.user.js), wyłącz inne motywy i odśwież kartę gry. Userscript jest jedynym plikiem JS i wyłącznie dołącza arkusz stylów.
 
 - `css/dwarven-forge.css` — jedyny produkcyjny arkusz CSS.
-- `install/dwarven-forge.user.js` — mały loader CSS, wersja 0.7.0.
+- `install/dwarven-forge.user.js` — mały loader CSS, wersja 0.7.1.
 - `assets/` — jeden płaski katalog ośmiu grafik używanych przez motyw.
 
 ## Zachowane kontrakty klienta
@@ -40,4 +40,4 @@ Wydanie jest przygotowane do testu w zalogowanym kliencie. Należy sprawdzić:
 - różne rozdzielczości `body[data-res]`, szczególnie 920×555, 1024×768, 1366×768, 1600×900 i 1920×1080;
 - zwężenie faktycznego obszaru gry bez zmiany `body[data-res]`, w tym po otwarciu konsoli i przez dodatki trybu okienkowego.
 
-Jeżeli przeglądarka zachowa starszy CSS, zaktualizuj userscript do 0.7.0 i wykonaj twarde odświeżenie strony.
+Jeżeli przeglądarka zachowa starszy CSS, zaktualizuj userscript do 0.7.1 i wykonaj twarde odświeżenie strony.
