@@ -1,14 +1,22 @@
-asset;width;height;purpose
-assets/gui/v03/surface.png;128;128;Repeating forged iron panel surface
-assets/gui/v03/surface-warm.png;128;128;Warm copper panel surface
-assets/gui/v03/window-frame.png;96;96;Generic window border-image
-assets/gui/v03/header.png;256;32;Window and section header surface
-assets/gui/v03/bottom-bar.png;256;40;Reusable window/footer bar
-assets/gui/v03/slot.png;33;33;Neutral UI slot chrome; native rarity remains above it
-assets/gui/v03/scrollbar-bg.png;13;64;Scrollbar track background
-assets/gui/v03/scrollbar-handle.png;13;48;Scrollbar handle
-assets/gui/v03/hud-frame.png;342;65;Top HUD structural frame only
-assets/gui/v03/bottom-panel.png;590;100;Bottom action/HUD structural frame only
-assets/gui/v03/map-frame.png;96;96;Minimap border-image
-assets/gui/v03/tooltip-frame.png;48;48;Tooltip border-image
-assets/gui/v03/answer.png;160;28;Dialogue answer row chrome
+file,width,height,repo_path
+bag-slot.png,35,35,assets/ui/bag-slot.png
+bottom-hud-frame.png,900,144,assets/ui/bottom-hud-frame.png
+button-hover.png,128,32,assets/ui/button-hover.png
+button.png,128,32,assets/ui/button.png
+chat-frame.png,128,128,assets/ui/chat-frame.png
+divider.png,256,8,assets/ui/divider.png
+exp-track.png,300,20,assets/ui/exp-track.png
+extended-stats-frame.png,128,128,assets/ui/extended-stats-frame.png
+header-strip.png,256,36,assets/ui/header-strip.png
+hp-track.png,300,20,assets/ui/hp-track.png
+input-bg.png,256,30,assets/ui/input-bg.png
+panel-surface.png,128,128,assets/ui/panel-surface.png
+right-column-frame.png,128,128,assets/ui/right-column-frame.png
+scrollbar-thumb.png,14,32,assets/ui/scrollbar-thumb.png
+scrollbar-track.png,14,64,assets/ui/scrollbar-track.png
+slot.png,34,34,assets/ui/slot.png
+tab-active.png,256,32,assets/ui/tab-active.png
+tab.png,256,32,assets/ui/tab.png
+top-hud-strip.png,1024,54,assets/ui/top-hud-strip.png
+widget-slot.png,38,38,assets/ui/widget-slot.png
+window-frame.png,128,128,assets/ui/window-frame.png

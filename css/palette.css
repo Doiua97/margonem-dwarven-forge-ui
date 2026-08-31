@@ -1,11 +1,41 @@
-/* Dwarven Forge production palette */
 :root {
-  --df-void:#090A0A; --df-bg-0:#0D0F0F; --df-bg-1:#141616; --df-bg-2:#1B1D1D; --df-bg-3:#242727;
-  --df-steel-0:#111313; --df-steel-1:#252929; --df-steel-2:#373C3B; --df-steel-3:#59615D;
-  --df-edge:#7A817A; --df-copper-dark:#3E2416; --df-copper:#6A391F; --df-copper-light:#A05B2B;
-  --df-bronze:#B77A34; --df-gold:#D19A42; --df-gold-hi:#F0C36A;
-  --df-text:#E9E1D0; --df-text-muted:#AAA493; --df-danger:#A83A31; --df-success:#5D8C47;
-  --df-info:#416D8B; --df-hp:#A83A31; --df-mana:#286A9A; --df-energy:#B18A2B; --df-exp:#BF742A;
-  --df-window:rgba(13,15,15,.97); --df-window-soft:rgba(20,22,22,.95); --df-overlay:rgba(0,0,0,.72);
-  --df-hover:rgba(209,154,66,.12); --df-active:rgba(209,154,66,.20); --df-disabled:.42;
+  --df-bg-0:#090b0b;
+  --df-bg-1:#111413;
+  --df-bg-2:#181b19;
+  --df-bg-3:#22241f;
+
+  --df-iron-0:#0d1010;
+  --df-iron-1:#202624;
+  --df-iron-2:#3a403b;
+  --df-iron-hi:#676d63;
+
+  --df-copper-dark:#3b2114;
+  --df-copper:#75401f;
+  --df-copper-hi:#ad6b32;
+
+  --df-bronze:#9b7238;
+  --df-gold:#d0a44b;
+  --df-gold-hi:#f0cd70;
+
+  --df-text:#e7dfcf;
+  --df-text-muted:#9e998e;
+  --df-text-dark:#57544e;
+
+  --df-hover:rgba(190,125,53,.18);
+  --df-active:rgba(212,162,71,.24);
+
+  --df-hp:#9d2825;
+  --df-exp:#b78a27;
+  --df-danger:#b54237;
+  --df-success:#66884b;
+  --df-info:#4f7890;
+
+  /* layout scale */
+  --df-top-h:54px;
+  --df-bottom-h:150px;
+  --df-left-w:clamp(220px,15vw,270px);
+  --df-right-w:clamp(245px,16vw,270px);
+  --df-center-bottom-w:clamp(530px,44vw,720px);
+  --df-widget-size:38px;
+  --df-gap:4px;
 }

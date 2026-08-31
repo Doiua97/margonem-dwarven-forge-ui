@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Margonem Dwarven Forge UI
 // @namespace    doiua97
-// @version      0.3.0
-// @description  Loads the Dwarven Forge CSS-only UI theme for Margonem.
+// @version      0.4.0
+// @description  Loads the Corner Forge / Dwarven Forge CSS-only UI theme.
 // @match        https://margonem.pl/*
 // @match        https://*.margonem.pl/*
 // @run-at       document-start
@@ -12,13 +12,12 @@
 // ==/UserScript==
 
 (() => {
-  const ID = 'dwarven-forge-ui-theme';
+  const ID = "dwarven-forge-ui-theme";
   if (document.getElementById(ID)) return;
 
-  const link = document.createElement('link');
+  const link = document.createElement("link");
   link.id = ID;
-  link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/dwarven-forge.bundle.css?v=0.3.0';
-
+  link.rel = "stylesheet";
+  link.href = "https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/dwarven-forge.css?v=0.4.0";
   (document.head || document.documentElement).appendChild(link);
 })();

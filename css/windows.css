@@ -1,0 +1,59 @@
+\
+/* Shared windows and modules.
+   Covers existing surfaces without inventing new functionality. */
+.border-window .content,
+.window-content,
+.game-window .content,
+.popup-menu,
+.menu-list,
+.dropdown-menu,
+.drop-down-menu-section,
+.auction-window,
+.shop-wrapper,
+.clan-window,
+.world-window {
+  color:var(--df-text)!important;
+  background-color:var(--df-bg-1)!important;
+}
+.interface-element-border-window-frame,
+.border-window {
+  border-image-source:url("../assets/ui/window-frame.png")!important;
+}
+.border-window .header-label-positioner .header-label,
+.interface-element-border-window-header-middle {
+  color:var(--df-text)!important;
+  background:url("../assets/ui/header-strip.png") center/100% 100% no-repeat!important;
+}
+
+/* Tables */
+.c-table,.c-table table,.table-wrapper table,
+.world-window table,.clan-window table,.auction-window table {
+  color:var(--df-text)!important;
+  background:var(--df-bg-1)!important;
+}
+.c-table td,.c-table th,.table-wrapper td,.table-wrapper th,
+.world-window td,.world-window th,.clan-window td,.clan-window th,
+.auction-window td,.auction-window th {
+  color:var(--df-text)!important;
+  background:var(--df-bg-2)!important;
+  border-color:var(--df-copper-dark)!important;
+}
+.c-table tr:hover td,.table-wrapper tr:hover td {
+  background:#30271f!important;
+}
+
+/* Dialogue / tooltips */
+.dialogue-window .border-image,
+#cloud-tip,
+.tip-wrapper,
+.item-tip {
+  color:var(--df-text)!important;
+  background:rgba(9,11,11,.94)!important;
+  box-shadow:0 0 0 1px #000,0 0 0 2px var(--df-copper)!important;
+}
+
+/* Common divider */
+.interface-element-bottom-bar-background,
+.interface-element-header-1-background {
+  background-image:url("../assets/ui/divider.png")!important;
+}
