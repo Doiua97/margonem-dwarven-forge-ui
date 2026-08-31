@@ -1,6 +1,569 @@
-/* Dwarven Forge — Corner Forge v0.4.0 */
-@import url("./palette.css");
-@import url("./layout.css");
-@import url("./widgets.css");
-@import url("./components.css");
-@import url("./windows.css");
+/* Corner Forge 0.5.0 — SINGLE canonical stylesheet.
+   Edit this file in place. No imports, generated bundle or parallel versions. */
+:root {
+  --cf-hud-image:url("../assets/forge-hud.svg?v=0.5.0");
+  --cf-surface-image:url("../assets/forge-surface.svg?v=0.5.0");
+  --cf-window-image:url("../assets/forge-window.svg?v=0.5.0");
+  --cf-middle-image:url("../assets/forge-middle.svg?v=0.5.0");
+  --cf-header-image:url("../assets/forge-header.svg?v=0.5.0");
+  --cf-book-image:url("../assets/book.jpg?v=0.5.0");
+  --cf-bubble-top-image:url("../assets/bubble-top.png?v=0.5.0");
+  --cf-bubble-bottom-image:url("../assets/bubble-bottom.png?v=0.5.0");
+  --cf-bubble-left-image:url("../assets/bubble-left.png?v=0.5.0");
+  --cf-bubble-right-image:url("../assets/bubble-right.png?v=0.5.0");
+  --cf-bubble-bottom-left-image:url("../assets/bubble-bottom-left.png?v=0.5.0");
+  --df-bg-0:#090b0b;
+  --df-bg-1:#111413;
+  --df-bg-2:#181b19;
+  --df-bg-3:#22241f;
+
+  --df-iron-0:#0d1010;
+  --df-iron-1:#202624;
+  --df-iron-2:#3a403b;
+  --df-iron-hi:#676d63;
+
+  --df-copper-dark:#3b2114;
+  --df-copper:#75401f;
+  --df-copper-hi:#ad6b32;
+
+  --df-bronze:#9b7238;
+  --df-gold:#d0a44b;
+  --df-gold-hi:#f0cd70;
+
+  --df-text:#e7dfcf;
+  --df-text-muted:#9e998e;
+  --df-text-dark:#57544e;
+
+  --df-hover:rgba(190,125,53,.18);
+  --df-active:rgba(212,162,71,.24);
+
+  --df-hp:#9d2825;
+  --df-exp:#b78a27;
+  --df-danger:#b54237;
+  --df-success:#66884b;
+  --df-info:#4f7890;
+
+}
+/* WidgetManager: 7 positions/group; desktop classic sizes 44 / 36 / 32.
+   These tokens reserve space only; client keeps the actual button dimensions. */
+body { --cf-widget:44px; --cf-gap:8px; }
+body[data-res="1024x768"] { --cf-widget:36px; }
+body[data-res="920x555"], body[data-res="1173x555"] { --cf-widget:32px; }
+.game-window-positioner {
+  --cf-group:calc(7 * var(--cf-widget));
+  --cf-dock-width:calc(3 * var(--cf-group) + 2 * var(--cf-gap));
+  --cf-dock-height:calc(2 * var(--cf-widget) + 3 * var(--cf-gap));
+}
+
+/* Corner Forge 0.5.0. Source: style.Bjtb6ElF.css + main.min.53XkBRxF.js.
+   Desktop classic layout only. Light/mobile keep their native alternate DOM,
+   visibility, orientation and drag arithmetic; shared surface skins still apply. */
+/* HUD contract: native 342x65 and all real children stay intact. The final
+   decorative overlay skins the plate but exposes its embedded currency icons. */
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .bg {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  box-shadow:inset 0 -1px var(--df-copper);
+}
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .hud-container {
+  color:var(--df-text);
+  filter:drop-shadow(0 2px 2px #000);
+}
+/* Client owns right-column > inner-wrapper > right-main-column-wrapper and its
+   character_wrapper + battle-set-wrapper + inventory_wrapper. No geometry
+   override here. chat-size-0/1/2 and eq-column-size-0/1 still own column widths,
+   visibility and matching game-layer insets. Keep body/client zoom transforms. */
+.game-window-positioner.classic-interface .layer.interface-layer .main-column.left-column {
+  bottom:calc(var(--cf-dock-height) + 82px + var(--cf-gap)) !important;
+}
+/* Reserve only the dock below right-column; its 399px character/inventory
+   stack fits above it even at native 920x555. Extended-stats scrolls within
+   the same column and cannot run underneath dock buttons. */
+.game-window-positioner.classic-interface .layer.interface-layer .main-column.right-column {
+  bottom:var(--cf-dock-height) !important;
+}
+/* Native bottom is 664x82. Only translate it above the two native widget rows.
+   Transform override is limited to this rebuilt panel: coordinates below are
+   in its 664px space; no widget or body transform is changed. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner {
+  bottom:calc(var(--cf-dock-height) + var(--cf-gap)) !important;
+  transform:none !important;
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .bottom-panel-graphic {
+  left:152px; width:360px; height:82px;
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  box-shadow:inset 0 0 0 1px var(--df-copper),inset 0 0 0 3px #090b0b;
+}
+/* HP contract: height is exclusively [bar-percent][bar-horizontal=false].
+   A 16x144 vertical indicator rotates around its bottom-left into 144x16.
+   hpp counter-rotates; .glass keeps the native tooltip hit area.
+   No height declaration on .blood; JS can keep writing backgroundPosition. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator-wrapper {
+  left:176px; bottom:48px; width:144px; height:24px;
+  border-radius:0; overflow:visible;
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator {
+  width:16px; height:144px; left:0; bottom:16px;
+  transform:rotate(90deg); transform-origin:bottom left;
+  background:var(--df-bg-0); box-shadow:0 0 0 1px var(--df-copper);
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .blood {
+  width:100%; left:0; bottom:0;
+  background:linear-gradient(to right,#5b1718,var(--df-hp),#d25744) !important;
+}
+/* Warning visibility remains setHp-owned; only replace the orb warning art. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .blood-frame {
+  width:100%; height:100%; bottom:0;
+  background:none; outline:1px solid var(--df-danger);
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .hpp {
+  position:absolute; left:0; top:auto; bottom:0;
+  width:144px; height:16px; line-height:16px; font-size:11px;
+  transform:rotate(-90deg); transform-origin:bottom left;
+  color:var(--df-text); text-shadow:0 1px 2px #000;
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .glass {
+  left:0; bottom:0; width:144px; height:24px; background:none;
+}
+/* EXP contract: setXp fills LEFT first, RIGHT after 50%. The two real .inner
+   nodes keep width controlled by bar-percent and bar-horizontal=true. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper {
+  position:absolute; left:344px; bottom:48px; width:144px; height:16px;
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress {
+  top:0; width:72px; height:16px;
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left { left:0; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right { left:72px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress {
+  left:0; top:0; width:72px; height:16px; background:var(--df-bg-0);
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {
+  width:72px; height:16px; background:none; box-shadow:inset 0 0 0 1px var(--df-copper);
+}
+/* Decorative end-game ribbons have native 250px geometry. Remove their art
+   only, without changing end-game classes or visibility of the real EXP. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .end-game-ribbon { background:none; }
+/* Slot contract: two real groups of four: 37px content + 2px border + 2px margin
+   = 41px each, 164px/group, plus a 4px center gap (332px total).
+   Right-side float reversal and data-slot-index remain client-owned. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .slots.left { left:166px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .slots.right { right:166px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .skill-usable-slots.left { left:166px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .skill-usable-slots.right { right:166px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .lagmeter { left:492px; bottom:45px; }
+/* Battle contract: JS show/hide ONLY. No display/visibility/opacity declarations
+   on this wrapper or its children. Mana/energy occupy the EXP side in combat. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper { left:344px; bottom:46px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy { left:0; top:-28px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana { left:0; top:-12px; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .background {
+  width:144px; height:14px; background:var(--df-bg-0); box-shadow:inset 0 0 0 1px var(--df-copper);
+}
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .overlay { background:none; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow { width:102px; left:2px; top:2px; margin-top:0; }
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .values { left:106px; right:auto; top:0; width:36px; line-height:14px; }
+
+/* Native pointer-exp / pointer-ttl are live EXP rate/time text. Move them above
+   EXP rather than hiding them or leaving their 243px ornament over slots. */
+.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .bottom-panel-pointer-bg {
+  left:344px; top:0; width:144px; height:16px;
+}
+.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-exp-graphic,
+.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-ttl-graphic { background:none; }
+.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-exp { left:0; top:0; width:72px; }
+.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-ttl { left:72px; top:0; width:72px; }
+
+/* WidgetManager contract: all six native groups, seven slots/group. Absolute
+   child offsets, sizes, empty-slot-widget, widget-pos/index and drag math are
+   untouched. No display override: client controls additional groups and edit mode.
+   Classic mode is horizontal (WidgetManager.ne); light/mobile may be vertical.
+   Fixed positioning uses the game-window-positioner containing block; remove
+   only the native translateZ(0) on bottom positioner which otherwise traps it. */
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom { transform:none; }
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg {
+  height:var(--cf-dock-height);
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  box-shadow:inset 0 1px var(--df-copper);
+}
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg-additional-widget-left,
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg-additional-widget-right { background:none; }
+.game-window-positioner.classic-interface .layer.interface-layer .main-buttons-container {
+  z-index:2; /* Above the bottom positioner background, below window layers. */
+  position:fixed !important; top:auto !important; right:auto !important;
+  margin:0 !important;
+  left:calc(50% - var(--cf-dock-width) / 2 + var(--cf-group-index) * (var(--cf-group) + var(--cf-gap))) !important;
+  bottom:calc(var(--cf-gap) + var(--cf-row) * (var(--cf-widget) + var(--cf-gap))) !important;
+}
+/* Same anchors with/without static-widget-position: margins cannot move a
+   docked group when chat-size / eq-column-size changes. Keep native state CSS. */
+.game-window-positioner.classic-interface .main-buttons-container.top-left { --cf-group-index:0; --cf-row:1; }
+.game-window-positioner.classic-interface .main-buttons-container.top-right { --cf-group-index:1; --cf-row:1; }
+.game-window-positioner.classic-interface .main-buttons-container.bottom-left-additional { --cf-group-index:2; --cf-row:1; }
+.game-window-positioner.classic-interface .main-buttons-container.bottom-right-additional { --cf-group-index:0; --cf-row:0; }
+.game-window-positioner.classic-interface .main-buttons-container.bottom-left { --cf-group-index:1; --cf-row:0; }
+.game-window-positioner.classic-interface .main-buttons-container.bottom-right { --cf-group-index:2; --cf-row:0; }
+/* Native notification tray is a child of bottom-right, not a seventh widget
+   group. Keep it above the dock; width/display and notice graphics are native. */
+.game-window-positioner.classic-interface .main-buttons-container.bottom-right .game-notifications {
+  right:0 !important; bottom:calc(var(--cf-dock-height) + var(--cf-gap)) !important;
+}
+/* Only editor slot surface; native editor owns display, size and position. */
+.game-window-positioner.classic-interface .main-buttons-container .empty-slot-widget {
+  background-color:rgba(208,164,75,.16); box-shadow:inset 0 0 0 1px var(--df-gold);
+}
+/* No .widget-button asset replacements, no icon overrides, no forced display.
+   Hamburger controls remain native in light mode (where they actually exist). */
+
+/* Component contracts: style.Bjtb6ElF.css, Templates + Interface in client JS.
+   Only surfaces. Item/highlight/canvas/icon/rarity selectors are intentionally absent. */
+.layer.interface-layer .main-column.left-column,
+.layer.interface-layer .main-column.right-column {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  color:var(--df-text);
+}
+.layer.interface-layer .main-column.left-column > .border,
+.layer.interface-layer .main-column.right-column > .border {
+  background:linear-gradient(90deg,#090b0b,#75401f 40%,#202624 60%,#090b0b);
+}
+/* Equipment: 104x138, top16/left15, native internal slot offsets and frames.
+   Do not overwrite the .interface-element-equipment sprite or item children. */
+.game-window-positioner.classic-interface .character_wrapper .equipment-wrapper {
+  background-color:var(--df-bg-0); outline:1px solid var(--df-copper-dark);
+}
+/* Stats: 123x140, top12/left128. No border-width change (content geometry).
+   The existing 90px button at bottom5/left50% remains Rozwiń/Zwiń. */
+.game-window-positioner .character_wrapper .stats-wrapper {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  color:var(--df-text); outline-color:var(--df-copper-dark);
+}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title { color:var(--df-gold); }
+.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button {
+  color:var(--df-text); background:linear-gradient(#3a403b,#181b19);
+  box-shadow:inset 0 0 0 1px var(--df-copper);
+}
+.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button:hover {
+  background:linear-gradient(#514535,#24241f);
+}
+/* Inventory: retain grid-bg 232x199, grid 232x198, inner-grid 231x197,
+   scrolling 792px pane and client bag-index visibility. Native slot grid stays.
+   Four real 35x35 bag slots retain their native bag art and selection highlight. */
+.game-window-positioner .inventory_wrapper .inventory-grid-bg,
+.game-window-positioner .inventory_wrapper .bags-navigation-bg {
+  background-color:var(--df-bg-0); border-color:var(--df-copper-dark);
+  outline-color:var(--df-copper-dark);
+}
+/* Native .active toggles display; right:100% opens left. No state override.
+   Width225/top0/bottom0 and additional-bar-br adjustments remain native. */
+.layer.interface-layer .main-column .extended-stats {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  color:var(--df-text-muted); box-shadow:inset 0 0 0 1px var(--df-copper);
+}
+.layer.interface-layer .main-column .extended-stats h3,
+.layer.interface-layer .main-column .extended-stats h4 { color:var(--df-gold); }
+/* Current chat DOM, not chat-tpl. Flex layout, height, channel indicators,
+   message colors, config/menu icons and client-controlled width remain native. */
+.new-chat-window,
+.chat-input-wrapper {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+}
+.new-chat-window .chat-message-wrapper,
+.new-chat-window .chat-channel-card-wrapper,
+.chat-input-wrapper .magic-input-wrapper,
+.chat-input-wrapper .control-wrapper .menu-card,
+.chat-input-wrapper .control-wrapper .chat-config-wrapper { border-color:var(--df-copper-dark); }
+.chat-input-wrapper .magic-input-wrapper { background-color:var(--df-bg-0); }
+
+/* Real component surface allowlist, checked against style.Bjtb6ElF.css.
+   podglądowy.css contributes the shared border-image technique, not its old
+   chat selectors or its icon/item sprite replacements. No generic .content,
+   .button, .window-content, .item or .widget-button skin.
+   Native border widths/slices, window coordinates, open/closed states and
+   controls remain client-owned. All replacement images contain surfaces only. */
+.border-window:not(.transparent):not(.tip-window),
+.border-window .interface-element-border-window-frame,
+.border-window.interface-element-border-window-frame,
+.battle-controller .graphics .battle-border {
+  border-image-source:var(--cf-window-image);
+}
+.border-window .header-label-positioner .header-label {
+  background:var(--df-bg-2) var(--cf-header-image) center/100% 100%;
+  box-shadow:inset 0 1px var(--df-copper),inset 0 -1px var(--df-copper-dark);
+}
+.border-window .header-label-positioner .header-label .text { color:var(--df-text); }
+/* Inherit readable text on the new dark frame; semantic child colors stay native. */
+.border-window { color:var(--df-text); }
+/* Decorative header ends, not close/help/size buttons. Geometry stays 52x28. */
+.border-window .header-label-positioner .header-label .left-decor,
+.border-window .header-label-positioner .header-label .right-decor {
+  background:var(--cf-header-image) center/100% 100%;
+}
+/* Middle surfaces: helper class is scoped to a real module family, not every
+   arbitrary window/content node. Preserve each helper's native border slices. */
+:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,
+    .addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,
+    .world-window,.help-window,.premium-panel,.loot-window,.depo,
+    .friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,
+    .crafting,.builds-window,.rewards-calendar,.battle-controller,
+    .mini-map,.console-window,.left-grouped-list-and-right-description-window)
+:is(.interface-element-middle-2-background,.interface-element-middle-2-background-stretch) {
+  background-color:var(--df-bg-1);
+  border-image-source:var(--cf-middle-image);
+}
+:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,
+    .addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,
+    .world-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,
+    .divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,
+    .rewards-calendar,.battle-controller,.mini-map)
+:is(.interface-element-header-1-background,.interface-element-header-1-background-stretch,
+    .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch) {
+  border-image-source:var(--cf-header-image);
+}
+/* Legacy component surfaces still present in current CSS. */
+.quest-log .scroll-wrapper .scroll-pane .middle-graphics,
+.settings-window .section .scroll-wrapper .scroll-pane .graphic-background,
+.mail-box .mail-column .middle-graphic,
+.battle-controller .graphics .middle-graphic,
+.battle-controller .graphics .bottom-graphic,
+.layer.interface-layer .mini-map .mini-map-map .graphic {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+}
+/* Dialogue uses its own border node and real answers; do not touch NPC icons,
+   reward items, portraits or answer action icons. */
+.dialogue-window .border-image {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+  box-shadow:inset 0 0 0 1px var(--df-copper);
+}
+.dialogue-window .content .answers li { border-bottom-color:var(--df-copper-dark); }
+/* Scroll skin on the real track/handle only; arrows and drag dimensions native. */
+:is(.mini-map,.extended-stats,.dialogue-window,.auction-window,.auctions,.clan,
+    .settings-window,.addons-panel,.mails-window,.mail-box,.quest-window,
+    .quest-log,.world-window,.battle-controller,.skills-window,.shop-wrapper)
+.scroll-wrapper .scrollbar-wrapper .track { background-color:var(--df-bg-0); }
+:is(.mini-map,.extended-stats,.dialogue-window,.auction-window,.auctions,.clan,
+    .settings-window,.addons-panel,.mails-window,.mail-box,.quest-window,
+    .quest-log,.world-window,.battle-controller,.skills-window,.shop-wrapper)
+.scroll-wrapper .scrollbar-wrapper .track .handle {
+  background:linear-gradient(90deg,#202624,#75401f,#202624);
+}
+/* Transparent windows keep the native transparent state and hit areas. */
+.border-window.transparent .border-image {
+  background-color:rgba(17,20,19,.92);
+  box-shadow:0 0 0 1px var(--df-copper-dark),0 0 0 2px #090b0b;
+}
+
+/* Complete inner-layer coverage. Templates use middle-1/2/3/4, not just
+   middle-2: addons left=middle-3, right=middle-2; settings/minimap=middle-1.
+   Set BOTH opaque background and border-image source on these existing
+   graphics nodes. Border-image fill would otherwise still paint old artwork. */
+:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon)
+:is(.interface-element-middle-1-background,.interface-element-middle-1-background-stretch,
+    .interface-element-middle-2-background,.interface-element-middle-2-background-stretch,
+    .interface-element-middle-3-background,.interface-element-middle-3-background-stretch,
+    .interface-element-middle-4-background) {
+  background:var(--df-bg-1);
+  border-image-source:var(--cf-middle-image);
+}
+/* Text inherits a light default only within these dark-skinned modules.
+   Semantic colors (rarity, requirements, status, links) on children are retained. */
+:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) { color:var(--df-text); }
+/* Dedicated header/background layers used by addons, map and stats templates;
+   never replace the button or icon that sits above the background. */
+.addons-panel .main-header .interface-element-active-card-background-stretch,
+.addons-panel .right-header-graphic .interface-element-active-card-background-stretch,
+.mini-map .mini-map-panel .interface-element-active-card-background-stretch,
+.character_wrapper .stats-wrapper .interface-element-active-card-background-stretch,
+.left-grouped-list-and-right-description-window .main-header .interface-element-active-card-background-stretch {
+  border-image-source:var(--cf-header-image);
+}
+/* Proven hard-coded black/low-contrast text from native CSS. */
+.addons-panel .left-column .main-header .addon-list-label,
+.left-grouped-list-and-right-description-window .main-header .left-column-list-label {
+  color:var(--df-gold-hi);
+}
+.addons-panel .one-addon-on-list .title-wrapper { color:var(--df-text-muted); }
+.addons-panel .one-addon-on-list .title-wrapper:hover,
+.addons-panel .right-column .addon-header .title-wrapper,
+.addons-panel .one-addon-description .description-label { color:var(--df-text); }
+.addons-panel .one-addon-description .description-text { color:var(--df-text); }
+.addons-panel .one-addon-description .drag-info { color:var(--df-text-muted); }
+.addons-panel .one-addon-on-list { border-bottom-color:var(--df-copper-dark); }
+.addons-panel .one-addon-on-list:hover { background-color:var(--df-bg-3); }
+.settings-window .section .scroll-wrapper .scroll-pane { color:var(--df-text); }
+.settings-window h2 { color:var(--df-gold-hi); }
+/* Mail's explicit black text cannot inherit the corrected module color. */
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b,
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content,
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer,
+.mails-window .mail-column .footer { color:var(--df-text); }
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content {
+  border-top-color:var(--df-copper-dark); border-bottom-color:var(--df-copper-dark);
+}
+
+/* Shared native GRAPHICS components: these classes are themselves decorative
+   layers (not arbitrary .content/.button selectors). Cover every actual use,
+   including small client addons that instantiate them outside large windows. */
+.interface-element-border-window-frame { border-image-source:var(--cf-window-image); }
+:is(.interface-element-middle-1-background,.interface-element-middle-2-background,
+    .interface-element-middle-3-background,.interface-element-middle-4-background,
+    .interface-element-middle-1-background-stretch,.interface-element-middle-2-background-stretch,
+    .interface-element-middle-3-background-stretch) {
+  background:var(--df-bg-1); border-image-source:var(--cf-middle-image);
+}
+.interface-element-vertical-wood { background:var(--df-bg-1) var(--cf-middle-image) repeat-y; }
+.interface-element-wood-box-background { background:var(--df-bg-1) var(--cf-surface-image) repeat; }
+:is(.interface-element-header-1-background,.interface-element-header-1-background-stretch,
+    .interface-element-header-2-background,.interface-element-header-2-background-stretch,
+    .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch,
+    .interface-element-active-card-border-image,.interface-element-active-card-background-stretch) {
+  border-image-source:var(--cf-header-image);
+}
+:is(.interface-element-active-card-background,.interface-element-card-background,
+    .interface-element-card-background-stretch,.interface-element-table-header-1-background) {
+  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
+}
+/* Active states retain an additional light edge; they do not rely on two
+   differently named copies of the same texture. */
+.interface-element-active-card-background,
+.interface-element-active-card-background-stretch { box-shadow:inset 0 -2px var(--df-gold); }
+.tabs-nav:before,
+.cards-header-wrapper .header-background-graphic,
+.mails-window .cards-header-wrapper .header-background-graphic,
+.matchmaking-ranking .ranking-tabs .header-background-graphic,
+.battle-pass-window .cards-header-wrapper .header-background-graphic {
+  border-image-source:var(--cf-header-image);
+}
+.cards-header-wrapper .cards-header .card,
+.matchmaking-ranking .ranking-tabs .cards-header .card,
+.battle-pass-window .cards-header-wrapper .cards-header .card {
+  color:var(--df-text-muted); background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
+}
+.cards-header-wrapper .cards-header .card.active,
+.matchmaking-ranking .ranking-tabs .cards-header .active {
+  color:var(--df-text); box-shadow:inset 0 -2px var(--df-gold);
+  background:var(--df-bg-3) var(--cf-header-image) center/100% 100% no-repeat;
+}
+.drop-down-menu-section .type-header,
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item {
+  color:var(--df-text-muted); background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
+}
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected {
+  color:var(--df-text); background:var(--df-bg-3) var(--cf-header-image) center/100% 100% no-repeat;
+  box-shadow:inset 0 -2px var(--df-gold);
+}
+.auction-window input.default,
+.auction-off-item-panel input.default {
+  color:var(--df-text); background:var(--df-bg-0); border-color:var(--df-copper);
+}
+/* Final independent decorative layers found in the complete native URL audit. */
+.loot-window .bottom-bar-wrapper .bottom-bar,
+.shop-wrapper .shop-background.normal-shop-zl .canopy,
+.shop-wrapper .shop-background.normal-shop-sl .canopy,
+.shop-wrapper .shop-background.pet-shop-zl .canopy,
+.shop-wrapper .shop-background.pet-shop-sl .canopy {
+  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
+}
+.party .exp-percent:before,
+.battle-controller .graphics .timer-graphic,
+.additional-skill-panel {
+  background:var(--df-bg-1) var(--cf-surface-image) repeat;
+}
+.border-window .close-button-corner-decor { background:none; }
+/* Keep the close-button icon child, time text and skill children unchanged. */
+.scroll-wrapper .scrollbar-wrapper .background,
+.scroll-wrapper.classic-bar .scrollbar-wrapper .background {
+  background:var(--df-bg-0) var(--cf-middle-image) center/100% 100%;
+}
+.scroll-wrapper .scrollbar-wrapper .track .handle,
+.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle {
+  background:linear-gradient(90deg,#202624,#75401f,#202624);
+}
+/* Existing progress tracks are styled, not duplicated. No progress dimensions. */
+.progress-bar-wrapper .background { background:var(--df-bg-0); box-shadow:inset 0 0 0 1px var(--df-copper); }
+.progress-bar-wrapper.red .bar-percentage { background:linear-gradient(#581a19,#9d2825,#581a19); }
+.progress-bar-wrapper.blue .bar-percentage { background:linear-gradient(#18384c,#4f7890,#18384c); }
+.progress-bar-wrapper.yellow .bar-percentage { background:linear-gradient(#705319,#b78a27,#705319); }
+/* Reuse native book and dialogue-bubble surface files locally. Their final
+   surface treatment and paired text colors are defined together below. */
+.book .bg { background-image:var(--cf-book-image); }
+.bubbledialog .bg-layer .top-frame { background-image:var(--cf-bubble-top-image); }
+.bubbledialog .bg-layer .bottom-frame { background-image:var(--cf-bubble-bottom-image); }
+.bubbledialog .bg-layer .left-frame { background-image:var(--cf-bubble-left-image); }
+.bubbledialog .bg-layer .right-frame { background-image:var(--cf-bubble-right-image); }
+.bubbledialog .left .bottom-frame { background-image:var(--cf-bubble-bottom-left-image); }
+
+/* HUD: reskin the entire native plate without replacing its embedded currency
+   icons. This decoration masks only non-icon pixels; the two 25x24 transparent
+   windows expose the ORIGINAL sprite underneath gold-tip / credits-tip.
+   Backend hero/map/currency text and all icon child nodes are untouched. */
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .hud-container:before {
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:var(--cf-hud-image) center/100% 100% no-repeat;
+}
+/* Actual button SURFACES within enumerated modules and the six widget groups.
+   Not a blanket .button/.widget-button asset replacement: no URL, no icon or
+   geometry declarations. Native red/green/blue/purple/orange meanings remain,
+   as do before overlays, blink animations, disabled and window-is-open logic. */
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)) {
+  --cf-control:#75401f;
+  color:var(--df-text); border-color:#090b0b;
+  background-color:var(--df-bg-0);
+  background-image:linear-gradient(var(--cf-control),#202624 45%,#111413);
+  box-shadow:inset 0 0 0 1px var(--df-copper),inset 0 0 0 3px #090b0b;
+}
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).red { --cf-control:#7c302b; }
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).green { --cf-control:#465e34; }
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).blue { --cf-control:#34556a; }
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).purple,
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).violet { --cf-control:#644971; }
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).orange { --cf-control:#805526; }
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)):hover:not(.disabled):not(.no-hover) {
+  box-shadow:inset 0 0 0 1px var(--df-gold),inset 0 0 0 3px #090b0b;
+}
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).active,
+:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).window-is-open { border-color:var(--df-gold); }
+/* Complete the standalone book/bubble chrome while retaining their native
+   content, links, navigation art and geometry. Existing source artwork is
+   reused as requested; CSS affects only the background layer. */
+.book .bg { color:var(--df-text); background-color:var(--df-bg-1); background-blend-mode:multiply; }
+.book .bg .right .author { color:var(--df-gold-hi); }
+.book .bg .right .flower .book-info { color:#090b0b; }
+.bubbledialog .bg-layer { filter:brightness(.25) sepia(.35); }
+.bubbledialog .content-layer .inner .container { color:var(--df-text); background-color:#30322e; }
+.bubbledialog .content-layer .inner .container .answers .answer { color:var(--df-text-muted); }
+.bubbledialog .content-layer .inner .container .answers a { color:var(--df-gold-hi); }
+
+/* Explicit low-contrast native text on the shared dark surfaces. These are
+   the existing data/label nodes: never replace their contents or positioning.
+   Calendar/content sprites keep their original paired text colors. */
+.dialogue-window .content,
+.trade-window .content .decision .dec-item,
+.showcase .card-content,
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty { color:var(--df-text); }
+.barter-window .crafting-cost-panel .cost-header-label,
+.divide-panel .left-column .left-column-header,
+.skills-window .left-column .list-label-wrapper .list-label .label,
+.registration .main-header { color:var(--df-gold-hi); }
+.help-profs-and-items .profs-content .help-one-prof .link,
+.help-premium .right-column a { color:var(--df-gold-hi); }
+/* Existing trade decision meanings stay red/green, with readable luminance. */
+.trade-window .content .decision .refuse { color:#ef8c7d; }
+.trade-window .content .decision .accept { color:#9bbd7b; }
+.trade-window header .h_background .left,
+.trade-window header .h_background .right,
+.trade-window header .h_background .middle {
+  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
+  box-shadow:inset 0 1px var(--df-copper),inset 0 -1px var(--df-copper-dark);
+}
+/* Standalone wanted-list rows retain their real outfit, nick, location and
+   action nodes. The native .r distinction remains a warm/red background. */
+.wanted-player { color:var(--df-text); background-color:var(--df-bg-2); border-color:var(--df-copper-dark); }
+.wanted-player.r { background-color:#38251f; }
+.wanted-player .info-wrapper .nick-wrapper .nick,
+.wanted-player .info-wrapper .city-and-cord-wrapper .nick { color:var(--df-text); }
+.wanted-player .info-wrapper .nick-wrapper .city,
+.wanted-player .info-wrapper .city-and-cord-wrapper .city,
+.wanted-player .info-wrapper .nick-wrapper .cord,
+.wanted-player .info-wrapper .city-and-cord-wrapper .cord { color:#9bbd7b; }
+.outfit-selector-header .header-wrapper {
+  color:var(--df-gold-hi); background:var(--df-bg-2) var(--cf-header-image) center/100% 100%;
+}
