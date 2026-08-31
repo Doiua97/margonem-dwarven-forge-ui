@@ -1,1 +1,10 @@
-PLACEHOLDER
+/* Margonem Dwarven Forge — full coverage v0.3.0
+   Current client CSS + coverage architecture learned from podglądowy.css.
+   CSS-only. Native item rarity/highlight rendering remains client-driven.
+*/
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/palette.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/v03/core.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/v03/hud-chat.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/v03/panels.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/v03/modules.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/v03/assets.css?v=0.3.0");
