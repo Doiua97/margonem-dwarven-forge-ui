@@ -1,0 +1,190 @@
+/* Margonem Dwarven Forge — production CSS
+   Only UI elements intentionally changed by this theme are overridden.
+   Original Margonem content assets are not copied into this repository.
+*/
+@import url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/css/palette.css");
+
+/* Windows */
+.interface-element-border-window-frame,.border-window,
+.battle-controller .graphics .battle-border,.additional-skill-panel .graphics .additional-skill-panel-border {
+  border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/window-frame.png")!important;
+}
+.border-window .content {background:var(--df-window)!important;color:var(--df-text)!important}
+.border-window .header-label-positioner .header-label,.interface-element-border-window-header-middle {
+  background:linear-gradient(var(--df-steel-3),var(--df-steel-1))!important;
+  box-shadow:inset 0 1px var(--df-edge),inset 0 3px var(--df-copper-light),inset 0 -2px var(--df-void)!important;
+}
+.border-window .header-label-positioner .header-label .text {color:var(--df-text)!important}
+.border-window .close-button-corner-decor {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/close-corner.png")!important}
+.border-window .close-button-corner-decor .close-button {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/close-button.png")!important}
+.border-window.transparent .search-component:before {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/search-icon.png") center/16px 16px no-repeat!important}
+
+/* Shared panel chrome */
+.interface-element-vertical-wood {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/middle_graphics.png")!important}
+.interface-element-middle-1-background,.interface-element-middle-2-background,.interface-element-middle-3-background,.interface-element-middle-4-background,
+.interface-element-middle-1-background-stretch,.interface-element-middle-2-background-stretch,.interface-element-middle-3-background-stretch {
+  border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/middle_graphics.png")!important;
+}
+.interface-element-one-item-slot-background-to-repeat,.interface-element-item-slot-grid-stretch,
+.shop-wrapper .shop-content .shop-items.scrollable .scroll-pane {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/oneItemSlotToRepeat.png")!important}
+.interface-element-wood-box-background {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/info-box-2.png")!important}
+
+.interface-element-active-card-border-image,.interface-element-active-card-background,.interface-element-active-card-background-stretch,
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected,
+.matchmaking-ranking .ranking-tabs .cards-header .active,.cards-header-wrapper .cards-header .card.active {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/width-card-button.png")!important;border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/width-card-button.png")!important;
+}
+.interface-element-card-background,.interface-element-card-background-stretch,
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item,
+.auction-window input.default,.auction-off-item-panel input.default,.matchmaking-ranking .ranking-tabs .cards-header .card,
+.cards-header-wrapper .cards-header .card,.battle-pass-window .cards-header-wrapper .cards-header .card {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/width-card-button-active.png")!important;
+}
+.interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch {border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/quests/quest_bar.png")!important}
+.interface-element-header-1-background,.interface-element-header-1-background-stretch {border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/table_header.png")!important}
+.interface-element-table-header-1-background {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/table_header.png")!important}
+.interface-element-header-2-background,.interface-element-header-2-background-stretch {border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/match-bar.png")!important}
+.tabs-nav:before,.mails-window .cards-header-wrapper .header-background-graphic,.matchmaking-ranking .ranking-tabs .header-background-graphic,
+.cards-header-wrapper .header-background-graphic,.battle-pass-window .cards-header-wrapper .header-background-graphic {
+  border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/friend-header.png")!important
+}
+.search-component {border-image-source:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/search.png")!important}
+.layer.interface-layer .positioner.top .bg,.layer.interface-layer .positioner.bottom .bg {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/belka-gora-dol.png")!important}
+.layer.interface-layer .main-column.right-column,.layer.interface-layer .main-column.right-column .border,
+.layer.interface-layer .main-column .extended-stats .border {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/chat-powtarzalny-podklad.png")!important}
+.scroll-wrapper .scrollbar-wrapper .background,.scroll-wrapper.classic-bar .scrollbar-wrapper .background {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/stats-scroll-bar.png")!important}
+
+/* HUD structural graphics previously embedded in the general-purpose buttony.png sprite.
+   Semantic icons from the original sprite are deliberately left untouched. */
+.layer.interface-layer .positioner.top .hud-container {
+  background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/hud-frame.png") 0 0/342px 65px no-repeat!important;
+}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic {
+  background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bottom-panel-frame.png") 0 0/590px 100px no-repeat!important;
+}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {
+  background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/exp-overlay-left.png") 0 0/250px 18px no-repeat!important;
+}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/exp-overlay-right.png")!important;
+}
+
+/* Battle */
+.battle-controller .battle-content .surrender {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/battle/surrender.png") center/32px 32px no-repeat!important}
+.battle-controller .toggle-battle {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/battle/toggle-less.png") center/22px 22px no-repeat!important}
+.battle-controller .toggle-battle.show-more {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/battle/toggle-more.png")!important}
+.battle-summary .bottom-bar-wrapper .bottom-bar {background:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/battle/summary-bottom-bar.png") center/654px 57px no-repeat!important}
+.battle-window .battlelog div.attack,.battlelog .scroll-pane div.attack {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/line-highlight-green2.png")!important}
+.battle-window .battlelog div.attack2,.battlelog .scroll-pane div.attack2 {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/line-highlight-red2.png")!important}
+.battle-window .battlelog div.neu,.battlelog .scroll-pane div.neu {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/line-highlight-yellow2.png")!important}
+
+/* Progress bars */
+.progress-bar-wrapper .background {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/progressBar/progress-bar.png")!important}
+.progress-bar-wrapper.blue .bar-percentage {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/progressBar/percent-blue.png")!important}
+.progress-bar-wrapper.red .bar-percentage {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/progressBar/percent-red.png")!important}
+.progress-bar-wrapper.yellow .bar-percentage {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/progressBar/percent-yellow.png")!important}
+.interface-element-progress-bar-0 .inner,.interface-element-progress-bar-1 .inner {
+  background:linear-gradient(var(--df-hp) 70%,#5D1D18 70%)!important;border-color:var(--df-hp)!important
+}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow .inner {background:var(--df-mana)!important}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .bar-overflow .inner {background:var(--df-energy)!important}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress .inner {
+  background:linear-gradient(var(--df-void),var(--df-exp) 25% 60%,var(--df-void))!important
+}
+
+/* Small UI chrome */
+.c-table .table .item-bid-td .somebody-bid,
+.auction-window .main-column-auction .all-auction-section .auction-table .item-bid-td .somebody-bid,
+.auction-window .main-column-auction .all-auction-section .auction-table-header .item-bid-td .somebody-bid {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/triangle.png")!important
+}
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,
+.divide-button .button .label .icon .zero,.menu-list .menu-option .icon .zero,
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option .icon .zero {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/o.png")!important}
+.zoom-layer .minus .m-graph {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/zoom1.png")!important}
+.zoom-layer .plus .p-graph {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/zoom2.png")!important}
+.gw {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/exit.png")!important}
+.b_wrapper .left,.b_wrapper .right {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/direction.png")!important}
+.outfit-selector-arrow {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/ReverseButton.png")!important}
+.outfit-selector-arrow:hover {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/ReverseButtonHover.png")!important}
+.battle-summary-item-wrapper .slot {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/item-slot.png")!important}
+.quest-observe-window .quest-tracked:after {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/quests/tracked.png")!important}
+
+/* Bubble dialogue chrome */
+.bubbledialog .bg-layer .top-frame {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bubble/top.png")!important}
+.bubbledialog .bg-layer .bottom-frame {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bubble/bottom.png")!important}
+.bubbledialog .bg-layer .left-frame {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bubble/left.png")!important}
+.bubbledialog .bg-layer .right-frame {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bubble/right.png")!important}
+.bubbledialog .left .bottom-frame {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/bubble/bottom_l.png")!important}
+#cloud-tip .cloud-tail {background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/cloud_tail.png")!important}
+
+/* Shop chrome */
+.shop-wrapper .shop-background.normal-shop-zl .canopy {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/shop/canopy.png")!important;
+  background-position:0 -2px!important;
+}
+.shop-wrapper .shop-background.normal-shop-sl .canopy {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/shop/canopy.png")!important;
+  background-position:0 -48px!important;
+}
+
+/* Inventory selection marks */
+.inventory-grid .item .disable-icon,.equipment-wrapper .item .disable-icon,.ib-item-list .item .disable-icon {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/X-blackoutline.png")!important;
+}
+.inventory-grid .item .choose-icon,.equipment-wrapper .item .choose-icon,.ib-item-list .item .choose-icon {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/ok-blackoutline.png")!important;
+}
+
+/* Item rarity frames */
+.item .highlight.h-exist,.bottomItem .highlight.h-exist,.item .icon.h-exist,.bottomItem .icon.h-exist {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/item_frames/frames/item_frames.png")!important;
+}
+
+/* Auction category header */
+.drop-down-menu-section .type-header {
+  background-image:url("https://raw.githubusercontent.com/Doiua97/margonem-dwarven-forge-ui/main/assets/gui/auctions/header_left.png")!important;
+}
+
+/* Core colors */
+body {background:var(--df-void);color:var(--df-text)}
+.interface-element-background-color-1 {background:var(--df-bg-0)!important}
+.interface-element-background-color-2 {background:var(--df-bg-1)!important;color:var(--df-text)!important}
+.interface-element-background-color-3 {background:var(--df-bg-2)!important}
+.interface-element-background-color-4 {background:var(--df-overlay)!important}
+.extended-stats {background:rgba(9,10,10,.90)!important;color:var(--df-text-muted)!important}
+.extended-stats .scroll-pane h3,.extended-stats .scroll-pane .stat-group h4 {color:var(--df-gold)!important;border-color:var(--df-copper-light)!important}
+.extended-stats .scroll-pane .stat-row:hover {background:var(--df-hover)!important}
+.new-chat-window,.chat-input-wrapper,.layer.chat-layer .chat-header-mobile,.layer.chat-layer .magic-input-wrapper {background:var(--df-bg-2)!important}
+.new-chat-message:nth-of-type(2n+2) {background:rgba(255,255,255,.035)!important}
+.new-chat-message:hover,.clickable:hover {background:var(--df-hover)!important}
+.ni-input input.default,.ni-input textarea.default,input.default {
+  color:var(--df-text)!important;background:rgba(0,0,0,.38)!important;border-color:var(--df-copper-dark)!important
+}
+.radio-custom [type=radio]+label:before,.checkbox-custom [type=checkbox]+label:before {
+  background:var(--df-steel-2)!important;border-color:var(--df-copper-dark)!important
+}
+.radio-custom [type=radio]+label:after {background:var(--df-gold)!important;border-color:var(--df-gold-hi)!important}
+.popup-menu {background-color:var(--df-bg-2)!important}
+.popup-menu .menu-item,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option {
+  background:var(--df-copper-dark)!important;border-color:var(--df-copper-light)!important
+}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu),
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled) {
+  background:var(--df-copper)!important;border-color:var(--df-gold)!important
+}
+.button,.widget-button {
+  color:var(--df-text)!important;background-image:linear-gradient(var(--df-copper-light),var(--df-copper-dark))!important;
+  border-color:var(--df-void)!important;box-shadow:inset 0 0 1px 1px var(--df-edge),inset 0 0 0 3px var(--df-void)!important
+}
+body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active),
+body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active) {
+  background-image:linear-gradient(var(--df-gold),var(--df-copper))!important
+}
+.button.green,.widget-button.green {background-image:linear-gradient(#65764B,#28371F)!important}
+.button.red,.widget-button.red {background-image:linear-gradient(var(--df-danger),#4B1814)!important}
+.button.blue,.widget-button.blue {background-image:linear-gradient(var(--df-info),#17313F)!important}
+.button.orange,.widget-button.orange {background-image:linear-gradient(var(--df-bronze),var(--df-copper-dark))!important}
+.widget-button.disabled {opacity:var(--df-disabled)!important}
+.tabs-nav .card,.card-button-test {color:var(--df-text-muted)!important;background:linear-gradient(var(--df-steel-2),var(--df-steel-0))!important}
+.tabs-nav .card.active,.card-button-test.active {color:var(--df-text)!important;background:linear-gradient(var(--df-copper-light),var(--df-copper-dark))!important}
