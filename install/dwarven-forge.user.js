@@ -18,6 +18,6 @@
   const link = document.createElement("link");
   link.id = ID;
   link.rel = "stylesheet";
-  link.href = "https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/dwarven-forge.css?v=0.6.0";
+  link.href = "https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v0.6.0/css/dwarven-forge.css";
   (document.head || document.documentElement).appendChild(link);
 })();
