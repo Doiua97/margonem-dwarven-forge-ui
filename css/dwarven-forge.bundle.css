@@ -1,3 +1,3 @@
-/* Dwarven Forge bundle entrypoint */
-@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/palette.css");
-@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/dwarven-forge.css");
+/* Dwarven Forge bundle entrypoint — v0.3.0 */
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/palette.css?v=0.3.0");
+@import url("https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@main/css/dwarven-forge-v03.css?v=0.3.0");
