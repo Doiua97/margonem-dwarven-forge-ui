@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Margonem Dwarven Forge UI
 // @namespace    doiua97
-// @version      0.7.1
+// @version      0.7.2
 // @description  Loads the Corner Forge black-and-red CSS-only UI theme.
 // @match        https://margonem.pl/*
 // @match        https://*.margonem.pl/*
@@ -18,6 +18,6 @@
   const link = document.createElement("link");
   link.id = ID;
   link.rel = "stylesheet";
-  link.href = "https://cdn.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v0.7.1/css/dwarven-forge.css";
+  link.href = "https://fastly.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v0.7.2/css/dwarven-forge.css";
   (document.head || document.documentElement).appendChild(link);
 })();
