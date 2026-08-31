@@ -1,3 +1,4 @@
+# Dwarven Forge v0.3 production asset generator
 from PIL import Image, ImageDraw, ImageFilter
 from pathlib import Path
 import random, math
