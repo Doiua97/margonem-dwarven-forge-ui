@@ -1,569 +1,275 @@
-/* Corner Forge 0.5.0 — SINGLE canonical stylesheet.
-   Edit this file in place. No imports, generated bundle or parallel versions. */
-:root {
-  --cf-hud-image:url("../assets/forge-hud.svg?v=0.5.0");
-  --cf-surface-image:url("../assets/forge-surface.svg?v=0.5.0");
-  --cf-window-image:url("../assets/forge-window.svg?v=0.5.0");
-  --cf-middle-image:url("../assets/forge-middle.svg?v=0.5.0");
-  --cf-header-image:url("../assets/forge-header.svg?v=0.5.0");
-  --cf-book-image:url("../assets/book.jpg?v=0.5.0");
-  --cf-bubble-top-image:url("../assets/bubble-top.png?v=0.5.0");
-  --cf-bubble-bottom-image:url("../assets/bubble-bottom.png?v=0.5.0");
-  --cf-bubble-left-image:url("../assets/bubble-left.png?v=0.5.0");
-  --cf-bubble-right-image:url("../assets/bubble-right.png?v=0.5.0");
-  --cf-bubble-bottom-left-image:url("../assets/bubble-bottom-left.png?v=0.5.0");
-  --df-bg-0:#090b0b;
-  --df-bg-1:#111413;
-  --df-bg-2:#181b19;
-  --df-bg-3:#22241f;
+:root{--forge-hud:url('../assets/hud.svg?v=0.6.0');--forge-iron:url("../assets/iron.png?v=0.6.0");--forge-frame:url("../assets/frame.svg?v=0.6.0");--forge-middle:url("../assets/middle.svg?v=0.6.0");--forge-header:url("../assets/header.svg?v=0.6.0");--forge-control:url("../assets/control.svg?v=0.6.0");--forge-track:url("../assets/track.svg?v=0.6.0");--ink:#151314;--ink2:#201b1c;--heading:#e0d7cd;--text:#e9e3dd;--muted:#b3a7a6;--line:#453b3d;--accent:#9d3537}
+.game-window-positioner{position:relative;transform-origin:top left;font-family:Segoe UI,Arial,sans-serif;font-size:12px}
+.layer.interface-layer .positioner.top>.bg,.layer.interface-layer .positioner.bottom>.bg,.layer.interface-layer .positioner.bottom>.bg-additional-widget-left,.layer.interface-layer .positioner.bottom>.bg-additional-widget-right{background:none;box-shadow:none}
+.layer.interface-layer .positioner.bottom{height:270px;transform:none;isolation:auto;z-index:auto}
+.layer.interface-layer .positioner.top .hud-container{left:16px;top:14px;margin:0;width:370px;height:92px;background-image:var(--forge-hud);background-position:0 0;background-repeat:no-repeat;border:0;box-shadow:none;color:var(--text)}
+.layer.interface-layer .positioner.top .hud-container .hero-data{font-family:Segoe UI;font-weight:600}
+.layer.interface-layer .positioner.top .hud-container .heroname{color:var(--text);letter-spacing:1px}
+.layer.interface-layer .positioner.top .hud-container .map-data{color:var(--muted)}
+.layer.interface-layer .main-column.left-column{left:16px;right:auto;top:auto;bottom:14px;width:370px!important;height:242px;background:#100e0fa8;border:1px solid #3c3034;box-shadow:inset 0 2px #642e34;outline:none;z-index:2}
+.main-column.left-column>.inner-wrapper{top:34px;bottom:0;left:0;right:0}
+.layer.interface-layer .main-column.left-column>.border,.layer.interface-layer .main-column.right-column>.border{background:none;pointer-events:none}
+.new-chat-window{height:100%;width:100%;background:transparent;display:flex;flex-direction:column}
+.new-chat-window .chat-channel-card-wrapper{display:flex;padding:0 10px;gap:16px;border:0;min-height:28px}
+.chat-channel-card-wrapper .chat-channel-card{background:none;border:0;color:var(--muted);font:11px Segoe UI;cursor:pointer}
+.chat-channel-card-wrapper .chat-channel-card:first-child,.chat-channel-card-wrapper .chat-channel-card[aria-current]{color:var(--heading);border-bottom:1px solid var(--heading)}
+.new-chat-window .chat-message-wrapper{padding:0 16px;overflow:auto;flex:1;min-height:0;color:var(--text);font-size:11px;line-height:1.5}
+.chat-message-wrapper p{margin:7px 0}
+.chat-message-wrapper time{color:#998e8e}
+.chat-message-wrapper b{color:var(--heading)}
+.chat-input-wrapper{position:relative;height:33px;min-height:33px;background:#100e0f;border-top:1px solid #3d3235}
+.chat-input-wrapper input{width:100%;height:100%;box-sizing:border-box;background:none;border:0;color:var(--text);padding:0 14px;font:10px Segoe UI}
+.layer.interface-layer .main-column.right-column{top:auto;bottom:14px;right:16px;width:540px!important;height:242px;background:#100e0f66;border:1px solid #3c3034;box-shadow:inset 0 2px #642e34;z-index:2}
+.main-column.right-column>.inner-wrapper{inset:0}
+.right-column>.inner-wrapper>.right-main-column-wrapper{width:540px;height:242px}
+.game-window-positioner .character_wrapper{top:16px;left:0;width:255px}
+.game-window-positioner .inventory_wrapper{top:42px;left:270px;width:255px}
+.game-window-positioner .inventory_wrapper .bags-navigation-bg{top:-42px;left:107px}
+.game-window-positioner .character_wrapper .equipment-wrapper{background-color:#151314}
+.game-window-positioner .character_wrapper .stats-wrapper{top:16px;height:174px;background:var(--ink);color:var(--text);box-shadow:none;border:1px solid var(--line);box-sizing:border-box}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title{color:var(--heading);font-family:Segoe UI;font-size:10px}
+.game-window-positioner .character_wrapper .stats-wrapper li{font:11px/22px Segoe UI;height:22px;margin:0;white-space:nowrap}
+.game-window-positioner .battle-set-wrapper{top:214px;left:18px}
+.layer.interface-layer .main-column .extended-stats{right:100%;top:auto;bottom:calc(100% + 14px);height:360px;background:var(--ink);color:var(--text);border:1px solid var(--line);padding:10px;box-sizing:border-box;z-index:4}
+.layer.interface-layer .main-buttons-container{position:fixed!important;left:auto!important;margin:0!important;bottom:auto!important;top:calc(14px + var(--row)*52px)!important;right:calc(16px + var(--col)*316px)!important;z-index:2;pointer-events:auto;background:transparent;border:0;box-shadow:none}
+.main-buttons-container.top-left{--col:2;--row:0}
+.main-buttons-container.top-right{--col:1;--row:0}
+.main-buttons-container.bottom-left-additional{--col:0;--row:0}
+.main-buttons-container.bottom-right-additional{--col:2;--row:1}
+.main-buttons-container.bottom-left{--col:1;--row:1}
+.main-buttons-container.bottom-right{--col:0;--row:1}
+.main-buttons-container .empty-slot-widget{opacity:0;background:#39272b99;outline:1px dashed #9d636399}
+.widget-edit-mode .main-buttons-container .empty-slot-widget{opacity:1}
+.bottom-panel-of-bottom-positioner{left:calc(50% - 85px);margin-left:-332px;bottom:24px;transform:none!important;z-index:2}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic{left:144px;top:-132px;width:376px;height:224px;background:linear-gradient(135deg,#44202766,transparent 35%),linear-gradient(#1a1618,#100e10);border:1px solid #4b343b;box-shadow:inset 0 2px #78313d;clip-path:polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% 100%,0 100%,0 20px)}
+.bottom-panel-of-bottom-positioner .hp-indicator-wrapper{left:284px;bottom:104px;width:96px;height:76px;overflow:visible;border-radius:0}
+.bottom-panel-of-bottom-positioner .hp-indicator{width:96px;height:76px;left:0;bottom:0;transform:none;background:#100d0f;box-shadow:inset 0 0 0 2px #72333b;clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px),0 12px)}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood{width:100%;left:0;bottom:0;background:linear-gradient(90deg,#772e2a,#d06b56)!important}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood-frame{background:none;width:100%;height:100%;bottom:0;outline:1px solid #ee9f67}
+.bottom-panel-of-bottom-positioner .hp-indicator .hpp{position:absolute;top:0;left:0;bottom:auto;width:96px;height:76px;line-height:76px;transform:none;color:var(--text);font:600 20px/76px Segoe UI;text-shadow:0 1px 3px #000}
+.bottom-panel-of-bottom-positioner .glass{background:none;left:0;bottom:0;width:96px;height:76px}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper{position:absolute;left:188px;bottom:64px;width:288px;height:12px}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress{top:0;width:144px;height:12px}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left{left:0}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right{left:144px}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress{top:0;left:0;width:144px;height:12px;background:var(--forge-track) center/100% 100%}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay{width:144px;height:12px;background:none;box-shadow:inset 0 0 0 1px #453b3d}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .end-game-ribbon{background:none!important}
+.bottom-panel-of-bottom-positioner .slots.left{left:166px}
+.bottom-panel-of-bottom-positioner .slots.right{right:166px}
+.bottom-panel-of-bottom-positioner .skill-usable-slots.left{left:166px}
+.bottom-panel-of-bottom-positioner .skill-usable-slots.right{right:166px}
+.bottom-panel-of-bottom-positioner .lagmeter{left:493px;bottom:44px}
+.bottom-panel-of-bottom-positioner .bottom-panel-pointer-bg{background:none}
+.bottom-panel-of-bottom-positioner .pointer-exp-graphic,.bottom-panel-of-bottom-positioner .pointer-ttl-graphic{background:none}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper{left:188px;bottom:80px}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy{left:0;top:-8px;width:288px}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana{left:0;top:10px;width:288px}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .background{width:288px;height:14px;background:var(--forge-track) center/100% 100%}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .overlay{background:none}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow{top:2px;left:2px;width:246px;height:10px;margin:0}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .values{top:0;left:auto;right:1px;width:38px;line-height:13px;color:var(--text)}
+.game-window-positioner.classic-interface .dialogue-window{bottom:304px;left:44%;z-index:3;max-width:calc(100% - 80px)}
+.dialogue-window .content{width:540px;color:var(--text);padding:26px 24px 18px;box-sizing:content-box}
+.dialogue-window .border-image{background:linear-gradient(#151314b8,#151314d9),var(--forge-iron);background-size:auto,400px 400px;border:1px solid var(--line);box-shadow:0 14px 50px #0008;pointer-events:none}
+.dialogue-window .npc-dialogue-wrapper{font:14px/1.65 Segoe UI}
+.dialogue-window .h_content{color:var(--heading)}
+.dialogue-window .answers-scroll{height:auto!important;max-height:225px;overflow:auto}
+.dialogue-window .answers{padding:0;margin:18px 0 0}
+.dialogue-window .answers li{padding:10px 0;cursor:pointer;border-top:1px solid #453b3d;color:var(--text);font:12px Segoe UI}
+.dialogue-window .answers li:hover{color:var(--heading);background:#342124}
+.game-window-positioner.classic-interface .battle-controller{bottom:304px;left:calc(50% - 380px);z-index:3;height:260px}
+.battle-controller .graphics .battle-border{border-image-source:var(--forge-frame)}
+.border-window:not(.tip-window){border-image-source:var(--forge-frame);color:var(--text);left:44%;top:150px;transform:translateX(-50%);z-index:5;font-family:Segoe UI}
+.border-window.tip-window{transform:none;max-width:260px;width:max-content;min-width:0;background:#151113eb;border:1px solid #5c3036;box-shadow:0 4px 14px #000b,inset 0 1px #7c3b43;color:var(--text);font-family:Segoe UI;pointer-events:none}
+.border-window.tip-window .header-label-positioner{position:static;height:auto;min-height:24px;padding:0 10px;background:linear-gradient(90deg,#1b1215,#32191e,#1b1215);box-sizing:border-box}
+.border-window.tip-window .header-label-positioner .header-label{height:auto;min-height:24px;line-height:24px;white-space:nowrap}
+.border-window.tip-window .content{max-width:240px;padding:7px 10px;background:#151113eb;color:var(--text);line-height:1.35;white-space:normal}
+.border-window .header-label-positioner .header-label,.border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background:none;box-shadow:none}
+.border-window .header-label-positioner .header-label .text{color:var(--heading);font:12px/28px Segoe UI;letter-spacing:1px}
+:is(.interface-element-middle-1-background,.interface-element-middle-2-background,.interface-element-middle-3-background,.interface-element-middle-4-background,.interface-element-middle-1-background-stretch,.interface-element-middle-2-background-stretch,.interface-element-middle-3-background-stretch){background:var(--ink);border-image-source:var(--forge-middle)}
+:is(.interface-element-header-1-background,.interface-element-header-1-background-stretch,.interface-element-header-2-background,.interface-element-header-2-background-stretch,.interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch,.interface-element-active-card-background-stretch){background-color:var(--ink2);border-image-source:var(--forge-header)}
+.interface-element-active-card-background,.interface-element-card-background,.interface-element-card-background-stretch{background:var(--forge-header) center/100% 100%}
+:is(.main-buttons-container>.widget-button,.border-window .button,.character_wrapper .stats-button .button,.battle-controller .buttons-wrapper .button){background:var(--forge-control) center/100% 100%;color:var(--text);border-color:#453b3d;box-shadow:none}
+:is(.main-buttons-container>.widget-button,.border-window .button,.character_wrapper .stats-button .button,.battle-controller .buttons-wrapper .button):hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px #783034}
+.mails-window{height:350px}
+.mails-window .mail-column{top:0}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper{background:var(--ink2);color:var(--text);padding:14px}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper :is(.msg-content,.mail-footer,.one-mail-head .from b){color:var(--text);border-color:#453b3d}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{font:13px/1.7 Segoe UI;margin-top:14px}
+.mails-window .content-header{color:var(--heading);padding:10px;box-sizing:border-box}
+.clan{height:380px;color:var(--text)}
+.clan .clan-info.interface-element-green-box-background{background:#151314;border-image:none;color:var(--text)}
+.clan .card-content{padding:28px;box-sizing:border-box;font:14px/1.8 Segoe UI}
+.clan .card-content h2{color:var(--heading);letter-spacing:3px;font-size:28px}
+.clan .tabs-nav .button{display:block;width:100%;margin:0 0 8px}
+.clan .tabs-nav:before{border-image-source:var(--forge-middle)}
+.addons-panel{height:390px}
+.addons-panel .left-column .main-header .addon-list-label{color:var(--heading)}
+.addons-panel .one-addon-on-list .title-wrapper,.addons-panel .one-addon-description{color:var(--text)}
+.loot-window{color:var(--text);padding-top:12px}
+.loot-window .bottom-wrapper{color:var(--heading)}
+.scroll-wrapper .scrollbar-wrapper .background{background:#151314}
+.scroll-wrapper .scrollbar-wrapper .track .handle{background:#79666a}
 
-  --df-iron-0:#0d1010;
-  --df-iron-1:#202624;
-  --df-iron-2:#3a403b;
-  --df-iron-hi:#676d63;
+.game-window-positioner.classic-interface .layer.interface-layer .game-layer{inset:122px 12px 270px!important;width:auto!important;height:auto!important;box-shadow:0 0 0 1px #67434c;overflow:hidden}
+.layer.interface-layer .positioner.top .matchmaking-timer{left:378px;top:76px;margin-left:0}
 
-  --df-copper-dark:#3b2114;
-  --df-copper:#75401f;
-  --df-copper-hi:#ad6b32;
+.new-chat-window .chat-input-wrapper{width:100%;box-sizing:border-box}
 
-  --df-bronze:#9b7238;
-  --df-gold:#d0a44b;
-  --df-gold-hi:#f0cd70;
+.border-window:not(.transparent):not(.tip-window)>.content{background:var(--ink)}
+.border-window .close-button-corner-decor{background:none}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress:is(.left,.right) .overlay{background:none}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress{left:0}
+.mails-window .cards-header-wrapper .header-background-graphic,.cards-header-wrapper .header-background-graphic{border-image-source:var(--forge-header)}
+.cards-header-wrapper .cards-header .card{background:var(--forge-control) center/100% 100%;color:var(--muted)}
+.cards-header-wrapper .cards-header .card.active{background:var(--forge-header) center/100% 100%;color:var(--heading);box-shadow:inset 0 -2px var(--accent)}
+.interface-element-table-header-1-background{background:var(--forge-header) center/100% 100%}
+.interface-element-background-color-1{background-color:var(--ink2)}
+.interface-element-vertical-wood{background:var(--forge-middle)}
 
-  --df-text:#e7dfcf;
-  --df-text-muted:#9e998e;
-  --df-text-dark:#57544e;
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.energy,.mana) .background{width:288px;height:14px;background:var(--forge-track) center/100% 100%}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.energy,.mana) .overlay{background:none}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.energy,.mana) .bar-overflow{top:2px;left:2px;width:246px;height:10px;margin:0}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.energy,.mana) .values{top:0;left:auto;right:1px;width:38px;line-height:13px;color:var(--text)}
 
-  --df-hover:rgba(190,125,53,.18);
-  --df-active:rgba(212,162,71,.24);
+.interface-element-border-window-frame{border-image-source:var(--forge-frame)}
+.interface-element-wood-box-background{background:var(--ink) var(--forge-iron);background-size:400px}
+.interface-element-active-card-border-image{border-image-source:var(--forge-header)}
+.interface-element-green-box-background{background:linear-gradient(#25201e,#151314);color:var(--text)}
+.border-window :is(input.default,textarea.default){background:#100e0f;color:var(--text);border-color:#5c484d}
+.border-window :is(input.default,textarea.default)::placeholder{color:var(--muted)}
+.border-window .button.red{background-image:linear-gradient(#744742,#33242a)}
+.border-window .button.green{background-image:linear-gradient(#3c6352,#192f2c)}
 
-  --df-hp:#9d2825;
-  --df-exp:#b78a27;
-  --df-danger:#b54237;
-  --df-success:#66884b;
-  --df-info:#4f7890;
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname{color:var(--heading)}
+:is(.main-buttons-container>.widget-button,.border-window .button,.character_wrapper .stats-button .button,.battle-controller .buttons-wrapper .button){border-radius:3px}
+:is(.main-buttons-container>.widget-button,.border-window .button,.character_wrapper .stats-button .button,.battle-controller .buttons-wrapper .button):before{box-shadow:none;border-radius:1px}
+:is(.border-window .button,.character_wrapper .stats-button .button,.battle-controller .buttons-wrapper .button) .label{font:12px/30px Segoe UI;text-shadow:none;padding:0 10px}
+:is(.border-window .button,.battle-controller .buttons-wrapper .button){height:32px;line-height:30px}
+.layer.interface-layer .main-column .extended-stats .border{background:var(--forge-middle);width:4px;pointer-events:none}
+.extended-stats .scroll-pane{width:100%;height:100%;overflow:auto;position:relative;box-sizing:border-box;padding:0 6px}
+.extended-stats .scroll-pane .stats-section{margin-left:0;padding:5px 0;color:var(--text)}
+.extended-stats .scroll-pane h3{font:600 12px/28px Segoe UI;color:var(--heading);border-color:var(--line);margin:0 0 5px}
+.extended-stats .scroll-pane .stat-row{font:11px/22px Segoe UI}
+.extended-stats .scroll-pane .stat-row .value{color:var(--text)}
+.extended-stats .scroll-pane .stat-group{margin:0}
+.clan .left-column .clan-info{background:var(--ink);box-shadow:inset 0 -1px var(--line)}
+.clan .left-column .clan-info :is(.clan-name,.clan-level,.clan-member-amount,.clan-recruit-state){color:var(--text);text-shadow:none;font-family:Segoe UI}
+.clan .left-column .clan-info .clan-name .name{color:var(--heading);text-shadow:none}
+.clan .left-column .scroll-wrapper .scroll-pane{border:0;background:var(--ink);padding-top:10px}
+.clan .card-content{background:var(--ink);color:var(--text)}
+.battle-controller .battle-content .left-column .scroll-pane,.battle-controller .battle-content .right-column .scroll-pane{height:100%;overflow:auto;background:var(--ink)}
+.battle-controller .battle-msg{padding:8px 9px;margin:0;border-color:var(--line);font:11px/16px Segoe UI;color:var(--text)}
+.battle-controller .battle-msg.txt{background:var(--ink2)}
+.battle-controller .battle-msg.attack{background:#252521}
+.battle-controller .battle-msg.attack2{background:#302021}
+.battle-controller .battle-msg.neu{background:#241d1e}
+.battle-controller .turn-prediction__item:first-child{border-color:#715b5e;border-radius:3px;background:var(--ink2)}
+.battle-controller .turn-prediction__av{width:4px}
+.battle-controller .turn-prediction__name{font:11px Segoe UI;width:132px}
+.battle-controller .turn-prediction__name--green{color:#c2c7a7}
+.battle-controller .turn-prediction__name--red{color:#e09a96}
+.battle-controller .battle-content .time-wrapper .time-progress-bar{width:175px;background:#31272a}
+.battle-controller .battle-content .time-wrapper .time-progress-bar .time-inner{background:#8a3b3e}
+.battle-controller .battle-watch{color:var(--muted);font:11px Segoe UI}
+.battle-controller .battle-content .time-wrapper .pool-timer-wrapper{color:var(--text)}
 
-}
-/* WidgetManager: 7 positions/group; desktop classic sizes 44 / 36 / 32.
-   These tokens reserve space only; client keeps the actual button dimensions. */
-body { --cf-widget:44px; --cf-gap:8px; }
-body[data-res="1024x768"] { --cf-widget:36px; }
-body[data-res="920x555"], body[data-res="1173x555"] { --cf-widget:32px; }
-.game-window-positioner {
-  --cf-group:calc(7 * var(--cf-widget));
-  --cf-dock-width:calc(3 * var(--cf-group) + 2 * var(--cf-gap));
-  --cf-dock-height:calc(2 * var(--cf-widget) + 3 * var(--cf-gap));
-}
+.interface-element-equipment .equipment-wrapper-outline .equipment-outline-1{background:#100d0f}
+.interface-element-equipment .equipment-wrapper-outline .equipment-outline-2{background:#453b3d}
+.interface-element-equipment .equipment-wrapper-outline .equipment-outline-3{background:#55454a}
+.interface-element-equipment .equipment-wrapper-outline .equipment-outline-4{background:#151314}
 
-/* Corner Forge 0.5.0. Source: style.Bjtb6ElF.css + main.min.53XkBRxF.js.
-   Desktop classic layout only. Light/mobile keep their native alternate DOM,
-   visibility, orientation and drag arithmetic; shared surface skins still apply. */
-/* HUD contract: native 342x65 and all real children stay intact. The final
-   decorative overlay skins the plate but exposes its embedded currency icons. */
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .bg {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  box-shadow:inset 0 -1px var(--df-copper);
-}
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .hud-container {
-  color:var(--df-text);
-  filter:drop-shadow(0 2px 2px #000);
-}
-/* Client owns right-column > inner-wrapper > right-main-column-wrapper and its
-   character_wrapper + battle-set-wrapper + inventory_wrapper. No geometry
-   override here. chat-size-0/1/2 and eq-column-size-0/1 still own column widths,
-   visibility and matching game-layer insets. Keep body/client zoom transforms. */
-.game-window-positioner.classic-interface .layer.interface-layer .main-column.left-column {
-  bottom:calc(var(--cf-dock-height) + 82px + var(--cf-gap)) !important;
-}
-/* Reserve only the dock below right-column; its 399px character/inventory
-   stack fits above it even at native 920x555. Extended-stats scrolls within
-   the same column and cannot run underneath dock buttons. */
-.game-window-positioner.classic-interface .layer.interface-layer .main-column.right-column {
-  bottom:var(--cf-dock-height) !important;
-}
-/* Native bottom is 664x82. Only translate it above the two native widget rows.
-   Transform override is limited to this rebuilt panel: coordinates below are
-   in its 664px space; no widget or body transform is changed. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner {
-  bottom:calc(var(--cf-dock-height) + var(--cf-gap)) !important;
-  transform:none !important;
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .bottom-panel-graphic {
-  left:152px; width:360px; height:82px;
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  box-shadow:inset 0 0 0 1px var(--df-copper),inset 0 0 0 3px #090b0b;
-}
-/* HP contract: height is exclusively [bar-percent][bar-horizontal=false].
-   A 16x144 vertical indicator rotates around its bottom-left into 144x16.
-   hpp counter-rotates; .glass keeps the native tooltip hit area.
-   No height declaration on .blood; JS can keep writing backgroundPosition. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator-wrapper {
-  left:176px; bottom:48px; width:144px; height:24px;
-  border-radius:0; overflow:visible;
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator {
-  width:16px; height:144px; left:0; bottom:16px;
-  transform:rotate(90deg); transform-origin:bottom left;
-  background:var(--df-bg-0); box-shadow:0 0 0 1px var(--df-copper);
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .blood {
-  width:100%; left:0; bottom:0;
-  background:linear-gradient(to right,#5b1718,var(--df-hp),#d25744) !important;
-}
-/* Warning visibility remains setHp-owned; only replace the orb warning art. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .blood-frame {
-  width:100%; height:100%; bottom:0;
-  background:none; outline:1px solid var(--df-danger);
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .hp-indicator .hpp {
-  position:absolute; left:0; top:auto; bottom:0;
-  width:144px; height:16px; line-height:16px; font-size:11px;
-  transform:rotate(-90deg); transform-origin:bottom left;
-  color:var(--df-text); text-shadow:0 1px 2px #000;
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .glass {
-  left:0; bottom:0; width:144px; height:24px; background:none;
-}
-/* EXP contract: setXp fills LEFT first, RIGHT after 50%. The two real .inner
-   nodes keep width controlled by bar-percent and bar-horizontal=true. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper {
-  position:absolute; left:344px; bottom:48px; width:144px; height:16px;
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress {
-  top:0; width:72px; height:16px;
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left { left:0; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right { left:72px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress {
-  left:0; top:0; width:72px; height:16px; background:var(--df-bg-0);
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {
-  width:72px; height:16px; background:none; box-shadow:inset 0 0 0 1px var(--df-copper);
-}
-/* Decorative end-game ribbons have native 250px geometry. Remove their art
-   only, without changing end-game classes or visibility of the real EXP. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .end-game-ribbon { background:none; }
-/* Slot contract: two real groups of four: 37px content + 2px border + 2px margin
-   = 41px each, 164px/group, plus a 4px center gap (332px total).
-   Right-side float reversal and data-slot-index remain client-owned. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .slots.left { left:166px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .slots.right { right:166px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .skill-usable-slots.left { left:166px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .skill-usable-slots.right { right:166px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .lagmeter { left:492px; bottom:45px; }
-/* Battle contract: JS show/hide ONLY. No display/visibility/opacity declarations
-   on this wrapper or its children. Mana/energy occupy the EXP side in combat. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper { left:344px; bottom:46px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy { left:0; top:-28px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana { left:0; top:-12px; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .background {
-  width:144px; height:14px; background:var(--df-bg-0); box-shadow:inset 0 0 0 1px var(--df-copper);
-}
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .overlay { background:none; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow { width:102px; left:2px; top:2px; margin-top:0; }
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .values { left:106px; right:auto; top:0; width:36px; line-height:14px; }
+:is(.battle-controller .scroll-pane,.extended-stats .scroll-pane,.new-chat-window .chat-message-wrapper,.border-window .scroll-pane){scrollbar-color:#6b555a #1c1719;scrollbar-width:thin}
 
-/* Native pointer-exp / pointer-ttl are live EXP rate/time text. Move them above
-   EXP rather than hiding them or leaving their 243px ornament over slots. */
-.game-window-positioner.classic-interface .bottom-panel-of-bottom-positioner .bottom-panel-pointer-bg {
-  left:344px; top:0; width:144px; height:16px;
-}
-.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-exp-graphic,
-.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-ttl-graphic { background:none; }
-.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-exp { left:0; top:0; width:72px; }
-.game-window-positioner.classic-interface .bottom-panel-pointer-bg .pointer-ttl { left:72px; top:0; width:72px; }
+.border-window:not(.transparent):not(.tip-window) .header-label-positioner{top:-31px;left:-12px;right:-12px;height:28px;background:linear-gradient(90deg,#1b1215,#32191e 50%,#1b1215);box-shadow:inset 0 1px #653039,inset 0 -1px #403036}
+.border-window:not(.transparent):not(.tip-window) .header-label-positioner .header-label{display:block;width:100%;height:28px}
+.border-window:not(.transparent):not(.tip-window) .header-label-positioner .header-label :is(.left-decor,.right-decor){width:0}
+.border-window:not(.transparent):not(.tip-window) .close-button-corner-decor{top:-31px}
 
-/* WidgetManager contract: all six native groups, seven slots/group. Absolute
-   child offsets, sizes, empty-slot-widget, widget-pos/index and drag math are
-   untouched. No display override: client controls additional groups and edit mode.
-   Classic mode is horizontal (WidgetManager.ne); light/mobile may be vertical.
-   Fixed positioning uses the game-window-positioner containing block; remove
-   only the native translateZ(0) on bottom positioner which otherwise traps it. */
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom { transform:none; }
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg {
-  height:var(--cf-dock-height);
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  box-shadow:inset 0 1px var(--df-copper);
-}
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg-additional-widget-left,
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.bottom > .bg-additional-widget-right { background:none; }
-.game-window-positioner.classic-interface .layer.interface-layer .main-buttons-container {
-  z-index:2; /* Above the bottom positioner background, below window layers. */
-  position:fixed !important; top:auto !important; right:auto !important;
-  margin:0 !important;
-  left:calc(50% - var(--cf-dock-width) / 2 + var(--cf-group-index) * (var(--cf-group) + var(--cf-gap))) !important;
-  bottom:calc(var(--cf-gap) + var(--cf-row) * (var(--cf-widget) + var(--cf-gap))) !important;
-}
-/* Same anchors with/without static-widget-position: margins cannot move a
-   docked group when chat-size / eq-column-size changes. Keep native state CSS. */
-.game-window-positioner.classic-interface .main-buttons-container.top-left { --cf-group-index:0; --cf-row:1; }
-.game-window-positioner.classic-interface .main-buttons-container.top-right { --cf-group-index:1; --cf-row:1; }
-.game-window-positioner.classic-interface .main-buttons-container.bottom-left-additional { --cf-group-index:2; --cf-row:1; }
-.game-window-positioner.classic-interface .main-buttons-container.bottom-right-additional { --cf-group-index:0; --cf-row:0; }
-.game-window-positioner.classic-interface .main-buttons-container.bottom-left { --cf-group-index:1; --cf-row:0; }
-.game-window-positioner.classic-interface .main-buttons-container.bottom-right { --cf-group-index:2; --cf-row:0; }
-/* Native notification tray is a child of bottom-right, not a seventh widget
-   group. Keep it above the dock; width/display and notice graphics are native. */
-.game-window-positioner.classic-interface .main-buttons-container.bottom-right .game-notifications {
-  right:0 !important; bottom:calc(var(--cf-dock-height) + var(--cf-gap)) !important;
-}
-/* Only editor slot surface; native editor owns display, size and position. */
-.game-window-positioner.classic-interface .main-buttons-container .empty-slot-widget {
-  background-color:rgba(208,164,75,.16); box-shadow:inset 0 0 0 1px var(--df-gold);
-}
-/* No .widget-button asset replacements, no icon overrides, no forced display.
-   Hamburger controls remain native in light mode (where they actually exist). */
+.layer.interface-layer .positioner.top{height:122px;z-index:1}
+.layer.interface-layer .positioner.top>.bg{position:absolute;inset:0;height:122px;pointer-events:none;background:linear-gradient(90deg,#29161cd9,#151314d9 35%),var(--forge-iron);background-size:auto,400px;box-shadow:inset 0 -3px #71313e,inset 0 -5px #110d0f}
+.layer.interface-layer .positioner.bottom>.bg{position:absolute;left:0;right:0;bottom:0;height:270px;pointer-events:none;z-index:0;background:linear-gradient(0deg,#100d0fd9,#23171cd9),var(--forge-iron);background-size:auto,400px;box-shadow:inset 0 3px #71313e,inset 0 5px #110d0f}
+.game-window-positioner{background:linear-gradient(90deg,#28191e,#151314 30%,#151314 70%,#28191e)}
+.layer.interface-layer .main-column.left-column>.inner-wrapper{top:0;bottom:0}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title-wrapper{position:absolute;top:0;left:0;right:0;height:24px}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title{font:600 10px/24px Segoe UI;position:relative;top:0}
+.game-window-positioner .character_wrapper .stats-wrapper .stats-list{position:absolute;top:30px;left:8px;right:8px;margin:0;padding:0;list-style:none}
+.game-window-positioner .character_wrapper .stats-wrapper .stats-button{position:absolute;top:auto;bottom:8px;left:8px;right:8px;text-align:center;transform:none}
+.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button{width:100%;height:30px;line-height:28px;box-sizing:border-box}
+.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button .label{font:11px/28px Segoe UI;padding:0 4px}
 
-/* Component contracts: style.Bjtb6ElF.css, Templates + Interface in client JS.
-   Only surfaces. Item/highlight/canvas/icon/rarity selectors are intentionally absent. */
-.layer.interface-layer .main-column.left-column,
-.layer.interface-layer .main-column.right-column {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  color:var(--df-text);
-}
-.layer.interface-layer .main-column.left-column > .border,
-.layer.interface-layer .main-column.right-column > .border {
-  background:linear-gradient(90deg,#090b0b,#75401f 40%,#202624 60%,#090b0b);
-}
-/* Equipment: 104x138, top16/left15, native internal slot offsets and frames.
-   Do not overwrite the .interface-element-equipment sprite or item children. */
-.game-window-positioner.classic-interface .character_wrapper .equipment-wrapper {
-  background-color:var(--df-bg-0); outline:1px solid var(--df-copper-dark);
-}
-/* Stats: 123x140, top12/left128. No border-width change (content geometry).
-   The existing 90px button at bottom5/left50% remains Rozwiń/Zwiń. */
-.game-window-positioner .character_wrapper .stats-wrapper {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  color:var(--df-text); outline-color:var(--df-copper-dark);
-}
-.game-window-positioner .character_wrapper .stats-wrapper .header-title { color:var(--df-gold); }
-.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button {
-  color:var(--df-text); background:linear-gradient(#3a403b,#181b19);
-  box-shadow:inset 0 0 0 1px var(--df-copper);
-}
-.game-window-positioner .character_wrapper .stats-wrapper .stats-button .button:hover {
-  background:linear-gradient(#514535,#24241f);
-}
-/* Inventory: retain grid-bg 232x199, grid 232x198, inner-grid 231x197,
-   scrolling 792px pane and client bag-index visibility. Native slot grid stays.
-   Four real 35x35 bag slots retain their native bag art and selection highlight. */
-.game-window-positioner .inventory_wrapper .inventory-grid-bg,
-.game-window-positioner .inventory_wrapper .bags-navigation-bg {
-  background-color:var(--df-bg-0); border-color:var(--df-copper-dark);
-  outline-color:var(--df-copper-dark);
-}
-/* Native .active toggles display; right:100% opens left. No state override.
-   Width225/top0/bottom0 and additional-bar-br adjustments remain native. */
-.layer.interface-layer .main-column .extended-stats {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  color:var(--df-text-muted); box-shadow:inset 0 0 0 1px var(--df-copper);
-}
-.layer.interface-layer .main-column .extended-stats h3,
-.layer.interface-layer .main-column .extended-stats h4 { color:var(--df-gold); }
-/* Current chat DOM, not chat-tpl. Flex layout, height, channel indicators,
-   message colors, config/menu icons and client-controlled width remain native. */
-.new-chat-window,
-.chat-input-wrapper {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-}
-.new-chat-window .chat-message-wrapper,
-.new-chat-window .chat-channel-card-wrapper,
-.chat-input-wrapper .magic-input-wrapper,
-.chat-input-wrapper .control-wrapper .menu-card,
-.chat-input-wrapper .control-wrapper .chat-config-wrapper { border-color:var(--df-copper-dark); }
-.chat-input-wrapper .magic-input-wrapper { background-color:var(--df-bg-0); }
+.layer.interface-layer .positioner.top .hud-container .hero-data{position:static;width:auto}
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname{top:10px;left:20px;width:214px;text-align:left;font:600 16px/20px Segoe UI;padding:0}
+.layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{top:10px;left:252px}
+.layer.interface-layer .positioner.top .hud-container .hero-data .herolvl{top:12px;left:286px;width:64px;font:12px/18px Segoe UI}
+.layer.interface-layer .positioner.top .hud-container .map-data{position:static;margin:0}
+.layer.interface-layer .positioner.top .hud-container .map-data .location{top:39px;left:20px;width:130px}
+.layer.interface-layer .positioner.top .hud-container .map-data .coords{top:39px;left:160px;right:auto}
+.layer.interface-layer .positioner.top .hud-container .world-name{top:39px;left:268px;width:82px}
+.layer.interface-layer .positioner.top .hud-container .map_ball{top:38px;left:2px}
+.layer.interface-layer .positioner.top .hud-container .gold-tip{left:17px;bottom:10px}
+.layer.interface-layer .positioner.top .hud-container .credits-tip{left:191px;bottom:10px}
+.layer.interface-layer .positioner.top .hud-container .herogold.herogold{top:64px;left:44px;width:88px;font:12px/18px Segoe UI}
+.layer.interface-layer .positioner.top .hud-container .herocredits.herocredits{top:64px;left:218px;width:88px;font:12px/18px Segoe UI}
+.layer.interface-layer .positioner.top .hud-container .btn-min.gold-btn{top:62px;left:142px}
+.layer.interface-layer .positioner.top .hud-container .btn-min.credits-btn{top:62px;left:320px}
 
-/* Real component surface allowlist, checked against style.Bjtb6ElF.css.
-   podglądowy.css contributes the shared border-image technique, not its old
-   chat selectors or its icon/item sprite replacements. No generic .content,
-   .button, .window-content, .item or .widget-button skin.
-   Native border widths/slices, window coordinates, open/closed states and
-   controls remain client-owned. All replacement images contain surfaces only. */
-.border-window:not(.transparent):not(.tip-window),
-.border-window .interface-element-border-window-frame,
-.border-window.interface-element-border-window-frame,
-.battle-controller .graphics .battle-border {
-  border-image-source:var(--cf-window-image);
-}
-.border-window .header-label-positioner .header-label {
-  background:var(--df-bg-2) var(--cf-header-image) center/100% 100%;
-  box-shadow:inset 0 1px var(--df-copper),inset 0 -1px var(--df-copper-dark);
-}
-.border-window .header-label-positioner .header-label .text { color:var(--df-text); }
-/* Inherit readable text on the new dark frame; semantic child colors stay native. */
-.border-window { color:var(--df-text); }
-/* Decorative header ends, not close/help/size buttons. Geometry stays 52x28. */
-.border-window .header-label-positioner .header-label .left-decor,
-.border-window .header-label-positioner .header-label .right-decor {
-  background:var(--cf-header-image) center/100% 100%;
-}
-/* Middle surfaces: helper class is scoped to a real module family, not every
-   arbitrary window/content node. Preserve each helper's native border slices. */
-:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,
-    .addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,
-    .world-window,.help-window,.premium-panel,.loot-window,.depo,
-    .friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,
-    .crafting,.builds-window,.rewards-calendar,.battle-controller,
-    .mini-map,.console-window,.left-grouped-list-and-right-description-window)
-:is(.interface-element-middle-2-background,.interface-element-middle-2-background-stretch) {
-  background-color:var(--df-bg-1);
-  border-image-source:var(--cf-middle-image);
-}
-:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,
-    .addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,
-    .world-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,
-    .divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,
-    .rewards-calendar,.battle-controller,.mini-map)
-:is(.interface-element-header-1-background,.interface-element-header-1-background-stretch,
-    .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch) {
-  border-image-source:var(--cf-header-image);
-}
-/* Legacy component surfaces still present in current CSS. */
-.quest-log .scroll-wrapper .scroll-pane .middle-graphics,
-.settings-window .section .scroll-wrapper .scroll-pane .graphic-background,
-.mail-box .mail-column .middle-graphic,
-.battle-controller .graphics .middle-graphic,
-.battle-controller .graphics .bottom-graphic,
-.layer.interface-layer .mini-map .mini-map-map .graphic {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-}
-/* Dialogue uses its own border node and real answers; do not touch NPC icons,
-   reward items, portraits or answer action icons. */
-.dialogue-window .border-image {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-  box-shadow:inset 0 0 0 1px var(--df-copper);
-}
-.dialogue-window .content .answers li { border-bottom-color:var(--df-copper-dark); }
-/* Scroll skin on the real track/handle only; arrows and drag dimensions native. */
-:is(.mini-map,.extended-stats,.dialogue-window,.auction-window,.auctions,.clan,
-    .settings-window,.addons-panel,.mails-window,.mail-box,.quest-window,
-    .quest-log,.world-window,.battle-controller,.skills-window,.shop-wrapper)
-.scroll-wrapper .scrollbar-wrapper .track { background-color:var(--df-bg-0); }
-:is(.mini-map,.extended-stats,.dialogue-window,.auction-window,.auctions,.clan,
-    .settings-window,.addons-panel,.mails-window,.mail-box,.quest-window,
-    .quest-log,.world-window,.battle-controller,.skills-window,.shop-wrapper)
-.scroll-wrapper .scrollbar-wrapper .track .handle {
-  background:linear-gradient(90deg,#202624,#75401f,#202624);
-}
-/* Transparent windows keep the native transparent state and hit areas. */
-.border-window.transparent .border-image {
-  background-color:rgba(17,20,19,.92);
-  box-shadow:0 0 0 1px var(--df-copper-dark),0 0 0 2px #090b0b;
-}
+.game-window-positioner .character_wrapper .stats-wrapper .resists .value{font-size:9px;letter-spacing:-.3px}
 
-/* Complete inner-layer coverage. Templates use middle-1/2/3/4, not just
-   middle-2: addons left=middle-3, right=middle-2; settings/minimap=middle-1.
-   Set BOTH opaque background and border-image source on these existing
-   graphics nodes. Border-image fill would otherwise still paint old artwork. */
-:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon)
-:is(.interface-element-middle-1-background,.interface-element-middle-1-background-stretch,
-    .interface-element-middle-2-background,.interface-element-middle-2-background-stretch,
-    .interface-element-middle-3-background,.interface-element-middle-3-background-stretch,
-    .interface-element-middle-4-background) {
-  background:var(--df-bg-1);
-  border-image-source:var(--cf-middle-image);
-}
-/* Text inherits a light default only within these dark-skinned modules.
-   Semantic colors (rarity, requirements, status, links) on children are retained. */
-:is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) { color:var(--df-text); }
-/* Dedicated header/background layers used by addons, map and stats templates;
-   never replace the button or icon that sits above the background. */
-.addons-panel .main-header .interface-element-active-card-background-stretch,
-.addons-panel .right-header-graphic .interface-element-active-card-background-stretch,
-.mini-map .mini-map-panel .interface-element-active-card-background-stretch,
-.character_wrapper .stats-wrapper .interface-element-active-card-background-stretch,
-.left-grouped-list-and-right-description-window .main-header .interface-element-active-card-background-stretch {
-  border-image-source:var(--cf-header-image);
-}
-/* Proven hard-coded black/low-contrast text from native CSS. */
-.addons-panel .left-column .main-header .addon-list-label,
-.left-grouped-list-and-right-description-window .main-header .left-column-list-label {
-  color:var(--df-gold-hi);
-}
-.addons-panel .one-addon-on-list .title-wrapper { color:var(--df-text-muted); }
-.addons-panel .one-addon-on-list .title-wrapper:hover,
-.addons-panel .right-column .addon-header .title-wrapper,
-.addons-panel .one-addon-description .description-label { color:var(--df-text); }
-.addons-panel .one-addon-description .description-text { color:var(--df-text); }
-.addons-panel .one-addon-description .drag-info { color:var(--df-text-muted); }
-.addons-panel .one-addon-on-list { border-bottom-color:var(--df-copper-dark); }
-.addons-panel .one-addon-on-list:hover { background-color:var(--df-bg-3); }
-.settings-window .section .scroll-wrapper .scroll-pane { color:var(--df-text); }
-.settings-window h2 { color:var(--df-gold-hi); }
-/* Mail's explicit black text cannot inherit the corrected module color. */
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .from b,
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content,
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer,
-.mails-window .mail-column .footer { color:var(--df-text); }
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content {
-  border-top-color:var(--df-copper-dark); border-bottom-color:var(--df-copper-dark);
-}
 
-/* Shared native GRAPHICS components: these classes are themselves decorative
-   layers (not arbitrary .content/.button selectors). Cover every actual use,
-   including small client addons that instantiate them outside large windows. */
-.interface-element-border-window-frame { border-image-source:var(--cf-window-image); }
-:is(.interface-element-middle-1-background,.interface-element-middle-2-background,
-    .interface-element-middle-3-background,.interface-element-middle-4-background,
-    .interface-element-middle-1-background-stretch,.interface-element-middle-2-background-stretch,
-    .interface-element-middle-3-background-stretch) {
-  background:var(--df-bg-1); border-image-source:var(--cf-middle-image);
-}
-.interface-element-vertical-wood { background:var(--df-bg-1) var(--cf-middle-image) repeat-y; }
-.interface-element-wood-box-background { background:var(--df-bg-1) var(--cf-surface-image) repeat; }
-:is(.interface-element-header-1-background,.interface-element-header-1-background-stretch,
-    .interface-element-header-2-background,.interface-element-header-2-background-stretch,
-    .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch,
-    .interface-element-active-card-border-image,.interface-element-active-card-background-stretch) {
-  border-image-source:var(--cf-header-image);
-}
-:is(.interface-element-active-card-background,.interface-element-card-background,
-    .interface-element-card-background-stretch,.interface-element-table-header-1-background) {
-  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
-}
-/* Active states retain an additional light edge; they do not rely on two
-   differently named copies of the same texture. */
-.interface-element-active-card-background,
-.interface-element-active-card-background-stretch { box-shadow:inset 0 -2px var(--df-gold); }
-.tabs-nav:before,
-.cards-header-wrapper .header-background-graphic,
-.mails-window .cards-header-wrapper .header-background-graphic,
-.matchmaking-ranking .ranking-tabs .header-background-graphic,
-.battle-pass-window .cards-header-wrapper .header-background-graphic {
-  border-image-source:var(--cf-header-image);
-}
-.cards-header-wrapper .cards-header .card,
-.matchmaking-ranking .ranking-tabs .cards-header .card,
-.battle-pass-window .cards-header-wrapper .cards-header .card {
-  color:var(--df-text-muted); background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
-}
-.cards-header-wrapper .cards-header .card.active,
-.matchmaking-ranking .ranking-tabs .cards-header .active {
-  color:var(--df-text); box-shadow:inset 0 -2px var(--df-gold);
-  background:var(--df-bg-3) var(--cf-header-image) center/100% 100% no-repeat;
-}
-.drop-down-menu-section .type-header,
-.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item {
-  color:var(--df-text-muted); background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
-}
-.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected {
-  color:var(--df-text); background:var(--df-bg-3) var(--cf-header-image) center/100% 100% no-repeat;
-  box-shadow:inset 0 -2px var(--df-gold);
-}
-.auction-window input.default,
-.auction-off-item-panel input.default {
-  color:var(--df-text); background:var(--df-bg-0); border-color:var(--df-copper);
-}
-/* Final independent decorative layers found in the complete native URL audit. */
-.loot-window .bottom-bar-wrapper .bottom-bar,
-.shop-wrapper .shop-background.normal-shop-zl .canopy,
-.shop-wrapper .shop-background.normal-shop-sl .canopy,
-.shop-wrapper .shop-background.pet-shop-zl .canopy,
-.shop-wrapper .shop-background.pet-shop-sl .canopy {
-  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
-}
-.party .exp-percent:before,
-.battle-controller .graphics .timer-graphic,
-.additional-skill-panel {
-  background:var(--df-bg-1) var(--cf-surface-image) repeat;
-}
-.border-window .close-button-corner-decor { background:none; }
-/* Keep the close-button icon child, time text and skill children unchanged. */
-.scroll-wrapper .scrollbar-wrapper .background,
-.scroll-wrapper.classic-bar .scrollbar-wrapper .background {
-  background:var(--df-bg-0) var(--cf-middle-image) center/100% 100%;
-}
-.scroll-wrapper .scrollbar-wrapper .track .handle,
-.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle {
-  background:linear-gradient(90deg,#202624,#75401f,#202624);
-}
-/* Existing progress tracks are styled, not duplicated. No progress dimensions. */
-.progress-bar-wrapper .background { background:var(--df-bg-0); box-shadow:inset 0 0 0 1px var(--df-copper); }
-.progress-bar-wrapper.red .bar-percentage { background:linear-gradient(#581a19,#9d2825,#581a19); }
-.progress-bar-wrapper.blue .bar-percentage { background:linear-gradient(#18384c,#4f7890,#18384c); }
-.progress-bar-wrapper.yellow .bar-percentage { background:linear-gradient(#705319,#b78a27,#705319); }
-/* Reuse native book and dialogue-bubble surface files locally. Their final
-   surface treatment and paired text colors are defined together below. */
-.book .bg { background-image:var(--cf-book-image); }
-.bubbledialog .bg-layer .top-frame { background-image:var(--cf-bubble-top-image); }
-.bubbledialog .bg-layer .bottom-frame { background-image:var(--cf-bubble-bottom-image); }
-.bubbledialog .bg-layer .left-frame { background-image:var(--cf-bubble-left-image); }
-.bubbledialog .bg-layer .right-frame { background-image:var(--cf-bubble-right-image); }
-.bubbledialog .left .bottom-frame { background-image:var(--cf-bubble-bottom-left-image); }
+.character_wrapper .pvp-btn{background:url('../assets/icons.svg?v=0.6.0') -704px 0;width:32px;height:32px}
+.layer.interface-layer .positioner.top .matchmaking-timer{background:url('../assets/icons.svg?v=0.6.0') -736px 0;width:32px;height:32px}
+.bottom-panel-of-bottom-positioner .lagmeter .lag{background:url('../assets/icons.svg?v=0.6.0') -768px 0;width:32px;height:32px}
+.layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{background:url('../assets/icons.svg?v=0.6.0') -800px 0;width:32px;height:32px;transform:scale(.65);transform-origin:top left}
+.layer.interface-layer .positioner.top .hud-container .map_ball{background:none;border:2px solid #7a8b78;border-radius:50%;box-sizing:border-box}
+.layer.interface-layer .positioner.top .hud-container .map_ball.green{background:#56775e}
+.layer.interface-layer .positioner.top .hud-container .map_ball.yellow{background:#a88e49}
+.layer.interface-layer .positioner.top .hud-container .map_ball.red{background:#8d3b43}
+.layer.interface-layer .positioner.top .hud-container .map_ball.orange{background:#a9673d}
+.border-window .close-button-corner-decor .close-button{background:url('../assets/icons.svg?v=0.6.0') -572px 0/auto 22px;width:22px;height:22px}
+.battle-controller .toggle-battle{background:url('../assets/icons.svg?v=0.6.0') -594px 0/auto 22px;width:22px;height:22px}
+.battle-controller .toggle-battle.show-more{background-position:-594px 0}
+.battle-controller .battle-content .surrender{background:url('../assets/icons.svg?v=0.6.0') -784px 0/auto 28px;width:28px;height:28px}
+.character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -551px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -570px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -589px 0/auto 19px;width:19px;height:19px}
+.character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -608px 0/auto 19px;width:19px;height:19px}
+.battle-controller .attach-icon{background:url('../assets/icons.svg?v=0.6.0') -680px 0/auto 20px}
 
-/* HUD: reskin the entire native plate without replacing its embedded currency
-   icons. This decoration masks only non-icon pixels; the two 25x24 transparent
-   windows expose the ORIGINAL sprite underneath gold-tip / credits-tip.
-   Backend hero/map/currency text and all icon child nodes are untouched. */
-.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .hud-container:before {
-  content:""; position:absolute; inset:0; pointer-events:none;
-  background:var(--cf-hud-image) center/100% 100% no-repeat;
-}
-/* Actual button SURFACES within enumerated modules and the six widget groups.
-   Not a blanket .button/.widget-button asset replacement: no URL, no icon or
-   geometry declarations. Native red/green/blue/purple/orange meanings remain,
-   as do before overlays, blink animations, disabled and window-is-open logic. */
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)) {
-  --cf-control:#75401f;
-  color:var(--df-text); border-color:#090b0b;
-  background-color:var(--df-bg-0);
-  background-image:linear-gradient(var(--cf-control),#202624 45%,#111413);
-  box-shadow:inset 0 0 0 1px var(--df-copper),inset 0 0 0 3px #090b0b;
-}
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).red { --cf-control:#7c302b; }
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).green { --cf-control:#465e34; }
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).blue { --cf-control:#34556a; }
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).purple,
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).violet { --cf-control:#644971; }
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).orange { --cf-control:#805526; }
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)):hover:not(.disabled):not(.no-hover) {
-  box-shadow:inset 0 0 0 1px var(--df-gold),inset 0 0 0 3px #090b0b;
-}
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).active,
-:is(.main-buttons-container > .widget-button, :is(.quest-window,.quest-log,.auction-window,.auctions,.clan,.settings-window,.addons-panel,.mails-window,.mail-box,.shop-wrapper,.skills-window,.world-window,.help-window,.premium-panel,.loot-window,.depo,.friend-enemy-list,.divide-panel,.change-outfit,.achievement-panel,.crafting,.builds-window,.rewards-calendar,.battle-controller,.mini-map,.console-window,.left-grouped-list-and-right-description-window,.recovery-item,.motel-window,.news-panel,.gold-shop,.stamina-shop,.trade-window,.showcase,.item-changer,.mc-addon) :is(.button,.widget-button)).window-is-open { border-color:var(--df-gold); }
-/* Complete the standalone book/bubble chrome while retaining their native
-   content, links, navigation art and geometry. Existing source artwork is
-   reused as requested; CSS affects only the background layer. */
-.book .bg { color:var(--df-text); background-color:var(--df-bg-1); background-blend-mode:multiply; }
-.book .bg .right .author { color:var(--df-gold-hi); }
-.book .bg .right .flower .book-info { color:#090b0b; }
-.bubbledialog .bg-layer { filter:brightness(.25) sepia(.35); }
-.bubbledialog .content-layer .inner .container { color:var(--df-text); background-color:#30322e; }
-.bubbledialog .content-layer .inner .container .answers .answer { color:var(--df-text-muted); }
-.bubbledialog .content-layer .inner .container .answers a { color:var(--df-gold-hi); }
+.extended-stats .scroll-pane [data-herostat="damage-fire"] .value,.extended-stats .scroll-pane [data-herostat="res-fire"] .value,.character_wrapper .stats-wrapper .js-res-fire{color:#ff6a6d}
+.extended-stats .scroll-pane [data-herostat="damage-lightning"] .value,.extended-stats .scroll-pane [data-herostat="res-lightning"] .value,.character_wrapper .stats-wrapper .js-res-light{color:#f1d45c}
+.extended-stats .scroll-pane [data-herostat="damage-cold"] .value,.extended-stats .scroll-pane [data-herostat="res-cold"] .value,.character_wrapper .stats-wrapper .js-res-frost{color:#7fc9ff}
+.extended-stats .scroll-pane [data-herostat="damage-poison"] .value,.extended-stats .scroll-pane [data-herostat="res-poison"] .value,.character_wrapper .stats-wrapper .js-res-poison{color:#6de276}
+.extended-stats .scroll-pane h3{color:#c8656d}
+.event-calendar{height:330px;background:var(--ink);color:var(--text)}
+.event-calendar .background,.event-calendar .matrix{background:var(--ink)}
+.event-calendar .event-calendar-cell{background:var(--ink2);border:1px solid var(--line);color:var(--text)}
+.event-calendar .event-calendar-cell .day-and-date{color:#c8656d;border-bottom:1px solid var(--line)}
+.event-calendar .event-calendar-cell .events-holder{color:var(--text)}
+.event-calendar .controlls{background:linear-gradient(90deg,#1b1215,#32191e,#1b1215);color:var(--heading)}
+.news-panel{height:380px;background:var(--ink);color:var(--text)}
+.news-panel .middle-graphics{background:var(--ink);border-image-source:var(--forge-middle)}
+.news-panel .news-classic-tile{background:var(--ink2);border:1px solid var(--line);color:var(--text)}
+.news-panel .news-classic-tile .requires-level{color:#c8656d}
+:is(.inventory_wrapper,.equipment-wrapper,.loot-window) .interface-element-one-item-slot-background-to-repeat,:is(.inventory_wrapper,.equipment-wrapper,.loot-window) .interface-element-one-item-slot-2{background:#171315;box-shadow:inset 0 0 0 1px #43343a}
 
-/* Explicit low-contrast native text on the shared dark surfaces. These are
-   the existing data/label nodes: never replace their contents or positioning.
-   Calendar/content sprites keep their original paired text colors. */
-.dialogue-window .content,
-.trade-window .content .decision .dec-item,
-.showcase .card-content,
-.skills-window .right-column .scroll-wrapper .scroll-pane .empty { color:var(--df-text); }
-.barter-window .crafting-cost-panel .cost-header-label,
-.divide-panel .left-column .left-column-header,
-.skills-window .left-column .list-label-wrapper .list-label .label,
-.registration .main-header { color:var(--df-gold-hi); }
-.help-profs-and-items .profs-content .help-one-prof .link,
-.help-premium .right-column a { color:var(--df-gold-hi); }
-/* Existing trade decision meanings stay red/green, with readable luminance. */
-.trade-window .content .decision .refuse { color:#ef8c7d; }
-.trade-window .content .decision .accept { color:#9bbd7b; }
-.trade-window header .h_background .left,
-.trade-window header .h_background .right,
-.trade-window header .h_background .middle {
-  background:var(--df-bg-2) var(--cf-header-image) center/100% 100% no-repeat;
-  box-shadow:inset 0 1px var(--df-copper),inset 0 -1px var(--df-copper-dark);
-}
-/* Standalone wanted-list rows retain their real outfit, nick, location and
-   action nodes. The native .r distinction remains a warm/red background. */
-.wanted-player { color:var(--df-text); background-color:var(--df-bg-2); border-color:var(--df-copper-dark); }
-.wanted-player.r { background-color:#38251f; }
-.wanted-player .info-wrapper .nick-wrapper .nick,
-.wanted-player .info-wrapper .city-and-cord-wrapper .nick { color:var(--df-text); }
-.wanted-player .info-wrapper .nick-wrapper .city,
-.wanted-player .info-wrapper .city-and-cord-wrapper .city,
-.wanted-player .info-wrapper .nick-wrapper .cord,
-.wanted-player .info-wrapper .city-and-cord-wrapper .cord { color:#9bbd7b; }
-.outfit-selector-header .header-wrapper {
-  color:var(--df-gold-hi); background:var(--df-bg-2) var(--cf-header-image) center/100% 100%;
-}
+.game-window-positioner .character_wrapper .pvp-btn{background:url('../assets/icons.svg?v=0.6.0') -704px 0;width:32px;height:32px}
+.game-window-positioner .character_wrapper .stats-wrapper li.attack .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -551px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.attack-speed .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -570px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.defence .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -589px 0/auto 19px}
+.game-window-positioner .character_wrapper .stats-wrapper li.resists .stat-icon{background:url('../assets/icons.svg?v=0.6.0') -608px 0/auto 19px}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot .eq-cl{background-image:url('../assets/icons.svg?v=0.6.0');background-size:auto 26px}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="1"] .eq-cl{background-position:-208px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="2"] .eq-cl{background-position:-390px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="3"] .eq-cl{background-position:-832px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="4"] .eq-cl{background-position:-806px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="5"] .eq-cl{background-position:-754px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="6"] .eq-cl{background-position:-780px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="7"] .eq-cl{background-position:-832px 0}
+.game-window-positioner .character_wrapper .equipment-wrapper .eq-slot[data-st="8"] .eq-cl{background-position:-260px 0}
+.game-window-positioner .inventory_wrapper .bags-navigation-bg .interface-element-bag-eq-icon-background{background:url('../assets/icons.svg?v=0.6.0') -312px 0/auto 26px}
+.addons-panel .one-addon-on-list .addon-img.icon{background:url('../assets/icons.svg?v=0.6.0') -640px 0}
+
+.layer.interface-layer .positioner.top>.content:before{content:"";position:absolute;top:14px;left:400px;right:16px;height:88px;pointer-events:none;background:linear-gradient(90deg,#161214cc,#24171bcc,#161214cc);border:1px solid #3c3034;box-shadow:inset 0 1px #643039}
+.layer.interface-layer .main-buttons-container>.widget-button{box-shadow:inset 0 0 0 1px #392d31}

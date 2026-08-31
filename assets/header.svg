@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32"><defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#2a2225"/><stop offset="1" stop-color="#1c1719"/></linearGradient></defs><path fill="url(#g)" d="M0 0h96v32H0z"/><path stroke="#504146" d="M0 .5h96"/><path stroke="#342b2e" d="M0 31.5h96"/></svg>
