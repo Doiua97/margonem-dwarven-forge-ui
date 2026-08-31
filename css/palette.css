@@ -1,0 +1,11 @@
+/* Dwarven Forge production palette */
+:root {
+  --df-void:#090A0A; --df-bg-0:#0D0F0F; --df-bg-1:#141616; --df-bg-2:#1B1D1D; --df-bg-3:#242727;
+  --df-steel-0:#111313; --df-steel-1:#252929; --df-steel-2:#373C3B; --df-steel-3:#59615D;
+  --df-edge:#7A817A; --df-copper-dark:#3E2416; --df-copper:#6A391F; --df-copper-light:#A05B2B;
+  --df-bronze:#B77A34; --df-gold:#D19A42; --df-gold-hi:#F0C36A;
+  --df-text:#E9E1D0; --df-text-muted:#AAA493; --df-danger:#A83A31; --df-success:#5D8C47;
+  --df-info:#416D8B; --df-hp:#A83A31; --df-mana:#286A9A; --df-energy:#B18A2B; --df-exp:#BF742A;
+  --df-window:rgba(13,15,15,.97); --df-window-soft:rgba(20,22,22,.95); --df-overlay:rgba(0,0,0,.72);
+  --df-hover:rgba(209,154,66,.12); --df-active:rgba(209,154,66,.20); --df-disabled:.42;
+}
