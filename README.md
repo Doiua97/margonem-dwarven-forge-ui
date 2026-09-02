@@ -1,4 +1,4 @@
-# Margonem Dwarven Forge UI 1.0.0
+# Margonem Dwarven Forge UI 1.0.1
 
 Dwarven Forge przebudowuje klasyczny interfejs Margonem w stylu mrocznej krasnoludzkiej kuźni. Motyw używa czernionej stali, starego brązu, głębokiego burgundu, ciemnego drewna i oszczędnych turkusowych akcentów.
 
@@ -20,7 +20,7 @@ Userscript nie modyfikuje mechaniki gry. Dołącza wersjonowany arkusz CSS, któ
 - walka, zadania, kalendarze i okna systemowe;
 - kolory tekstu, nagłówków, formularzy oraz stanów aktywnych i nieaktywnych.
 
-Audyt wersji 1.0.0 potwierdza zgodne wymiary i liczbę klatek dla wszystkich 108 zasobów używanych przez CSS. Sześć uzgodnionych grafik zawierających oryginalną treść gry pozostaje bez zmian.
+Audyt wersji 1.0.1 potwierdza zgodne wymiary i liczbę klatek dla wszystkich 108 zasobów używanych przez CSS. Sześć uzgodnionych grafik zawierających oryginalną treść gry pozostaje bez zmian.
 
 ## Struktura
 
