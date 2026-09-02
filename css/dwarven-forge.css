@@ -925,9 +925,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .game-window-positioner .widget-window header,
 .game-window-positioner .configuration-window header {
   color: var(--df-gold-bright);
-  background-color: #151719;
-  background-image: linear-gradient(90deg, #2b1b12, #151719 24%, #151719 76%, #2b1b12);
-  border-bottom: 1px solid #76502d;
   text-shadow: 0 1px 2px #000;
 }
 
@@ -950,10 +947,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .skills-window .left-column .list-label-wrapper,
 .skills-window .right-column .points-header-wrapper {
   color: var(--df-gold-bright);
-  background-color: #151719;
-  background-image: linear-gradient(90deg, #2a1b12 0, #2a2722 14%, #111416 50%, #2a2722 86%, #2a1b12 100%);
-  border-color: #76502d;
-  box-shadow: inset 0 1px #a87842, inset 0 -1px #070809;
 }
 
 .skills-window .left-column .skills-wrapper .description-wrapper,
@@ -1068,11 +1061,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .interface-element-bottom-bar-background,
 .interface-element-bottom-bar-background-stretch {
   color: var(--df-ivory);
-  background-color: #171214;
-  background-image: linear-gradient(180deg, #351b1f 0, #1c1416 48%, #0b0d0e 100%);
-  border-color: #78512d;
-  border-image: none;
-  box-shadow: inset 0 1px #a7733d, inset 0 -2px 5px #000c;
 }
 
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper {
@@ -1106,20 +1094,11 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .interface-element-active-card-background,
 .interface-element-active-card-background-stretch {
   color: #fff0cf;
-  background-color: #321318;
-  background-image: linear-gradient(#5c252c 0, #301318 48%, #111315 100%);
-  border-color: #9b7040;
-  border-image: none;
-  box-shadow: inset 0 0 0 1px #120708, inset 0 1px #c08d50, inset 0 -2px 5px #000a;
 }
 
 .interface-element-card-background,
 .interface-element-card-background-stretch {
   color: var(--df-muted);
-  background-color: #151719;
-  background-image: linear-gradient(#302d29 0, #17191a 46%, #0a0c0d 100%);
-  border-color: #594229;
-  box-shadow: inset 0 0 0 1px #070809, inset 0 1px #6e5638;
 }
 
 .interface-element-border-window-header-middle,
@@ -1133,12 +1112,7 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .interface-element-header-3,
 .interface-element-table-3 .table-header-tr td {
   color: var(--df-gold-bright);
-  background-color: #151719;
-  background-image: linear-gradient(90deg, #291a11 0, #2b2721 14%, #111416 50%, #2b2721 86%, #291a11 100%);
-  border-color: #76502d;
-  border-image: none;
   text-shadow: 0 1px 2px #000;
-  box-shadow: inset 0 1px #a87842, inset 0 -1px #070809;
 }
 
 .interface-element-header-1,
@@ -1152,29 +1126,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .addon-header {
   color: var(--df-gold-bright);
   text-shadow: 0 1px 2px #000;
-}
-
-.layer.interface-layer .positioner.top .hud-container .map_ball {
-  background-image: none;
-  border: 1px solid #8b6638;
-  border-radius: 50%;
-  box-shadow: inset 0 0 3px #000, 0 0 0 1px #050606;
-}
-
-.layer.interface-layer .positioner.top .hud-container .map_ball.green {
-  background-color: #39784a;
-}
-
-.layer.interface-layer .positioner.top .hud-container .map_ball.yellow {
-  background-color: #b18b31;
-}
-
-.layer.interface-layer .positioner.top .hud-container .map_ball.red {
-  background-color: #8c3037;
-}
-
-.layer.interface-layer .positioner.top .hud-container .map_ball.orange {
-  background-color: #a45d2e;
 }
 
 :root {
