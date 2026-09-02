@@ -1,0 +1,4181 @@
+{
+  "scope": "Native templates with representative footer controls; local Chromium.",
+  "results": [
+    {
+      "name": "skills-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "skills-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "loot-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 367,
+          "bottom": 391
+        },
+        "bar": {
+          "top": 362,
+          "bottom": 396
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 333.29998779296875,
+          "bottom": 354.8999938964844
+        },
+        "bar": {
+          "top": 328.79998779296875,
+          "bottom": 359.3999938964844
+        },
+        "text": {
+          "x": 0,
+          "y": 0.81561279296875
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 306.3399963378906,
+          "bottom": 326.0199890136719
+        },
+        "bar": {
+          "top": 302.239990234375,
+          "bottom": 330.1199951171875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 367,
+          "bottom": 391
+        },
+        "bar": {
+          "top": 362,
+          "bottom": 396
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 333.29998779296875,
+          "bottom": 354.8999938964844
+        },
+        "bar": {
+          "top": 328.79998779296875,
+          "bottom": 359.3999938964844
+        },
+        "text": {
+          "x": 0.0000152587890625,
+          "y": 0.81561279296875
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 306.3399963378906,
+          "bottom": 326.0199890136719
+        },
+        "bar": {
+          "top": 302.239990234375,
+          "bottom": 330.1199951171875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 367,
+          "bottom": 391
+        },
+        "bar": {
+          "top": 362,
+          "bottom": 396
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 333.29998779296875,
+          "bottom": 354.8999938964844
+        },
+        "bar": {
+          "top": 328.79998779296875,
+          "bottom": 359.3999938964844
+        },
+        "text": {
+          "x": 0,
+          "y": 0.81561279296875
+        }
+      }
+    },
+    {
+      "name": "console-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 306.3399963378906,
+          "bottom": 326.0199890136719
+        },
+        "bar": {
+          "top": 302.239990234375,
+          "bottom": 330.1199951171875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "mails-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.0000152587890625,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0.0000152587890625,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "friend-enemy-list",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "auction-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.0000152587890625,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "change-outfit",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "divide-and-color-edit",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 366,
+          "bottom": 390
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 332.3999938964844,
+          "bottom": 354
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 305.5199890136719,
+          "bottom": 325.20001220703125
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 366,
+          "bottom": 390
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 332.3999938964844,
+          "bottom": 354
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 305.5199890136719,
+          "bottom": 325.20001220703125
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 366,
+          "bottom": 390
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 332.3999938964844,
+          "bottom": 354
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "settings-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 305.5199890136719,
+          "bottom": 325.20001220703125
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "battle-pass-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.00000762939453125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.0000152587890625,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "matchmaking-summary",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "achievement-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "achievement-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "matchmaking-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": null
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "left-grouped-list-and-right-description-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 360,
+          "bottom": 384
+        },
+        "bar": {
+          "top": 356,
+          "bottom": 390
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 327,
+          "bottom": 348.6000061035156
+        },
+        "bar": {
+          "top": 323.3999938964844,
+          "bottom": 354
+        },
+        "text": {
+          "x": 0,
+          "y": 0.815643310546875
+        }
+      }
+    },
+    {
+      "name": "world-window",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 300.6000061035156,
+          "bottom": 320.2799987792969
+        },
+        "bar": {
+          "top": 297.32000732421875,
+          "bottom": 325.20001220703125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 374,
+          "bottom": 398
+        },
+        "bar": {
+          "top": 370,
+          "bottom": 404
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000024414062500088818,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 339.6000061035156,
+          "bottom": 361.1999816894531
+        },
+        "bar": {
+          "top": 336,
+          "bottom": 366.6000061035156
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 312.0799865722656,
+          "bottom": 331.760009765625
+        },
+        "bar": {
+          "top": 308.79998779296875,
+          "bottom": 336.67999267578125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 374,
+          "bottom": 398
+        },
+        "bar": {
+          "top": 370,
+          "bottom": 404
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000024414062500088818,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 339.6000061035156,
+          "bottom": 361.1999816894531
+        },
+        "bar": {
+          "top": 336,
+          "bottom": 366.6000061035156
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 312.0799865722656,
+          "bottom": 331.760009765625
+        },
+        "bar": {
+          "top": 308.79998779296875,
+          "bottom": 336.67999267578125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 374,
+          "bottom": 398
+        },
+        "bar": {
+          "top": 370,
+          "bottom": 404
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000024414062500088818,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 339.6000061035156,
+          "bottom": 361.1999816894531
+        },
+        "bar": {
+          "top": 336,
+          "bottom": 366.6000061035156
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "premium-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 312.0799865722656,
+          "bottom": 331.760009765625
+        },
+        "bar": {
+          "top": 308.79998779296875,
+          "bottom": 336.67999267578125
+        },
+        "text": {
+          "x": 0,
+          "y": 0.7431182861328125
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "addons-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 250,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 250,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 250,
+      "scale": 0.82,
+      "left": 0.000001183871564336414,
+      "right": 0.000008813266095586414,
+      "bottom": 0.000001052330280248981,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 520,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 520,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 520,
+      "scale": 0.82,
+      "left": 0.0000010899135052255815,
+      "right": 0.0000065394810260244185,
+      "bottom": 0.000001089913504337403,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 725,
+      "scale": 1,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 376,
+          "bottom": 400
+        },
+        "bar": {
+          "top": 372,
+          "bottom": 406
+        },
+        "text": {
+          "x": 0,
+          "y": 0.90625
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 725,
+      "scale": 0.9,
+      "left": 0,
+      "right": 0,
+      "bottom": 0.000006103515624911182,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 341.3999938964844,
+          "bottom": 363
+        },
+        "bar": {
+          "top": 337.79998779296875,
+          "bottom": 368.3999938964844
+        },
+        "text": {
+          "x": 0.000030517578125,
+          "y": 0.8156280517578125
+        }
+      }
+    },
+    {
+      "name": "news-panel",
+      "width": 725,
+      "scale": 0.82,
+      "left": 9.225084891539836e-7,
+      "right": 0.000023810692082903984,
+      "bottom": 0.0000011568755104995887,
+      "frame": "url(\"http://127.0.0.1:63967/theme/img/gui/dwarven-forge/v118/window-frame-footer.svg\")",
+      "visible": 1,
+      "control": {
+        "inside": true,
+        "hit": true,
+        "rect": {
+          "top": 313.7200012207031,
+          "bottom": 333.3999938964844
+        },
+        "bar": {
+          "top": 310.44000244140625,
+          "bottom": 338.32000732421875
+        },
+        "text": {
+          "x": 0,
+          "y": 0.743133544921875
+        }
+      }
+    }
+  ]
+}

@@ -2390,3 +2390,555 @@ textarea,
 
 /* The latency badge no longer occupies the exhaustion counter's gap. */
 .bottom-panel-of-bottom-positioner .lagmeter { left: 618px; }
+.interface-element-middle-1-background,
+.interface-element-middle-2-background,
+.interface-element-middle-3-background,
+.interface-element-middle-4-background,
+.interface-element-middle-1-background-stretch,
+.interface-element-middle-2-background-stretch,
+.interface-element-middle-3-background-stretch {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/window-sides.svg);
+  border-image-slice: 0 11;
+  border-image-repeat: stretch;
+}
+
+.border-window:not(.transparent) {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/window-frame.svg);
+}
+
+.interface-element-bottom-bar-background,
+.interface-element-bottom-bar-background-stretch {
+  border-image: linear-gradient(#5c2026 0%, #351418 24%, #241114 70%, #120c0d 100%) 0 20 fill stretch;
+  background: none;
+  box-shadow: none;
+}
+
+.border-window:not(.transparent) > .c-window__bottom-bar > .interface-element-bottom-bar-background-stretch {
+  inset: 0 0 1px;
+  border: solid transparent;
+  border-width: 0 20px;
+  border-image: linear-gradient(#5c2026 0%, #351418 24%, #241114 70%, #120c0d 100%) 0 20 fill stretch;
+  background: none;
+  box-shadow: none;
+}
+
+.tabs-nav {
+  align-items: stretch;
+  padding: 0;
+  overflow: hidden;
+}
+
+.tabs-nav > .card,
+.tabs-nav .cards-header > .card {
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 15px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px #090b0c;
+  background: linear-gradient(#2b2b29, #151718 60%, #0d0f10);
+}
+
+.tabs-nav > .card.active,
+.tabs-nav > .card:not(.disabled):hover,
+.tabs-nav .cards-header > .card.active,
+.tabs-nav .cards-header > .card:not(.disabled):hover {
+  background: linear-gradient(#533039, #29191d);
+  box-shadow: inset 0 0 0 1px #76523d;
+}
+
+.tabs-nav .cards-header {
+  display: flex;
+}
+
+.quest-window .cards-header-wrapper,
+.world-window__tabs {
+  left: 0;
+  right: 0;
+}
+
+.world-window__info {
+  color: #e4d5bc;
+  background: linear-gradient(#5c2026 0%, #351418 24%, #241114 70%, #120c0d 100%);
+  border-color: #655943;
+}
+
+.console-wnd.border-window > .content {
+  border-width: 0;
+}
+
+.console-wnd .console-background {
+  left: 0;
+  right: 0;
+  border-width: 0;
+}
+
+.console-window .console-bottom-panel-wrapper {
+  left: 0;
+  right: 0;
+}
+
+.premium-panel .product-kind {
+  padding: 12px 0;
+}
+
+.premium-panel .product-kind .premium-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-window .left-column {
+  box-sizing: border-box;
+  left: -10px;
+  width: 385px;
+  border-right: 1px solid #655943;
+}
+
+.border-window:has(.skills-window) > .content {
+  padding: 0;
+  overflow: visible;
+}
+
+.border-window:not(.transparent):has(.skills-window) {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/window-frame-footer.svg);
+}
+
+.skills-window .bottom-part .button,
+.skills-window .bottom-part .button .label {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.skills-window .right-column {
+  left: 375px;
+  right: -10px;
+}
+
+.skills-window :is(.left-column, .right-column) .middle-graphic {
+  border: 0;
+  border-image: none;
+}
+
+.skills-window .left-column .list-label-wrapper,
+.skills-window .right-column .points-header-wrapper {
+  left: 0;
+  right: 0;
+  height: 40px;
+  box-sizing: border-box;
+  background: linear-gradient(#5c2026 0%, #351418 24%, #241114 70%, #120c0d 100%);
+  border-top: 1px solid #806648;
+  border-bottom: 1px solid #806648;
+}
+
+.skills-window :is(.list-label-wrapper, .points-header-wrapper) > .interface-element-active-card-background-stretch,
+.skills-window .list-border {
+  display: none;
+}
+
+.skills-window .left-column .list-label-wrapper .list-label,
+.skills-window .right-column .points-header-wrapper .skills-points-wrapper {
+  top: 0;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.skills-window .left-column .list-label-wrapper .list-label .label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.skills-window .left-column .skills-wrapper {
+  top: 40px;
+}
+
+.skills-window .left-column .skills-wrapper .description-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  left: 0;
+  background: #211d1d;
+  border: solid #4b4237;
+  border-width: 1px 0;
+}
+
+.skills-window .skill .icon-background {
+  background: linear-gradient(#353735, #16191a);
+  border-color: #70614b;
+}
+
+.skills-window .skill .val-background {
+  border-color: #70614b;
+}
+
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty {
+  color: #e4d5bc;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.skills-window .bottom-part {
+  left: -10px;
+  right: -10px;
+  bottom: -28px;
+  height: 45px;
+}
+
+.skills-window .bottom-part > .interface-element-bottom-bar-background-stretch {
+  bottom: 0;
+}
+
+body[data-res="1024x768"] .layer.interface-layer .positioner.bottom .content .bottom-left-additional,
+body[data-res="1024x768"] .layer.interface-layer .positioner.bottom .content .bottom-right-additional {
+  bottom: 36px;
+}
+
+.interface-element-one-item-slot-decor,
+.extraction__item,
+.enhance__item {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+}
+
+:is(.interface-element-one-item-slot-decor, .extraction__item, .enhance__item) > .item {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-panel-of-bottom-positioner {
+  bottom: 4px;
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter {
+  left: 407px;
+  bottom: 26px;
+  height: 22px;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.mana, .energy) .background {
+  background: none;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.mana, .energy) .overlay {
+  top: 4px;
+  left: 11px;
+  width: 166px;
+  height: 11px;
+  border-radius: 2px;
+  background: transparent;
+  border: 1px solid #9a7e4d;
+  box-shadow: inset 0 0 0 1px #070b0e;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow {
+  top: 6px;
+  left: 13px;
+  width: 162px;
+  height: 7px;
+  background: #13120d;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana {
+  top: 16px;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .overlay {
+  left: 78px;
+  transform: none;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow {
+  left: 80px;
+  margin-top: 0;
+  background: #09161b;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .bar-overflow .inner {
+  height: 100%;
+  background: linear-gradient(#f1d975, #b09132 45%, #66501a);
+  box-shadow: none;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow .inner {
+  background: linear-gradient(#78cce2, #268aac 45%, #124760);
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .values {
+  box-sizing: border-box;
+  top: 1px;
+  right: 18px;
+  width: 48px;
+  height: 18px;
+  line-height: 16px;
+  background: #111516;
+  border: 1px solid #9a7e4d;
+  border-radius: 3px;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .values {
+  left: 19px;
+}
+
+.layer.interface-layer .positioner.bottom .bg {
+  background: #1d1415;
+}
+
+.layer.interface-layer .positioner.bottom .bg-additional-widget-left,
+.layer.interface-layer .positioner.bottom .bg-additional-widget-right {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/widget-extension.svg);
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item {
+  background-image: none;
+  background-color: #170f13;
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 4px;
+  width: 64px;
+  height: 61px;
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/premium-atlas.png);
+  background-size: 344px 433.7px;
+  background-position: var(--art-x) var(--art-y);
+  background-repeat: no-repeat;
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item .premium-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 7px;
+  line-height: 14px;
+}
+
+.premium-item.chest { --art-x: -18px; --art-y: -17px; }
+.premium-item.upgrades { --art-x: -103px; --art-y: -17px; }
+.premium-item.stamina { --art-x: -185px; --art-y: -16px; }
+.premium-item.gold-shop { --art-x: -264px; --art-y: -17px; }
+.premium-item.boots { --art-x: -17px; --art-y: -103px; }
+.premium-item.helmets { --art-x: -101px; --art-y: -103px; }
+.premium-item.gloves { --art-x: -183px; --art-y: -103px; }
+.premium-item.armor { --art-x: -262px; --art-y: -103px; }
+.premium-item.necklaces { --art-x: -15px; --art-y: -189px; }
+.premium-item.rings { --art-x: -101px; --art-y: -189px; }
+.premium-item.for-you { --art-x: -184px; --art-y: -189px; }
+.premium-item.teleports { --art-x: -263px; --art-y: -188px; }
+.premium-item.consumtable { --art-x: -15px; --art-y: -274px; }
+.premium-item.pets { --art-x: -101px; --art-y: -274px; }
+.premium-item.outfits { --art-x: -184px; --art-y: -274px; }
+.premium-item.bags { --art-x: -262px; --art-y: -272px; }
+.premium-item.potions { --art-x: -14px; --art-y: -356px; }
+.premium-item.ornamentation { --art-x: -100px; --art-y: -357px; }
+.premium-item.sales { --art-x: -184px; --art-y: -360px; }
+.premium-item.blessing { --art-x: -263px; --art-y: -359px; }
+.border-window:not(.transparent):is(
+  .c-window--with-bottom-bar,
+  .global-addons-exist:has(.console-window),
+  :has(
+    .skills-window > .bottom-part,
+    .loot-window > .bottom-wrapper,
+    .mails-window > .bottom-mail-panel,
+    .friend-enemy-list > .bottom-friend-panel,
+    .auction-window > .bottom-part,
+    .divide-panel > .bottom-part,
+    .change-outfit > .bottom-change-outfit-panel,
+    .divide-and-color-edit > .bottom-bar,
+    .settings-window > .bottom-bar,
+    .depo > .bottom-bar,
+    .matchmaking-summary > .bottom-panel-graphics,
+    .achievement-panel > .bottom-panel-graphics,
+    .matchmaking-panel > .bottom-panel-graphics,
+    .world-window .bottom-bar,
+    .left-grouped-list-and-right-description-window > .bottom-row-panel,
+    .battle-pass-window > .bottom-row-panel
+  )
+) {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/window-frame-footer.svg);
+
+  & > .content {
+    overflow: visible;
+  }
+
+  & > .c-window__bottom-bar {
+    display: block;
+    pointer-events: none;
+    z-index: 0;
+    left: -10px;
+    right: -10px;
+    bottom: -28px;
+    height: 34px;
+  }
+
+  & > .c-window__bottom-bar > .interface-element-bottom-bar-background-stretch {
+    inset: 0;
+    border: solid transparent;
+    border-width: 0 20px;
+    border-image: linear-gradient(#5c2026 0%, #351418 24%, #241114 70%, #120c0d 100%) 0 20 fill stretch;
+    background: none;
+    box-shadow: none;
+  }
+
+  & > .c-window__bottom-bar > :not(.interface-element-bottom-bar-background-stretch, .disable, .disabled, :disabled) {
+    pointer-events: auto;
+  }
+
+  & > .c-window__bottom-bar,
+  & > .content :is(
+    .skills-window > .bottom-part,
+    .loot-window > .bottom-wrapper,
+    .console-window > .console-bottom-panel-wrapper,
+    .mails-window > .bottom-mail-panel,
+    .friend-enemy-list > .bottom-friend-panel,
+    .auction-window > .bottom-part,
+    .divide-panel > .bottom-part,
+    .change-outfit > .bottom-change-outfit-panel,
+    .divide-and-color-edit > .bottom-bar,
+    .settings-window > .bottom-bar,
+    .depo > .bottom-bar,
+    .matchmaking-summary > .bottom-panel-graphics,
+    .achievement-panel > .bottom-panel-graphics,
+    .matchmaking-panel > .bottom-panel-graphics,
+    .world-window .bottom-bar,
+    .left-grouped-list-and-right-description-window > .bottom-row-panel,
+    .battle-pass-window > .bottom-row-panel
+  ) {
+    height: 34px;
+    bottom: -28px;
+
+    &:not(.c-window__bottom-bar) {
+      z-index: 1;
+    }
+
+    & .button {
+      box-sizing: border-box;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      text-align: center;
+      vertical-align: middle;
+      height: 24px;
+      min-height: 0;
+      line-height: 1.15;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+
+    & .button .label {
+      box-sizing: border-box;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 0;
+      padding: 0 8px;
+      font-size: 12px;
+      line-height: 1.15;
+      text-align: center;
+    }
+
+    & .button::before {
+      inset: 2px;
+    }
+
+    & input {
+      pointer-events: auto;
+      box-sizing: border-box;
+      height: 24px;
+      line-height: 22px;
+    }
+
+    & > :is(.start-lvl-wrapper, .stop-lvl-wrapper, .start-lvl, .stop-lvl, .choose-prof-wrapper, .choose-item-type-wrapper, .choose-prof, .observe-quest-button, .do-recipe, .auction-off-btn-wrapper, .auction-renew-btn-wrapper) {
+      top: 5px;
+    }
+
+    & > .filter-label {
+      top: 9px;
+    }
+
+    &:not(.c-window__bottom-bar) > .interface-element-bottom-bar-background-stretch {
+      display: none;
+    }
+  }
+
+  & > .content .world-window .bottom-bar {
+    bottom: -22px;
+  }
+
+  & > .content .console-window > .console-bottom-panel-wrapper {
+    bottom: -36px;
+  }
+
+  & .console-window > .console-bottom-panel-wrapper > .button {
+    bottom: 5px;
+  }
+
+  & .skills-window :is(.left-column, .right-column) {
+    bottom: 5px;
+  }
+
+  & .skills-window .bottom-part .MB-wrapper {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    bottom: 5px;
+  }
+
+  & .skills-window .bottom-part .MB-icon {
+    flex: 0 0 32px;
+    transform: scale(.75);
+  }
+
+  & .skills-window .bottom-part .bottom-right {
+    bottom: 5px;
+  }
+
+  & .premium-footer {
+    gap: 6px;
+    padding: 0 6px;
+  }
+
+  & .premium-footer__label {
+    margin-left: 34px;
+    font-size: 11px;
+  }
+
+  & .premium-footer__chest {
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%) scale(.45);
+    transform-origin: left center;
+  }
+
+  & .premium-footer__buttons {
+    display: flex;
+    gap: 4px;
+  }
+
+  & .premium-footer__buttons .button + .button {
+    margin-left: 0;
+  }
+
+  & .premium-footer__buttons .button .label {
+    padding: 0 5px;
+  }
+}
