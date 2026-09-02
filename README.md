@@ -1,4 +1,4 @@
-# Margonem Dwarven Forge UI 1.0.20
+# Margonem Dwarven Forge UI 1.0.21
 
 Dwarven Forge przebudowuje klasyczny interfejs Margonem w stylu mrocznej krasnoludzkiej kuźni. Motyw używa czernionej stali, starego brązu, głębokiego burgundu, ciemnego drewna i oszczędnych turkusowych akcentów.
 
@@ -20,13 +20,14 @@ Userscript dołącza wersjonowany arkusz CSS i podmienia obraz natywnego znaczni
 - walka, zadania, kalendarze i okna systemowe;
 - kolory tekstu, nagłówków, formularzy oraz stanów aktywnych i nieaktywnych.
 
-Wersja 1.0.20 łączy ramy i nagłówki okien w jeden skalowalny system, poprawia HUD-y, widgety, małe dialogi, kratki przedmiotów oraz paski postępu. Motyw używa jednej czcionki Segoe UI i zachowuje natywne grafiki postaci, NPC oraz walki.
+Wersja 1.0.21 łączy ramy i nagłówki okien w jeden skalowalny system, poprawia HUD-y, widgety, małe dialogi, kratki przedmiotów oraz paski postępu. Motyw używa jednej czcionki Segoe UI i zachowuje natywne grafiki postaci, NPC oraz walki.
 
 ## Struktura
 
 - `install/dwarven-forge.user.js` — instalator motywu;
 - `css/dwarven-forge.css` — produkcyjny arkusz stylów;
-- `assets-production/` — zasoby zachowujące strukturę hostów gry;
+- `assets-production/img/` — grafiki motywu, bez pośredniego folderu świata gry;
+- `assets-production/micc.garmory-cdn.cloud/` — pozostałe zasoby z CDN gry;
 - `docs/` — raporty kontroli wymiarów, klatek i kompilacji.
 
 ## Aktualizacja
