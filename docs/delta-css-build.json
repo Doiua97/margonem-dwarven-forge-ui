@@ -1,13 +1,18 @@
 {
   "source_bytes": 804535,
-  "delta_bytes": 105537,
-  "asset_rules": 533,
-  "custom_assets_included": 101,
-  "custom_assets_matched": 100,
+  "delta_bytes": 101949,
+  "asset_rules": 516,
+  "custom_assets_included": 96,
+  "custom_assets_matched": 95,
   "unmatched_assets": [
     "/img/gui/stats-scroll-bar.png"
   ],
   "excluded_functional_sprites": [
-    "/img/gui/chat-sprite.png"
+    "/img/draconiteIconNormal.gif",
+    "/img/draconite_small.gif",
+    "/img/goldIconNormal.png",
+    "/img/gui/chat-sprite.png",
+    "/img/gui/draconite_small.gif",
+    "/img/gui/item_frames/frames/item_frames.png"
   ]
 }
