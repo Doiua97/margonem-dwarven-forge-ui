@@ -720,7 +720,8 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 
 .border-window:not(.transparent) {
   background-color: #111416;
-  background-image: radial-gradient(circle at 50% 0, #28211b 0, #151719 45%, #090b0c 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
 .border-window .content,
@@ -728,7 +729,8 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .border-window.mAlert-mobile-layer .paper-background {
   color: var(--df-ivory);
   background-color: #111315;
-  background-image: linear-gradient(135deg, #1c1a18 0, #101315 45%, #171210 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
 .border-window .content a {
@@ -737,10 +739,7 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 
 .border-window .header-label-positioner .header-label,
 .trade-window header .h_background .middle {
-  background-color: #17191a;
-  background-image: linear-gradient(#34302b 0, #17191a 28%, #090b0c 72%, #251a12 100%);
-  border-color: #76502d;
-  box-shadow: inset 0 1px #b88950, inset 0 2px #4c3825, inset 0 -1px #050606, 0 1px 4px #000;
+  color: var(--df-gold-bright);
 }
 
 .border-window .header-label-positioner .header-label .text,
@@ -941,7 +940,8 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .skills-window .right-column .scroll-pane {
   color: var(--df-ivory);
   background-color: #101315;
-  background-image: linear-gradient(145deg, #211b17 0, #111416 52%, #1e1013 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
 .skills-window .left-column .list-label-wrapper,
@@ -953,73 +953,22 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .skills-window .right-column .description-wrapper,
 .skills-window .right-column .board-wrapper {
   color: var(--df-ivory);
-  background-color: #151719;
   border-color: #513923;
 }
 
-.skills-window .left-column .skills-wrapper .description-wrapper:nth-of-type(odd) {
-  background-color: #211719;
-}
-
-:is(
-  .skills-window,
-  .quest-log,
-  .addons-panel,
-  .mail-box,
-  .mails-window,
-  .auctions,
-  .clan,
-  .trade-window,
-  .shop-wrapper,
-  .depo,
-  .friend-enemy-list,
-  .help-window2,
-  .settings-window,
-  .recovery-item,
-  .gold-shop,
-  .premium-panel,
-  .loot-window,
-  .battle-controller,
-  .showcase,
-  .item-changer,
-  .achievement-panel,
-  .news-panel,
-  .motel-window,
-  .divide-panel,
-  .left-grouped-list-and-right-description-window
-) {
+.border-window:not(.transparent),
+.left-grouped-list-and-right-description-window {
   color: var(--df-ivory);
   background-color: #101315;
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
-:is(
-  .skills-window,
-  .quest-log,
-  .addons-panel,
-  .mail-box,
-  .mails-window,
-  .auctions,
-  .clan,
-  .trade-window,
-  .shop-wrapper,
-  .depo,
-  .friend-enemy-list,
-  .help-window2,
-  .settings-window,
-  .recovery-item,
-  .gold-shop,
-  .premium-panel,
-  .loot-window,
-  .showcase,
-  .item-changer,
-  .achievement-panel,
-  .news-panel,
-  .motel-window,
-  .divide-panel,
-  .left-grouped-list-and-right-description-window
-) :is(.left-column, .right-column, .middle-column, .column) {
+:is(.border-window:not(.transparent), .left-grouped-list-and-right-description-window)
+  :is(.left-column, .right-column, .middle-column, .column) {
   background-color: #111416;
-  background-image: linear-gradient(145deg, #211b17 0, #111416 48%, #1d1113 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
   border-color: #5d4228;
 }
 
@@ -1055,7 +1004,8 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .interface-element-middle-3-background-stretch {
   color: var(--df-ivory);
   background-color: #111416;
-  background-image: linear-gradient(145deg, #211b17 0, #111416 52%, #1d1113 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
 .interface-element-bottom-bar-background,
@@ -1096,9 +1046,53 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   color: #fff0cf;
 }
 
+.interface-element-active-card-border-image,
+.interface-element-active-card-background-stretch {
+  background: none;
+  border-style: solid;
+  border-width: 0 28px;
+  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 48 fill stretch;
+}
+
+.interface-element-active-card-border-image {
+  position: relative;
+}
+
+.interface-element-active-card-background {
+  position: relative;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
+}
+
+.main-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.header-bar :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.section-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.table-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.cards-header-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.points-header-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.list-label-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.addon-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
+.interface-element-header-1-background::before,
+.interface-element-header-1-background-stretch::before {
+  content: "";
+  pointer-events: none;
+  width: 126px;
+  height: 31px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png) 0 0 no-repeat;
+  transform: translate(-50%, -50%);
+}
+
 .interface-element-card-background,
 .interface-element-card-background-stretch {
   color: var(--df-muted);
+}
+
+.interface-element-card-background,
+.interface-element-card-background-stretch {
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
+  filter: saturate(.65) brightness(.72);
 }
 
 .interface-element-border-window-header-middle,
@@ -1113,6 +1107,22 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .interface-element-table-3 .table-header-tr td {
   color: var(--df-gold-bright);
   text-shadow: 0 1px 2px #000;
+}
+
+.interface-element-header-1-background,
+.interface-element-header-1-background-stretch {
+  background: none;
+  border-style: solid;
+  border-width: 0 28px;
+  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 48 fill stretch;
+}
+
+.interface-element-header-1-background {
+  position: relative;
+}
+
+.interface-element-table-header-1-background {
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
 }
 
 .interface-element-header-1,
