@@ -2374,3 +2374,19 @@ textarea,
 .main-buttons-container .empty-slot-widget:hover {
   background: #62404a99;
 }
+/* Compact badges beside the shield's lower corners, in the gaps between
+   HP and the quick slots. Both the background and text share one rectangle. */
+.bottom-panel-pointer-bg .pointer-exp-graphic,
+.bottom-panel-pointer-bg .pointer-ttl-graphic,
+.bottom-panel-pointer-bg .pointer-exp,
+.bottom-panel-pointer-bg .pointer-ttl {
+  top: 34px;
+  width: 48px;
+}
+.bottom-panel-pointer-bg .pointer-exp-graphic,
+.bottom-panel-pointer-bg .pointer-exp { left: 22px; }
+.bottom-panel-pointer-bg .pointer-ttl-graphic,
+.bottom-panel-pointer-bg .pointer-ttl { left: 174px; }
+
+/* The latency badge no longer occupies the exhaustion counter's gap. */
+.bottom-panel-of-bottom-positioner .lagmeter { left: 618px; }

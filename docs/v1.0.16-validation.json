@@ -1,0 +1,289 @@
+{
+  "nativeClient": "main.min.ne0iTNdg.js",
+  "geometry": {
+    "title": [
+      {
+        "border": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "border": "none",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "hud": {
+      ".heroname": {
+        "x": 474,
+        "y": 367,
+        "w": 244,
+        "h": 14
+      },
+      ".map_ball": {
+        "x": 454,
+        "y": 379,
+        "w": 15,
+        "h": 15
+      },
+      ".location": {
+        "x": 479,
+        "y": 384,
+        "w": 128,
+        "h": 12
+      },
+      ".coords": {
+        "x": 611,
+        "y": 384,
+        "w": 49,
+        "h": 12
+      },
+      ".world-name": {
+        "x": 663,
+        "y": 384,
+        "w": 55,
+        "h": 12
+      },
+      ".gold-btn": {
+        "x": 476,
+        "y": 399,
+        "w": 17,
+        "h": 17
+      },
+      ".herogold": {
+        "x": 498,
+        "y": 399,
+        "w": 88,
+        "h": 15
+      },
+      ".credits-btn": {
+        "x": 597,
+        "y": 399,
+        "w": 17,
+        "h": 17
+      },
+      ".herocredits": {
+        "x": 619,
+        "y": 399,
+        "w": 99,
+        "h": 15
+      }
+    },
+    "close": [
+      {
+        "button": {
+          "x": 367,
+          "y": 25,
+          "w": 22,
+          "h": 22
+        },
+        "parent": {
+          "x": 363,
+          "y": 21,
+          "w": 30,
+          "h": 30
+        },
+        "pseudo": "12px"
+      },
+      {
+        "button": {
+          "x": 1043,
+          "y": 25,
+          "w": 22,
+          "h": 22
+        },
+        "parent": {
+          "x": 1039,
+          "y": 21,
+          "w": 30,
+          "h": 30
+        },
+        "pseudo": "12px"
+      }
+    ],
+    "hp": [
+      {
+        "value": "0",
+        "h": 0
+      },
+      {
+        "value": "50",
+        "h": 46
+      },
+      {
+        "value": "100",
+        "h": 92
+      }
+    ]
+  },
+  "exp": [
+    0,
+    0,
+    141.5,
+    141,
+    283,
+    282
+  ],
+  "seam": 0,
+  "labels": [
+    {
+      "kind": "exp",
+      "centerError": 0,
+      "outside": true,
+      "clearSlots": true,
+      "clearLag": true,
+      "clearTrack": true,
+      "localRect": {
+        "x": 232,
+        "y": 60,
+        "width": 48,
+        "height": 18
+      }
+    },
+    {
+      "kind": "ttl",
+      "centerError": 0,
+      "outside": true,
+      "clearSlots": true,
+      "clearLag": true,
+      "clearTrack": true,
+      "localRect": {
+        "x": 384,
+        "y": 60,
+        "width": 48,
+        "height": 18
+      }
+    }
+  ],
+  "surfaces": {
+    "green": "linear-gradient(90deg, rgb(17, 19, 20), rgb(33, 25, 26) 15%, rgb(39, 26, 29) 50%, rgb(33, 25, 26) 85%, rgb(17, 19, 20))",
+    "hover": "rgb(73, 37, 45)",
+    "footer": "linear-gradient(rgb(141, 121, 85) 0px, rgb(48, 51, 48) 2px, rgb(21, 23, 24) 6px, rgb(12, 14, 15) 78%, rgb(50, 51, 48) 93%, rgb(7, 8, 9))",
+    "pointerZ": "4",
+    "shieldZ": "2",
+    "premium": "url(\"http://127.0.0.1:52993/theme/img/gui/dwarven-forge/v114/premium-atlas.png\")",
+    "gif1": "url(\"http://127.0.0.1:52993/theme/img/gui/item-slot-anim-frame1.gif?v=9ba6b5fe1722a\")",
+    "gif2": "url(\"http://127.0.0.1:52993/theme/img/gui/item-slot-anim-frame2.gif?v=9ba6b5fe1722a\")"
+  },
+  "widgets": [
+    {
+      "display": "none",
+      "width": "164px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "none"
+    },
+    {
+      "display": "none",
+      "width": "260px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "none"
+    },
+    {
+      "display": "none",
+      "width": "437px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "none"
+    },
+    {
+      "display": "block",
+      "width": "164px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "matrix(-1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "display": "block",
+      "width": "260px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "matrix(-1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "display": "block",
+      "width": "437px",
+      "height": "109px",
+      "bottom": "1px",
+      "transform": "matrix(-1, 0, 0, 1, 0, 0)"
+    }
+  ],
+  "scaling": [
+    {
+      "viewport": 800,
+      "scale": 0.8,
+      "hud": 273.60003662109375,
+      "nickOffset": 50,
+      "nickWidth": 243.99999618530273
+    },
+    {
+      "viewport": 800,
+      "scale": 1,
+      "hud": 342,
+      "nickOffset": 50,
+      "nickWidth": 244
+    },
+    {
+      "viewport": 800,
+      "scale": 1.25,
+      "hud": 427.5,
+      "nickOffset": 50,
+      "nickWidth": 244
+    },
+    {
+      "viewport": 1200,
+      "scale": 0.8,
+      "hud": 273.60003662109375,
+      "nickOffset": 50,
+      "nickWidth": 243.99999618530273
+    },
+    {
+      "viewport": 1200,
+      "scale": 1,
+      "hud": 342,
+      "nickOffset": 50,
+      "nickWidth": 244
+    },
+    {
+      "viewport": 1200,
+      "scale": 1.25,
+      "hud": 427.5,
+      "nickOffset": 50,
+      "nickWidth": 244
+    },
+    {
+      "viewport": 1920,
+      "scale": 0.8,
+      "hud": 273.60003662109375,
+      "nickOffset": 50,
+      "nickWidth": 243.99999618530273
+    },
+    {
+      "viewport": 1920,
+      "scale": 1,
+      "hud": 342,
+      "nickOffset": 50,
+      "nickWidth": 244
+    },
+    {
+      "viewport": 1920,
+      "scale": 1.25,
+      "hud": 427.5,
+      "nickOffset": 50,
+      "nickWidth": 244
+    }
+  ],
+  "marker": {
+    "calls": [
+      {
+        "src": "https://fastly.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v1.0.16/assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v113/map-cross.svg",
+        "x": 92,
+        "y": 120,
+        "w": 32,
+        "h": 32,
+        "same": true
+      }
+    ],
+    "overlays": 0
+  },
+  "scope": "Local Chromium with native templates/CSS and extracted MapGoMark; not a logged-in game session."
+}
