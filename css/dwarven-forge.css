@@ -2198,3 +2198,179 @@ textarea,
 }
 .bottom-panel-of-bottom-positioner .bottom-panel-graphic { z-index: 2; }
 .bottom-panel-of-bottom-positioner .glass { background: none; }
+/* Keep numerical controls above the decorative shield and its scrollwork. */
+.bottom-panel-of-bottom-positioner .bottom-panel-pointer-bg {
+  z-index: 4;
+}
+.bottom-panel-pointer-bg .pointer-exp-graphic,
+.bottom-panel-pointer-bg .pointer-ttl-graphic {
+  box-sizing: border-box;
+  top: 8px;
+  width: 60px;
+  height: 18px;
+  background: linear-gradient(#343632, #121516 48%, #090b0c);
+  border: 1px solid #897047;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #090b0c;
+}
+.bottom-panel-pointer-bg .pointer-exp-graphic { left: -44px; top: -26px; }
+.bottom-panel-pointer-bg .pointer-ttl-graphic { left: 228px; top: -26px; }
+.bottom-panel-pointer-bg .pointer-exp,
+.bottom-panel-pointer-bg .pointer-ttl {
+  top: 8px;
+  width: 60px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 9px;
+  color: #ead8b8;
+  text-align: center;
+  white-space: nowrap;
+}
+.bottom-panel-pointer-bg .pointer-exp { left: -44px; top: -26px; }
+.bottom-panel-pointer-bg .pointer-ttl { left: 228px; top: -26px; }
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper { z-index: 4; }
+/* Both native EXP segments meet at the HUD centre, behind the HP shield. */
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .progress {
+  width: 283px;
+}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress {
+  left: -46px;
+  width: 282px;
+}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/shield-restored.png);
+  -webkit-mask: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/shield-outline.svg) 0 0 / 590px 100px no-repeat;
+  mask: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/shield-outline.svg) 0 0 / 590px 100px no-repeat;
+  image-rendering: auto;
+}
+
+/* All native footer variants retain their dimensions and controls. */
+.interface-element-bottom-bar-background,
+.interface-element-bottom-bar-background-stretch {
+  border-image: linear-gradient(#8d7955 0, #303330 2px, #151718 6px, #0c0e0f 78%, #323330 93%, #070809) 0 20 fill stretch;
+  background: none;
+  box-shadow: none;
+}
+
+/* This shared native component covers clan info, treasury, recruitment,
+   management, diplomacy, filters, and other system green panels. */
+.interface-element-green-box-background,
+.interface-element-green-box-background-stretch {
+  background: linear-gradient(90deg, #111314, #21191a 15%, #271a1d 50%, #21191a 85%, #111314);
+}
+.card-content .green-box input.default,
+.card-content .clan-list-find-panel input.default,
+.clan input.default {
+  color: #e3d2b5;
+  background: #111314;
+  border-color: #796244;
+  box-shadow: inset 0 1px 3px #000;
+}
+.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover {
+  background: #49252d;
+  color: #f0dfc1;
+}
+.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover td {
+  background-color: transparent;
+}
+.clan .card-content input.default:focus {
+  border-color: #bb9257;
+  outline: 1px solid #513331;
+}
+.clan .card-content input.default::placeholder { color: #a89780; }
+.clan .left-column .clan-info :is(.clan-name, .clan-level, .clan-member-amount, .clan-recruit-state) {
+  color: #d8c29a;
+}
+
+/* Native tab backgrounds and selection no longer use the grey client gradient. */
+.tw-tabs > div,
+.tw-one-tab,
+.tabs-nav > div,
+.tabs-nav .card {
+  background: linear-gradient(#2b2b29, #151718 60%, #0d0f10);
+  color: #c2b39d;
+}
+.tw-tabs > div.active,
+.tw-one-tab.active,
+.tw-one-tab.is-active,
+.tabs-nav > div.active,
+.tabs-nav .card.active,
+.tabs-nav .card:not(.disabled):hover {
+  background: linear-gradient(#533039, #29191d);
+  color: #f0d6a6;
+}
+
+/* Smooth high-resolution category artwork; game item sprites stay untouched. */
+.premium-panel .product-kind .premium-item-wrapper .premium-item {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/premium-atlas.png);
+  background-size: 362px 456px;
+  background-color: #181014;
+  image-rendering: auto;
+}
+.premium-panel .product-kind .premium-item-wrapper .premium-item:hover::after {
+  background-image: radial-gradient(circle, #91575b55, transparent 65%);
+}
+
+/* Small speech bubble: one frame with a separate pointer, no rectangular
+   end pieces overlapping at the lower corners. */
+.bubbledialog { filter: drop-shadow(0 2px 2px #0008); }
+.bubbledialog .bg-layer {
+  box-sizing: border-box;
+  height: calc(100% - 12px);
+  background: linear-gradient(#222526, #111314);
+  border: 1px solid #8d7955;
+  box-shadow: inset 0 0 0 2px #080a0b, inset 0 3px #42433d;
+}
+.bubbledialog .bg-layer :is(.top-frame, .bottom-frame, .left-frame, .right-frame) {
+  display: none;
+}
+.bubbledialog .bg-layer::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 10px);
+  width: 18px;
+  height: 10px;
+  background: #181b1c;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.bubbledialog .content-layer .inner { padding: 8px 8px 20px; }
+.bubbledialog .content-layer .inner .container {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 3px 5px;
+}
+.bubbledialog .content-layer .inner .container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.border-window:not(.transparent) {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/window-frame.svg);
+}
+.console-wnd.border-window > .content {
+  border-color: transparent;
+  border-image: none;
+}
+.console-window .input-wrapper input {
+  color: #e0c99e;
+}
+
+/* Surface only: native inline width/display, mirroring and widget positions stay intact. */
+.layer.interface-layer .positioner.bottom .bg {
+  background: linear-gradient(#191112, #211615 45%, #120d0e);
+  box-shadow: inset 0 1px #745936;
+}
+.layer.interface-layer .positioner.bottom .bg-additional-widget-left,
+.layer.interface-layer .positioner.bottom .bg-additional-widget-right {
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v114/widget-extension.svg) 0 0 no-repeat;
+}
+.main-buttons-container .empty-slot-widget {
+  background: #2d2023b8;
+  box-shadow: inset 0 0 0 1px #89684199, inset 0 0 5px #080a0b;
+}
+.main-buttons-container .empty-slot-widget:hover {
+  background: #62404a99;
+}

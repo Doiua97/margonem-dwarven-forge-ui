@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="437" height="109" viewBox="0 0 437 109">
+<defs><linearGradient id="panel" x2="0" y2="1"><stop stop-color="#30201e"/><stop offset=".14" stop-color="#211716"/><stop offset=".4" stop-color="#160f10"/><stop offset=".7" stop-color="#211615"/><stop offset="1" stop-color="#120d0e"/></linearGradient></defs>
+<path d="M0 109V57H15C76 57 77 1 129 1H437V109Z" fill="url(#panel)"/>
+<path d="M0 57H15C76 57 77 1 129 1H437" fill="none" stroke="#745936" stroke-width="1"/>
+</svg>
