@@ -1,22 +1,13 @@
 {
   "source_bytes": 804535,
-  "delta_bytes": 96748,
-  "asset_rules": 480,
-  "custom_assets_included": 92,
-  "custom_assets_matched": 91,
+  "delta_bytes": 105537,
+  "asset_rules": 533,
+  "custom_assets_included": 101,
+  "custom_assets_matched": 100,
   "unmatched_assets": [
     "/img/gui/stats-scroll-bar.png"
   ],
   "excluded_functional_sprites": [
-    "/img/gui/addons-icons.png",
-    "/img/gui/chat-powtarzalny-podklad.png",
-    "/img/gui/chat-sprite.png",
-    "/img/gui/clan_icons.png",
-    "/img/gui/map-icons.png",
-    "/img/gui/map-icons2.png",
-    "/img/gui/middle_graphics.png",
-    "/img/gui/notyfikacje-sprite.png",
-    "/img/gui/premium_sprite.png",
-    "/img/gui/progressbary.png"
+    "/img/gui/chat-sprite.png"
   ]
 }
