@@ -1,13 +1,15 @@
 {
-  "source_bytes": 810692,
-  "delta_bytes": 57332,
-  "asset_rules": 315,
-  "custom_assets_included": 91,
+  "source_bytes": 804535,
+  "delta_bytes": 96748,
+  "asset_rules": 480,
+  "custom_assets_included": 92,
   "custom_assets_matched": 91,
-  "unmatched_assets": [],
+  "unmatched_assets": [
+    "/img/gui/stats-scroll-bar.png"
+  ],
   "excluded_functional_sprites": [
     "/img/gui/addons-icons.png",
-    "/img/gui/buttony.png",
+    "/img/gui/chat-powtarzalny-podklad.png",
     "/img/gui/chat-sprite.png",
     "/img/gui/clan_icons.png",
     "/img/gui/map-icons.png",
@@ -15,7 +17,6 @@
     "/img/gui/middle_graphics.png",
     "/img/gui/notyfikacje-sprite.png",
     "/img/gui/premium_sprite.png",
-    "/img/gui/progressbary.png",
-    "/img/gui/skills/skill_icons_new.png"
+    "/img/gui/progressbary.png"
   ]
 }

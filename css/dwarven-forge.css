@@ -1,318 +1,483 @@
-.default-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.dialogue-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.cur?v=f616dbf3a3249),auto}
-.attack-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/3n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/3n.cur?v=f616dbf3a3249),auto}
-.pick-up-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/4n.png?v=f616dbf3a3249) 0 18,url(../assets-production/lupus.margonem.pl/img/gui/cursor/4n.cur?v=f616dbf3a3249) 0 18,auto}
-.do-action-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.clickable:not(:disabled):not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.interface-element-border-window-frame{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=f616dbf3a3249) 32 20 fill}
-.interface-element-one-item-slot-background-to-repeat{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=f616dbf3a3249)}
-.interface-element-item-slot-grid-stretch{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=f616dbf3a3249)}
-.interface-element-active-card-border-image{border-image:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 5 fill repeat stretch}
-.interface-element-active-card-background{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.interface-element-card-background{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.interface-element-wood-box-background{background:url(../assets-production/lupus.margonem.pl/img/gui/info-box-2.png?v=f616dbf3a3249) 0 0/100% 100%}
-.interface-element-card-background-stretch{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.interface-element-active-card-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 5 fill repeat stretch}
-.interface-element-bottom-bar-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/quests/quest_bar.png?v=f616dbf3a3249) 0 20 fill}
-.interface-element-header-1-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=f616dbf3a3249) 0 20 fill}
-.interface-element-header-2-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/match-bar.png?v=f616dbf3a3249) 7 14 fill}
-.interface-element-table-header-1-background{background:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=f616dbf3a3249) 0 0/100% 100%}
-.interface-element-bottom-bar-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/quests/quest_bar.png?v=f616dbf3a3249) 0 20 fill}
-.interface-element-header-1-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=f616dbf3a3249) 0 20 fill}
-.interface-element-header-2-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/match-bar.png?v=f616dbf3a3249) 7 14 fill}
-.ie-chest{background:url(../assets-production/lupus.margonem.pl/img/gui/chest.png?v=f616dbf3a3249)}
-.ie-item-slot-anim-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame1.gif?v=f616dbf3a3249) no-repeat}
-.ie-item-slot-anim-frame--frame-1{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame1.gif?v=f616dbf3a3249) no-repeat}
-.ie-item-slot-anim-frame--frame-2{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame2.gif?v=f616dbf3a3249) no-repeat}
-.show-more-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.ie-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.cost-component.gold .icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=f616dbf3a3249)}
-.cost-component.credits .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.cost-component.honor-points .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.cost-component.exp-points .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.ni-input input.default:disabled,.ni-input textarea.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.ni-input .clear-cross{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.radio-custom [type=radio]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.checkbox-custom [type=checkbox]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.tabs-nav:before{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=f616dbf3a3249) 11 13 fill}
-.tabs-nav .card:not(.disabled):not(.active):hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.color-picker .choose-color-wrapper .choose-color-bck{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.color-picker .pick-color-palette .first-column-icon .icon-to-choose-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.color-picker .pick-color-palette .first-column-color .palette-one-color,.color-picker .pick-color-palette .second-column-color .palette-one-color{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-slider__input{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.c-slider__input::-webkit-slider-thumb{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-slider__input::-moz-range-thumb{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-swiper .swiper-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-swiper .swiper-bullet{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-table .table .hover-td:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.c-table .table .item-bid-td .somebody-bid{background:url(../assets-production/lupus.margonem.pl/img/gui/triangle.png?v=f616dbf3a3249) no-repeat}
-.outfit-card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.payment-selector__option--gold .payment-selector__icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=f616dbf3a3249)}
-.payment-selector__option--credits .payment-selector__icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.item-on-transparent-list-component:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.relogger__one-world{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.who-is-here .scroll-wrapper .scroll-pane .one-other .center .battle.active{background:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=f616dbf3a3249) no-repeat}
-.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background:url(../assets-production/lupus.margonem.pl/img/away.gif?v=f616dbf3a3249)}
-.dialogue-window .content .answers li{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.dialogue-window .content .answers li div.icon{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=f616dbf3a3249) -62px -32px no-repeat}
-.enhance__r-gold-icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=f616dbf3a3249)}
-.extraction__currency--gold .icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=f616dbf3a3249)}
-.extraction__currency--credits .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.socket_composition .socket-recipes-handler{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.item-details__copy-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.popup-menu .menu-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.popup-menu .menu-item.label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.drop-down-menu-section .type-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/auctions/header_left.png?v=f616dbf3a3249)}
-.auction-but{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.auction-but.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.auction-window input.default,.auction-off-item-panel input.default{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.auction-window .left-column-auction .all-categories-auction .action-menu-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.auction-window .left-column-auction .all-categories-auction .one-category-auction{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.auction-window .main-column-auction .all-auction-section .auction-table .hover-td:hover,.auction-window .main-column-auction .all-auction-section .auction-table-header .hover-td:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.auction-window .main-column-auction .all-auction-section .auction-table .item-bid-td .somebody-bid,.auction-window .main-column-auction .all-auction-section .auction-table-header .item-bid-td .somebody-bid{background:url(../assets-production/lupus.margonem.pl/img/gui/triangle.png?v=f616dbf3a3249) no-repeat}
-.new-chat-message{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.new-chat-message .information-part .author-section.click-able,.new-chat-message .information-part .receiver-section.click-able,.new-chat-message .message-part .message-section .click-able,.new-chat-message .message-part .link.mark-message-span,.new-chat-message .message-part .linked-chat-item,.new-chat-message .message-part .chat-message-clan-link,.new-chat-message .message-part .chat-message-profile-link{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.new-chat-message .message-part.special-style-8 a:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.new-chat-message .message-part.special-style-9 a:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.chat-input-wrapper .control-wrapper .menu-card .card-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.chat-input-wrapper .control-wrapper .menu-card .card-remove{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.chat-input-wrapper .control-wrapper .menu-card .card-list .input-channel-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.chat-input-wrapper .control-wrapper .chat-config-wrapper .chat-config-wrapper-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.players-online__item:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.server-parameters__sv,.location-parameters__sv{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.code-manager .wrapper .grid .group .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.premium-panel .product-kind .premium-item-wrapper .premium-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:#183911 url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=f616dbf3a3249) no-repeat}
-.premium-panel .more-sl.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=f616dbf3a3249) -108px -577px}
-.premium-panel .promo-package.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=f616dbf3a3249) -328px -800px}
-.premium-panel .close.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=f616dbf3a3249) -4px -555px}
-.one-build .build-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.one-handheld-build{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.shop-wrapper .shop-background .outfit-pet-scene{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/pet-shop-gold.png?v=f616dbf3a3249) -315px -149px}
-.shop-wrapper .shop-background.normal-shop-zl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=f616dbf3a3249) 0 -2px}
-.shop-wrapper .shop-background.normal-shop-sl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=f616dbf3a3249) 0 -48px}
-.shop-wrapper .shop-background.pet-shop-zl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=f616dbf3a3249) 0 -2px}
-.shop-wrapper .shop-background.pet-shop-sl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=f616dbf3a3249) 0 -48px}
-.shop-wrapper .shop-content .shop-items.scrollable .scroll-pane{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=f616dbf3a3249) local}
-.shop-wrapper .shop-content .items-grid .item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.trade-window header .h_background .left{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=f616dbf3a3249) -38px -2px}
-.trade-window header .h_background .right{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=f616dbf3a3249) -91px -2px}
-.captcha-pre-info__toggler{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.captcha-toggle-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.party__list .party-member.stasis-incoming .stasis-incoming-icon{background:url(../assets-production/lupus.margonem.pl/img/away.gif?v=f616dbf3a3249) 50%}
-.party__list .party-member .party-options .give-lead,.party__list .party-member .party-options .kick-out,.party__list .party-member .party-options .party__disband{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.poll__answers-item [type=radio]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.ib-content .ib-filters .ib-filter-tab{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.button .label .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=f616dbf3a3249) -6px -3px no-repeat}
-.emo-npc-icon.i-NORMAL_QUEST{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/quest_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-DAILY_QUEST{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/daily_quest_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-INKEEPER{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/inn_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-AUCTION{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/auctions_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-MAIL{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/mail_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-DEPO,.emo-npc-icon.i-DEPO_CLAN{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/depo_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-HEAL{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/heal_mark.gif?v=f616dbf3a3249)}
-.emo-npc-icon.i-SHOP{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/shop_mark.gif?v=f616dbf3a3249)}
-.layer.interface-layer .positioner.top .bg{background:url(../assets-production/lupus.margonem.pl/img/gui/belka-gora-dol.png?v=f616dbf3a3249) 0 -61px}
-.layer.interface-layer .positioner.top .hud-container .btn-min{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.cur?v=f616dbf3a3249),auto}
-.layer.interface-layer .positioner.bottom .bg{background:url(../assets-production/lupus.margonem.pl/img/gui/belka-gora-dol.png?v=f616dbf3a3249)}
-.layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane .one-location-on-list:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.layer.interface-layer .main-column.right-column{background:url(../assets-production/lupus.margonem.pl/img/gui/chat-powtarzalny-podklad.png?v=f616dbf3a3249) -251px 0}
-.layer.interface-layer .main-column.right-column .border{background:url(../assets-production/lupus.margonem.pl/img/gui/chat-powtarzalny-podklad.png?v=f616dbf3a3249) -251px 0}
-.layer.interface-layer .main-column .extended-stats .border{background:url(../assets-production/lupus.margonem.pl/img/gui/chat-powtarzalny-podklad.png?v=f616dbf3a3249) -251px 0}
-.mm-mark-list .mm-mark-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=f616dbf3a3249)}
-.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true]{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.zoom-layer .minus .m-graph{background-image:url(../assets-production/lupus.margonem.pl/img/gui/zoom1.png?v=f616dbf3a3249)}
-.zoom-layer .plus .p-graph{background-image:url(../assets-production/lupus.margonem.pl/img/gui/zoom2.png?v=f616dbf3a3249)}
-.bottom-panel-of-bottom-positioner .hp-indicator .blood-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/hpStateSprite.png?v=f616dbf3a3249) 0 4px no-repeat}
-.bottom-panel-of-bottom-positioner .hp-indicator .blood{background:url(../assets-production/lupus.margonem.pl/img/gui/krew-klatki.png?v=f616dbf3a3249) 0 -10px}
-.button,.widget-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.button.background-draconite .label:after,.widget-button.background-draconite .label:after{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=f616dbf3a3249) -6px -3px no-repeat}
-.btn-min{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.btn-min.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.settings-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.toggle-size-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.change-visible-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.delete-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.divide-button .button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.divide-button .button .label .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=f616dbf3a3249)}
-.attach-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-msg{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.game-window-positioner .character_wrapper .builds-interface:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.game-window-positioner .character_wrapper .stats-light-mode .stats-button,.game-window-positioner .character_wrapper .stats-wrapper .stats-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.game-window-positioner .character_wrapper .pvp-btn:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.b_wrapper .left,.b_wrapper .right{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/direction.png?v=f616dbf3a3249)}
-.item .highlight.h-exist,.bottomItem .highlight.h-exist,.item .icon.h-exist,.bottomItem .icon.h-exist{background:url(../assets-production/lupus.margonem.pl/img/gui/item_frames/frames/item_frames.png?v=f616dbf3a3249)}
-.game-window-positioner .inventory_wrapper .bags-navigation .item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.inventory-grid .item .disable-icon,.equipment-wrapper .item .disable-icon,.ib-item-list .item .disable-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/X-blackoutline.gif?v=f616dbf3a3249)}
-.inventory-grid .item .choose-icon,.equipment-wrapper .item .choose-icon,.ib-item-list .item .choose-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/ok-blackoutline.gif?v=f616dbf3a3249)}
-input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.border-window .increase-opacity,.dialogue-window .increase-opacity{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=f616dbf3a3249) 32 20 fill}
-.border-window.transparent .tw-tabs>div{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window.transparent .tw-one-tab{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window.transparent .collapse{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window .content a{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window .close-button-corner-decor .close-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window .header-label-positioner{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=f616dbf3a3249) -38px -2px}
-.search-component{border-image:url(../assets-production/lupus.margonem.pl/img/gui/search.png?v=f616dbf3a3249) 5 9 23 34 fill}
-.search-component .search-x{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.gw{background-image:url(../assets-production/lupus.margonem.pl/img/exit.png?v=f616dbf3a3249)}
-.battle-controller .graphics .battle-border{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=f616dbf3a3249) 32 20 fill}
-.battle-controller .graphics .timer-graphic{background:url(../assets-production/lupus.margonem.pl/img/gui/battle/battle-panel-timer.png?v=f616dbf3a3249)}
-.battle-controller .battle-content .surrender{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-controller .battle-content .buffs-wrapper .buff{background:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=f616dbf3a3249)}
-.battle-controller .toggle-battle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.progress-bar-wrapper .background{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/progress-bar.png?v=f616dbf3a3249)}
-.progress-bar-wrapper.red .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-red.png?v=f616dbf3a3249)}
-.progress-bar-wrapper.blue .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-blue.png?v=f616dbf3a3249)}
-.progress-bar-wrapper.yellow .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-yellow.png?v=f616dbf3a3249)}
-.battle-skill{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-skill.disabled,.battle-skill.cooldown-disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.battle-window .one-warrior .warrior.grave-warrior-npc{background:url(../assets-production/lupus.margonem.pl/img/rip2.gif?v=f616dbf3a3249)}
-.battle-window .one-warrior .warrior.grave-warrior-other{background:url(../assets-production/lupus.margonem.pl/img/rip1.gif?v=f616dbf3a3249)}
-.battle-window .one-warrior .warrior .buff{background-image:url(../assets-production/lupus.margonem.pl/img/buffs.gif?v=f616dbf3a3249)}
-.battle-window .one-warrior .warrior-buffs-wrapper .buff{background:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=f616dbf3a3249)}
-.battle-window .one-warrior .current-arrow .css-arrow{background:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=f616dbf3a3249)}
-.battle-window .battlelog{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-window .battlelog div.attack{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=f616dbf3a3249) repeat-y}
-.battle-window .battlelog div.attack2{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-red2.png?v=f616dbf3a3249) repeat-y}
-.battle-window .battlelog div.neu{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-yellow2.png?v=f616dbf3a3249) repeat-y}
-.battle-summary .bottom-bar-wrapper .bottom-bar .settings-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-summary-item-wrapper .slot{background-image:url(../assets-production/lupus.margonem.pl/img/gui/item-slot.png?v=f616dbf3a3249)}
-.battlelog .scroll-pane div.attack{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=f616dbf3a3249) repeat-y}
-.battlelog .scroll-pane div.attack2{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-red2.png?v=f616dbf3a3249) repeat-y}
-.battlelog .scroll-pane div.neu{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-yellow2.png?v=f616dbf3a3249) repeat-y}
-.ansRound .unit{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper .scrollbar-wrapper .background,.scroll-wrapper.classic-bar .scrollbar-wrapper .background{background:url(../assets-production/lupus.margonem.pl/img/gui/stats-scroll-bar.png?v=f616dbf3a3249)}
-.scroll-wrapper .scrollbar-wrapper .arrow-up,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-up{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper .scrollbar-wrapper .arrow-down,.scroll-wrapper.classic-bar .scrollbar-wrapper .arrow-down{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper .scrollbar-wrapper .track .handle,.scroll-wrapper.classic-bar .scrollbar-wrapper .track .handle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-up{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper.small-bar .scrollbar-wrapper .arrow-down{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.scroll-wrapper.small-bar .scrollbar-wrapper .track .handle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.quest-box .quest-content .q_icon{background-image:url(../assets-production/lupus.margonem.pl/img/def-npc.gif?v=f616dbf3a3249)}
-.settings-window .notifications-config .scroll-wrapper .scroll-pane .all-notification .sound-notif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.settings-window .notifications-config .scroll-wrapper .scroll-pane .display-table .middle .loudly-panel .center .icon-wrapper .loudly-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.addons-panel .right-column .addon-header .img-wrapper .widget-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.one-addon-on-list{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.mails-window .cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=f616dbf3a3249) 11 13 fill}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .atachment-exist{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-money.atachment-exist .img{background:url(../assets-production/lupus.margonem.pl/img/gui/mail-gold.gif?v=f616dbf3a3249) no-repeat}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-tears.atachment-exist .img{background:url(../assets-production/lupus.margonem.pl/img/gui/draconite_small.gif?v=f616dbf3a3249) no-repeat}
-.myAutoComplete{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.bubbledialog .bg-layer .top-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/top.png?v=f616dbf3a3249) no-repeat}
-.bubbledialog .bg-layer .bottom-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/bottom.png?v=f616dbf3a3249) no-repeat}
-.bubbledialog .bg-layer .left-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/left.png?v=f616dbf3a3249) repeat-y}
-.bubbledialog .bg-layer .right-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/right.png?v=f616dbf3a3249) repeat-y}
-.bubbledialog .left .bottom-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/bottom_l.png?v=f616dbf3a3249) -9px no-repeat}
-.wanted-mini .wanted-mini-player{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.quest{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.clan-rank-edit-content .check-rank .left-ranks .one-rank .v-align,.clan-rank-edit-content .check-rank .right-ranks .one-rank .v-align{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.clan-quests-content .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.clan-skills-content .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.clan-skills-content .clan-skill-reset .button .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=f616dbf3a3249) -6px -3px no-repeat}
-.one-clan-skill .skill-icon-wrapper .skill-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/clan/clan-skills.png?v=f616dbf3a3249)}
-.chat-ban .days .banday-row{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.registration .disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.registration .check-area{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.depo .bottom-section .cards-menu .card:not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.event-calendar .background.bck-en{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-en.png?v=f616dbf3a3249) 0 -32px no-repeat}
-.event-calendar .background.bck-pl{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=f616dbf3a3249) 0 -32px no-repeat}
-.event-calendar .background .controlls .month-switch:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=f616dbf3a3249) no-repeat}
-.event-calendar-cell.en:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-en.png?v=f616dbf3a3249) no-repeat}
-.event-calendar-cell.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=f616dbf3a3249) no-repeat}
-.advent-cell.close{background:url(../assets-production/lupus.margonem.pl/img/gui/advent-windows.png?v=f616dbf3a3249) 50% 0 no-repeat}
-.advent-cell.open{background:url(../assets-production/lupus.margonem.pl/img/gui/advent-windows.png?v=f616dbf3a3249) 50% -61px no-repeat}
-.advent-cell .number{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.book .bg .right .flower .prev,.book .bg .right .flower .next{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.menu-list .menu-option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.menu-list .menu-option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=f616dbf3a3249)}
-.dropdown-menu .menu-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=f616dbf3a3249)}
-.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.skills-window .left-column .skills-wrapper .skill{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.additional-skill-panel{background:url(../assets-production/lupus.margonem.pl/img/gui/skills/skill_hot_skills.png?v=f616dbf3a3249)}
-.additional-skill-panel .graphics .additional-skill-panel-border{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=f616dbf3a3249) 32 20 fill}
-.MBEditor .mb-label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.tutorial .con .skip-tutorial-span{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-#lvl_up_notif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-#consoleNotif,#loggedPriceNotif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.tw-list-item:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.divide-list-group .group-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.one-item-on-divide-list{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.one-item-on-divide-list.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.show-eq .character-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-#cloud-tip .close .cross{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-#cloud-tip .cloud-tail{background:url(../assets-production/lupus.margonem.pl/img/gui/cloud_tail.png?v=f616dbf3a3249)}
-#cloud-tip .next{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.matchmaking-panel .all-pages .main-wnd .section table .hover-tr{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.season-reward-main .your-reward-wrapper .your-outfits .outfit-check-wrapper{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot .item-chest-border.first{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.matchmaking-ranking .ranking-tabs .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=f616dbf3a3249) 11 13 fill}
-.matchmaking-ranking .ranking-tabs .cards-header .card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.matchmaking-ranking .ranking-tabs .cards-header .active{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.matchmaking-tile{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.hidden-prof{background:url(../assets-production/lupus.margonem.pl/img/gui/professions.png?v=f616dbf3a3249)}
-.tp-scroll .right-column .scroll-wrapper .scroll-pane .mini-map-wrapper .mini-map-positioner .cords{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.rewards-calendar .month-wrapper .month-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.rewards-calendar .calendar-days-content .day-wrapper .day{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=f616dbf3a3249)}
-.rewards-calendar .calendar-days-content .day-wrapper .day .event-name{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=f616dbf3a3249)}
-.rewards-calendar .calendar-days-content .day-wrapper .day .reward .lock:after{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-icons.png?v=f616dbf3a3249)}
-.rewards-calendar .calendar-days-content .day-wrapper .day .is-open{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=f616dbf3a3249)}
-.rewards-calendar .calendar-days-content .day-wrapper .day .can-open{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=f616dbf3a3249)}
-.rewards-calendar .calendar-days-content .day-wrapper .today{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=f616dbf3a3249) 0 -27px no-repeat}
-.rewards-calendar .calendar-days-content .day-wrapper .today .event-name{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=f616dbf3a3249) no-repeat}
-.rewards-calendar .calendar-days-content .day-wrapper .today .reward .lock:after{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-icons.png?v=f616dbf3a3249) -34px 0 no-repeat}
-.rewards-calendar .calendar-days-content .day-wrapper .today .is-open{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=f616dbf3a3249) -34px -91px no-repeat}
-.rewards-calendar .calendar-days-content .day-wrapper .today .can-open{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=f616dbf3a3249) 1px -126px no-repeat}
-.require-and-receive-item .require-wrapper .require-wrapper-align .require-item.can-choose-item,.item-changer-group .grid .require-item.can-choose-item,.cost-item.can-choose-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.news-panel .news-content .news-section a{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.news-time-promo-tile .buy-button-wrapper .buy-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=f616dbf3a3249) 11 13 fill}
-.cards-header-wrapper .cards-header .card{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.cards-header-wrapper .cards-header .card:not(.disabled):hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.cards-header-wrapper .cards-header .card.active{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.cost-icon-component .cost-icon-wrapper .icon.draconite-icon{background-image:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=f616dbf3a3249)}
-.cost-icon-component .cost-icon-wrapper .icon.money-icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=f616dbf3a3249)}
-.cost-icon-component .cost-icon-wrapper .icon.honor-icon{background-image:url(../assets-production/lupus.margonem.pl/img/honorIconNormal.gif?v=f616dbf3a3249)}
-.outfit-selector-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/ReverseButton.png?v=f616dbf3a3249)}
-.outfit-selector-arrow:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/ReverseButtonHover.png?v=f616dbf3a3249)}
-.choose-outfit .choose-outfit-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.choose-outfit-window.transparent .choose-outfit .choose-outfit-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
-.sticky-tip .item-head{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-pass-window .cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=f616dbf3a3249) 11 13 fill}
-.battle-pass-window .cards-header-wrapper .cards-header .card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=f616dbf3a3249) 0 0/100% 100% no-repeat}
-.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-graphic.free-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) 0 -454px}
-.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-graphic.premium-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) 0 -383px}
-.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-icon.free-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -148px -210px}
-.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-icon.premium-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -148px -134px}
-.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .tiles-wrapper-header{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -24px -303px}
-.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .tiles-wrapper-header-time{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -24px -337px}
-.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .roll-mission-wrapper .roll-mission-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-pass-window .section .scroll-wrapper .reward-header .battle-pass-icon-wrapper .battle-pass-icon.premium-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -102px -28px}
-.battle-pass-window .section .scroll-wrapper .reward-header .battle-pass-icon-wrapper .battle-pass-icon.free-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -17px -30px}
-.battle-pass-window .bottom-row-panel .your-all-points-wrapper .all-points-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -202px -342px}
-.battle-pass-mission-tile{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -24px -135px}
-.battle-pass-mission-tile .mission-prev-button,.battle-pass-mission-tile .mission-next-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.battle-pass-mission-tile .mission-reward-wrapper{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -24px -361px}
-.battle-pass-mission-tile .mission-reward-wrapper .mission-reward-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -180px -361px}
-.mission-progress-bar .inner-wrapper .progress-bar-background{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) -24px -285px}
-.battle-pass-reward-record .battle-pass-reward-progress-barr-wrapper .vertical-progress-bar-wrapper .progress-bar-background{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=f616dbf3a3249) 0 -285px}
-.small-currency-icon .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=f616dbf3a3249) -6px -3px no-repeat}
-.small-currency-icon .small-money{background:url(../assets-production/lupus.margonem.pl/img/money_small.png?v=f616dbf3a3249) -4px -5px no-repeat}
-.copy-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.character-avatar:not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.character-avatar.inactive{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=f616dbf3a3249) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=f616dbf3a3249) 4 0,auto}
-.character-avatar.active{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=f616dbf3a3249),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=f616dbf3a3249),auto}
+.default-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.dialogue-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.cur?v=9ba6b5fe1722a),auto}
+.attack-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/3n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/3n.cur?v=9ba6b5fe1722a),auto}
+.pick-up-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/4n.png?v=9ba6b5fe1722a) 0 18,url(../assets-production/lupus.margonem.pl/img/gui/cursor/4n.cur?v=9ba6b5fe1722a) 0 18,auto}
+.do-action-cursor{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.clickable:not(:disabled):not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.interface-element-eq-item-helmet-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -270px -1037px}
+.interface-element-eq-ring-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -393px -1036px}
+.interface-element-eq-necklace-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -331px -1036px}
+.interface-element-eq-gloves-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -362px -1036px}
+.interface-element-left-hand-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -269px -1066px}
+.interface-element-right-hand-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -300px -1066px}
+.interface-element-armor-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -300px -1036px}
+.interface-element-additional-bag-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -363px -1066px}
+.interface-element-boots-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -332px -1066px}
+.interface-element-bag-eq-icon-background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -393px -1067px}
+.interface-element-border-window-frame{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=9ba6b5fe1722a) 32 20 fill}
+.interface-element-equipment .eq-slot[data-st="1"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="1"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -270px -1037px}
+.interface-element-equipment .eq-slot[data-st="2"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="2"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -393px -1036px}
+.interface-element-equipment .eq-slot[data-st="3"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="3"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -331px -1036px}
+.interface-element-equipment .eq-slot[data-st="4"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="4"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -362px -1036px}
+.interface-element-equipment .eq-slot[data-st="5"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="5"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -269px -1066px}
+.interface-element-equipment .eq-slot[data-st="6"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="6"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -300px -1036px}
+.interface-element-equipment .eq-slot[data-st="7"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="7"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -300px -1066px}
+.interface-element-equipment .eq-slot[data-st="8"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="8"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -332px -1066px}
+.interface-element-equipment .eq-slot[data-st="9"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="9"] .eq-cl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -363px -1066px}
+.interface-element-one-item-slot-background-to-repeat{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=9ba6b5fe1722a)}
+.interface-element-item-slot-grid-stretch{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=9ba6b5fe1722a)}
+.interface-element-active-card-border-image{border-image:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 5 fill repeat stretch}
+.interface-element-active-card-background{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.interface-element-card-background{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.interface-element-wood-box-background{background:url(../assets-production/lupus.margonem.pl/img/gui/info-box-2.png?v=9ba6b5fe1722a) 0 0/100% 100%}
+.interface-element-card-background-stretch{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.interface-element-active-card-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 5 fill repeat stretch}
+.interface-element-one-item-slot{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -800px -79px no-repeat}
+.interface-element-one-item-slot-decor{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -857px -828px}
+.interface-element-bottom-bar-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/quests/quest_bar.png?v=9ba6b5fe1722a) 0 20 fill}
+.interface-element-header-1-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=9ba6b5fe1722a) 0 20 fill}
+.interface-element-header-2-background{border-image:url(../assets-production/lupus.margonem.pl/img/gui/match-bar.png?v=9ba6b5fe1722a) 7 14 fill}
+.interface-element-table-header-1-background{background:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=9ba6b5fe1722a) 0 0/100% 100%}
+.interface-element-bottom-bar-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/quests/quest_bar.png?v=9ba6b5fe1722a) 0 20 fill}
+.interface-element-header-1-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/table_header.png?v=9ba6b5fe1722a) 0 20 fill}
+.interface-element-header-2-background-stretch{border-image:url(../assets-production/lupus.margonem.pl/img/gui/match-bar.png?v=9ba6b5fe1722a) 7 14 fill}
+.ie-chest{background:url(../assets-production/lupus.margonem.pl/img/gui/chest.png?v=9ba6b5fe1722a)}
+.interface-element-sound-speaker{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -725px -200px no-repeat}
+.interface-element-sound-speaker-mute{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -725px -217px no-repeat}
+.ie-item-slot-anim-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame1.gif?v=9ba6b5fe1722a) no-repeat}
+.ie-item-slot-anim-frame--frame-1{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame1.gif?v=9ba6b5fe1722a) no-repeat}
+.ie-item-slot-anim-frame--frame-2{background:url(../assets-production/lupus.margonem.pl/img/gui/item-slot-anim-frame2.gif?v=9ba6b5fe1722a) no-repeat}
+.show-more-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -845px -122px no-repeat}
+.show-more-icon.show-more{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -845px -101px no-repeat}
+.ie-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.ie-icon-edit{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -847px -153px no-repeat}
+.cost-component.gold .icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=9ba6b5fe1722a)}
+.cost-component.credits .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.cost-component.honor-points .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.cost-component.exp-points .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.ni-input input.default:disabled,.ni-input textarea.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.ni-input .clear-cross{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.radio-custom [type=radio]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.checkbox-custom [type=checkbox]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.tabs-nav:before{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=9ba6b5fe1722a) 11 13 fill}
+.tabs-nav .card:not(.disabled):not(.active):hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.color-picker .choose-color-wrapper .choose-color-bck{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.color-picker .pick-color-palette .first-column-icon .icon-to-choose-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.color-picker .pick-color-palette .first-column-color .palette-one-color,.color-picker .pick-color-palette .second-column-color .palette-one-color{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-slider__input{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.c-slider__input::-webkit-slider-thumb{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-slider__input::-moz-range-thumb{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-swiper .swiper-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-swiper .swiper-bullet{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-table .table .hover-td:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.c-table .table .item-bid-td .somebody-bid{background:url(../assets-production/lupus.margonem.pl/img/gui/triangle.png?v=9ba6b5fe1722a) no-repeat}
+.outfit-card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.payment-selector__option--gold .payment-selector__icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=9ba6b5fe1722a)}
+.payment-selector__option--credits .payment-selector__icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.item-on-transparent-list-component:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.loot-window .bottom-bar-wrapper .bottom-bar{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -13px -539px no-repeat}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.want{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -841px -46px}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.not{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -840px -15px}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.must{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -811px -46px}
+.relogger__one-world{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.who-is-here .scroll-wrapper .scroll-pane .one-other .center .battle.active{background:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=9ba6b5fe1722a) no-repeat}
+.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis.active,.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -540px -337px}
+.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background:url(../assets-production/lupus.margonem.pl/img/away.gif?v=9ba6b5fe1722a)}
+.dialogue-window .content .answers li{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.dialogue-window .content .answers li div.icon{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=9ba6b5fe1722a) -62px -32px no-repeat}
+.salvage__arrows:before,.salvage__arrows:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -849px -107px no-repeat}
+.enhance__r-gold-icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=9ba6b5fe1722a)}
+.extraction__arrows:before,.extraction__arrows:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -849px -107px no-repeat}
+.extraction__currency--gold .icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=9ba6b5fe1722a)}
+.extraction__currency--credits .icon{background:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.socket_composition .socket-recipes-handler{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.item-details__copy-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -772px -202px}
+.popup-menu .menu-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.popup-menu .menu-item.label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.drop-down-menu-section .content-wrapper .item-category-wrapper .drop-down-menu-item.selected{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.drop-down-menu-section .state-of-type{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.drop-down-menu-section .type-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/auctions/header_left.png?v=9ba6b5fe1722a)}
+.auction-but{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.auction-but.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.auction-window input.default,.auction-off-item-panel input.default{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.auction-window .left-column-auction .all-categories-auction .action-menu-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.auction-window .main-column-auction .all-auction-section .auction-table .hover-td:hover,.auction-window .main-column-auction .all-auction-section .auction-table-header .hover-td:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.auction-window .main-column-auction .all-auction-section .auction-table .item-bid-td .somebody-bid,.auction-window .main-column-auction .all-auction-section .auction-table-header .item-bid-td .somebody-bid{background:url(../assets-production/lupus.margonem.pl/img/gui/triangle.png?v=9ba6b5fe1722a) no-repeat}
+.auction-observe-action .observe-img{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -862px -1077px no-repeat}
+.auction-observe-action.is-observed .observe-img{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -214px -80px no-repeat}
+.new-chat-message{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.new-chat-message .information-part .author-section.click-able,.new-chat-message .information-part .receiver-section.click-able,.new-chat-message .message-part .message-section .click-able,.new-chat-message .message-part .link.mark-message-span,.new-chat-message .message-part .linked-chat-item,.new-chat-message .message-part .chat-message-clan-link,.new-chat-message .message-part .chat-message-profile-link{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.new-chat-message .message-part.special-style-8 a:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.new-chat-message .message-part.special-style-9 a:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.chat-channel-card-wrapper .chat-channel-card .chat-channel-card-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.chat-input-wrapper .control-wrapper .menu-card .card-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.chat-input-wrapper .control-wrapper .menu-card .card-remove{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -624px -117px}
+.chat-input-wrapper .control-wrapper .menu-card .card-list .input-channel-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.chat-input-wrapper .control-wrapper .chat-config-wrapper .chat-config-wrapper-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -523px -1009px}
+.players-online__item:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.server-parameters__sv,.location-parameters__sv{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.code-manager .wrapper .grid .group .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.premium-panel .product-kind .premium-item-wrapper .premium-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:#183911 url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=9ba6b5fe1722a) no-repeat}
+.premium-panel .more-sl.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=9ba6b5fe1722a) -108px -577px}
+.premium-panel .promo-package.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=9ba6b5fe1722a) -328px -800px}
+.premium-panel .close.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/premium-panel-pl.png?v=9ba6b5fe1722a) -4px -555px}
+.one-build .build-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.one-handheld-build{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.shop-wrapper .shop-background .outfit-pet-scene{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/pet-shop-gold.png?v=9ba6b5fe1722a) -315px -149px}
+.shop-wrapper .shop-background.normal-shop-zl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=9ba6b5fe1722a) 0 -2px}
+.shop-wrapper .shop-background.normal-shop-sl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=9ba6b5fe1722a) 0 -48px}
+.shop-wrapper .shop-background.pet-shop-zl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=9ba6b5fe1722a) 0 -2px}
+.shop-wrapper .shop-background.pet-shop-sl .canopy{background:url(../assets-production/lupus.margonem.pl/img/gui/shop/canopy.png?v=9ba6b5fe1722a) 0 -48px}
+.shop-wrapper .shop-content .shop-items.scrollable .scroll-pane{background:url(../assets-production/lupus.margonem.pl/img/gui/oneItemSlotToRepeat.png?v=9ba6b5fe1722a) local}
+.shop-wrapper .shop-content .items-grid .item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.trade-window header .h_background .left{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=9ba6b5fe1722a) -38px -2px}
+.trade-window header .h_background .right{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=9ba6b5fe1722a) -91px -2px}
+.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .star{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -94px -558px no-repeat}
+.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .half-star{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -122px -558px no-repeat}
+.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .empty-star{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -150px -558px no-repeat}
+.matchmaking-summary .summary-content .result-panel .middle-side .arrow.win{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -11px -570px no-repeat}
+.matchmaking-summary .summary-content .result-panel .middle-side .arrow.lose{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -11px -558px no-repeat}
+.captcha-pre-info__toggler{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.captcha-pre-info__arrow{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -849px -108px}
+.captcha-toggle-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.party__list .party-member.stasis .stasis-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -540px -337px}
+.party__list .party-member.stasis-incoming .stasis-incoming-icon{background:url(../assets-production/lupus.margonem.pl/img/away.gif?v=9ba6b5fe1722a) 50%}
+.party__list .party-member .table-wrapper .party__crown{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -591px -117px no-repeat}
+.party__list .party-member .party-options .give-lead,.party__list .party-member .party-options .kick-out,.party__list .party-member .party-options .party__disband{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.party__list .party-member .party-options .give-lead{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -641px -117px no-repeat}
+.party__list .party-member .party-options .give-lead:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -591px -117px no-repeat}
+.party__list .party-member .party-options .kick-out{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -624px -117px}
+.party__list .party-member .party-options .kick-out:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -726px -117px}
+.party__list .party-member .party-options .party__disband{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -686px -146px}
+.party__list .party-member .party-options .party__disband:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -703px -146px}
+.party .exp-percent:before{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -838px -667px no-repeat}
+.party .exp-q.count{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -872px -687px no-repeat}
+.party .exp-q.no-count{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -887px -687px no-repeat}
+.poll__answers-item [type=radio]+label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -801px -80px}
+.ib-content .ib-filters .ib-filter-tab{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.elite-timer .row .col .btn-opt{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -608px -118px}
+.elite-timer .row .col .btn-opt:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -660px -118px}
+.elite-timer-edit .info-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -499px -199px no-repeat}
+.draconite:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -807px -149px no-repeat}
+.button .label .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=9ba6b5fe1722a) -6px -3px no-repeat}
+.emo-npc-icon.i-NORMAL_QUEST{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/quest_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-DAILY_QUEST{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/daily_quest_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-INKEEPER{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/inn_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-AUCTION{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/auctions_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-MAIL{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/mail_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-DEPO,.emo-npc-icon.i-DEPO_CLAN{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/depo_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-HEAL{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/heal_mark.gif?v=9ba6b5fe1722a)}
+.emo-npc-icon.i-SHOP{background:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/shop_mark.gif?v=9ba6b5fe1722a)}
+.layer.interface-layer .positioner.top .bg{background:url(../assets-production/lupus.margonem.pl/img/gui/belka-gora-dol.png?v=9ba6b5fe1722a) 0 -61px}
+.layer.interface-layer .positioner.top .hud-container{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -87px -109px}
+.layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.layer.interface-layer .positioner.top .hud-container .map_ball{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.layer.interface-layer .positioner.top .hud-container .btn-min{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/2n.cur?v=9ba6b5fe1722a),auto}
+.layer.interface-layer .positioner.top .matchmaking-timer{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -176px -558px no-repeat}
+.layer.interface-layer .positioner.top .matchmaking-timer.green{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -208px -558px no-repeat}
+.layer.interface-layer .positioner.bottom .bg{background:url(../assets-production/lupus.margonem.pl/img/gui/belka-gora-dol.png?v=9ba6b5fe1722a)}
+.layer.interface-layer .positioner.bottom .bg-additional-widget-left{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -177px -598px no-repeat}
+.layer.interface-layer .positioner.bottom .bg-additional-widget-right{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -177px -598px no-repeat}
+.layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane .one-location-on-list:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.mm-mark-list .mm-mark-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=9ba6b5fe1722a)}
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true]{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .icon-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .icon-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-icon .remove-wrapper .remove,.alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option-with-remove .remove-wrapper .remove{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.zoom-layer .minus .m-graph{background-image:url(../assets-production/lupus.margonem.pl/img/gui/zoom1.png?v=9ba6b5fe1722a)}
+.zoom-layer .plus .p-graph{background-image:url(../assets-production/lupus.margonem.pl/img/gui/zoom2.png?v=9ba6b5fe1722a)}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -256px -870px no-repeat}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/hpStateSprite.png?v=9ba6b5fe1722a) 0 4px no-repeat}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood{background:url(../assets-production/lupus.margonem.pl/img/gui/krew-klatki.png?v=9ba6b5fe1722a) 0 -10px}
+.bottom-panel-of-bottom-positioner .glass{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -701px -1016px no-repeat}
+.bottom-panel-of-bottom-positioner .lagmeter .lag{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -450px -955px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) 38px -807px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon-up.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -12px -751px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon-down.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -12px -788px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -450px -976px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) 50px -835px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon-up.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -136px -751px no-repeat}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon-down.end-game-ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -168px -788px no-repeat}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -172px -966px no-repeat}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .overlay{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -181px -995px no-repeat}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .background{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -173px -1007px no-repeat}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .overlay{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -178px -994px no-repeat}
+.bottom-panel-pointer-bg .pointer-exp-graphic{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -704px -953px no-repeat}
+.bottom-panel-pointer-bg .pointer-ttl-graphic{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -777px -953px no-repeat}
+.button,.widget-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.button.background-draconite .label:after,.widget-button.background-draconite .label:after{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=9ba6b5fe1722a) -6px -3px no-repeat}
+.button .add-bck,.widget-button .add-bck{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) no-repeat}
+.btn-min{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.btn-min.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.settings-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -607px -117px no-repeat}
+.toggle-size-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -465px -399px no-repeat}
+.change-visible-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -867px -637px no-repeat}
+.delete-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -625px -115px}
+.divide-button .button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.divide-button .button .label .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=9ba6b5fe1722a)}
+.divide-button .button .label .icon .pause{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -716px -186px no-repeat}
+.divide-button .button .label .icon .play{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -733px -186px no-repeat}
+.widget-button .icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -144px -11px no-repeat}
+.info-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -497px -199px no-repeat}
+.attach-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -516px -398px no-repeat}
+.battle-msg{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.game-window-positioner .character_wrapper .builds-interface:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.game-window-positioner .character_wrapper .stats-light-mode .stats-button,.game-window-positioner .character_wrapper .stats-wrapper .stats-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.game-window-positioner .character_wrapper .stats-light-mode .stats-list li .stat-icon,.game-window-positioner .character_wrapper .stats-wrapper .stats-list li .stat-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.game-window-positioner .character_wrapper .pvp-btn{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -430px -369px no-repeat}
+.game-window-positioner .character_wrapper .pvp-btn:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.b_wrapper .left,.b_wrapper .right{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/direction.png?v=9ba6b5fe1722a)}
+.item .highlight.h-exist,.bottomItem .highlight.h-exist,.item .icon.h-exist,.bottomItem .icon.h-exist{background:url(../assets-production/lupus.margonem.pl/img/gui/item_frames/frames/item_frames.png?v=9ba6b5fe1722a)}
+.addHoverFromBottomItem{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -832px -390px no-repeat}
+.game-window-positioner .inventory_wrapper .bags-navigation .item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.inventory-grid .item .disable-icon,.equipment-wrapper .item .disable-icon,.ib-item-list .item .disable-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/X-blackoutline.gif?v=9ba6b5fe1722a)}
+.inventory-grid .item .choose-icon,.equipment-wrapper .item .choose-icon,.ib-item-list .item .choose-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/ok-blackoutline.gif?v=9ba6b5fe1722a)}
+input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.border-window .increase-opacity,.dialogue-window .increase-opacity{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -726px -131px}
+.border-window .increase-opacity:hover,.dialogue-window .increase-opacity:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -726px -146px}
+.border-window{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=9ba6b5fe1722a) 32 20 fill}
+.border-window.transparent .tw-tabs>div{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.border-window.transparent .tw-one-tab{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.border-window.transparent .collapse{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -557px -399px}
+.border-window .content a{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.border-window .close-button-corner-decor{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -380px -55px}
+.border-window .close-button-corner-decor .close-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -263px -79px}
+.border-window .header-label-positioner{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=9ba6b5fe1722a) -38px -2px}
+.skill-req-wrapper{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -592px -160px no-repeat}
+.profs-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.skill-icon.pl,.skill-icon.en{background:url(../assets-production/lupus.margonem.pl/img/gui/skills/skill_icons_new.png?v=9ba6b5fe1722a)}
+.search-component{border-image:url(../assets-production/lupus.margonem.pl/img/gui/search.png?v=9ba6b5fe1722a) 5 9 23 34 fill}
+.search-component .search-x{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.gw{background-image:url(../assets-production/lupus.margonem.pl/img/exit.png?v=9ba6b5fe1722a)}
+.border-window.transparent .search-component:before{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -681px -162px no-repeat}
+.battle-controller .graphics .battle-border{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=9ba6b5fe1722a) 32 20 fill}
+.battle-controller .graphics .timer-graphic{background:url(../assets-production/lupus.margonem.pl/img/gui/battle/battle-panel-timer.png?v=9ba6b5fe1722a)}
+.battle-controller .battle-content .surrender{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -857px -907px no-repeat}
+.battle-controller .battle-content .surrender:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -857px -941px no-repeat}
+.battle-controller .battle-content .buffs-wrapper .buff{background:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=9ba6b5fe1722a)}
+.battle-controller .toggle-battle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -845px -101px no-repeat}
+.battle-controller .toggle-battle.show-more{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -845px -122px no-repeat}
+.progress-bar-wrapper .background{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/progress-bar.png?v=9ba6b5fe1722a)}
+.progress-bar-wrapper.red .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-red.png?v=9ba6b5fe1722a)}
+.progress-bar-wrapper.blue .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-blue.png?v=9ba6b5fe1722a)}
+.progress-bar-wrapper.yellow .bar-percentage{background:url(../assets-production/lupus.margonem.pl/img/gui/progressBar/percent-yellow.png?v=9ba6b5fe1722a)}
+.battle-skill{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.battle-skill.disabled,.battle-skill.cooldown-disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.combo-wrapper .combo-point.all{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -875px -992px no-repeat}
+.combo-wrapper .combo-point.left{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -855px -992px no-repeat}
+.combo-wrapper .combo-point.middle{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -868px -992px no-repeat}
+.combo-wrapper .combo-point.right{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -877px -992px no-repeat}
+.combo-wrapper .combo-point.active.all{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -875px -975px no-repeat}
+.combo-wrapper .combo-point.active.left{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -855px -975px no-repeat}
+.combo-wrapper .combo-point.active.middle{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -868px -975px no-repeat}
+.combo-wrapper .combo-point.active.right{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -877px -975px no-repeat}
+.battle-window .one-warrior .warrior.grave-warrior-npc{background:url(../assets-production/lupus.margonem.pl/img/rip2.gif?v=9ba6b5fe1722a)}
+.battle-window .one-warrior .warrior.grave-warrior-other{background:url(../assets-production/lupus.margonem.pl/img/rip1.gif?v=9ba6b5fe1722a)}
+.battle-window .one-warrior .warrior .buff{background-image:url(../assets-production/lupus.margonem.pl/img/buffs.gif?v=9ba6b5fe1722a)}
+.battle-window .one-warrior .warrior-buffs-wrapper .buff{background:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=9ba6b5fe1722a)}
+.battle-window .one-warrior .current-arrow .css-arrow{background:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=9ba6b5fe1722a)}
+.battle-window .battlelog{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.battle-window .battlelog div.attack{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=9ba6b5fe1722a) repeat-y}
+.battle-window .battlelog div.attack2{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-red2.png?v=9ba6b5fe1722a) repeat-y}
+.battle-window .battlelog div.neu{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-yellow2.png?v=9ba6b5fe1722a) repeat-y}
+.one-battle-skill-tip .skill-tip-header .skill-graphic-wrapper{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -832px -352px no-repeat}
+.battle-summary .bottom-bar-wrapper .bottom-bar{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -13px -539px no-repeat}
+.battle-summary .bottom-bar-wrapper .bottom-bar .settings-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.battle-summary .bottom-bar-wrapper .bottom-bar .settings-button .icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -344px -12px no-repeat}
+.battle-banner .exp:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -214px -79px no-repeat}
+.battle-summary-item-wrapper .slot{background-image:url(../assets-production/lupus.margonem.pl/img/gui/item-slot.png?v=9ba6b5fe1722a)}
+.battle-summary-item-wrapper .change-state-btn .button .want{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -844px -48px no-repeat}
+.battle-summary-item-wrapper .change-state-btn .button .not{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -843px -18px no-repeat}
+.battle-summary-item-wrapper .change-state-btn .button .must{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -813px -48px no-repeat}
+.battlelog .scroll-pane div.attack{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=9ba6b5fe1722a) repeat-y}
+.battlelog .scroll-pane div.attack2{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-red2.png?v=9ba6b5fe1722a) repeat-y}
+.battlelog .scroll-pane div.neu{background:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-yellow2.png?v=9ba6b5fe1722a) repeat-y}
+.ansRound .unit{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.scroll-wrapper .scrollbar-wrapper .track .handle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.quest-box .quest-content .q_icon{background-image:url(../assets-production/lupus.margonem.pl/img/def-npc.gif?v=9ba6b5fe1722a)}
+.checkbox{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -484px -94px no-repeat}
+.checkbox.active{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -502px -94px no-repeat}
+.settings-window .notifications-config .scroll-wrapper .scroll-pane .all-notification .sound-notif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.settings-window .notifications-config .scroll-wrapper .scroll-pane .display-table .middle .loudly-panel .center .icon-wrapper .loudly-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.addons-panel .right-column .addon-header .img-wrapper .widget-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.one-addon-on-list{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.mails-window .cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=9ba6b5fe1722a) 11 13 fill}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .atachment-exist{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -800px -79px no-repeat}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-money.atachment-exist .img{background:url(../assets-production/lupus.margonem.pl/img/gui/mail-gold.gif?v=9ba6b5fe1722a) no-repeat}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-tears.atachment-exist .img{background:url(../assets-production/lupus.margonem.pl/img/gui/draconite_small.gif?v=9ba6b5fe1722a) no-repeat}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .is-new{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -841px -555px no-repeat}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .is-new.en{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -841px -593px no-repeat}
+.mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .clan{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -592px -139px no-repeat}
+.mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .friends{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -611px -140px no-repeat}
+.myAutoComplete{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.bubbledialog .bg-layer .top-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/top.png?v=9ba6b5fe1722a) no-repeat}
+.bubbledialog .bg-layer .bottom-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/bottom.png?v=9ba6b5fe1722a) no-repeat}
+.bubbledialog .bg-layer .left-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/left.png?v=9ba6b5fe1722a) repeat-y}
+.bubbledialog .bg-layer .right-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/right.png?v=9ba6b5fe1722a) repeat-y}
+.bubbledialog .left .bottom-frame{background:url(../assets-production/lupus.margonem.pl/img/gui/bubble/bottom_l.png?v=9ba6b5fe1722a) -9px no-repeat}
+.wanted-mini .wanted-mini-player{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.quest{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.clan .button .add-bck,.showcase .button .add-bck{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -847px -153px no-repeat}
+.check-box{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -484px -94px no-repeat}
+.check-box.active{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -503px -94px no-repeat}
+.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -805px -116px no-repeat}
+.card-content .table-header td.header-sort--asc:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -878px -192px}
+.card-content .table-header td.header-sort--desc:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -878px -201px}
+.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.clan-members-content .scroll-wrapper .scroll-pane .clan-member .add-to-group .button .add-bck{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -334px -81px no-repeat}
+.clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) 0 -867px no-repeat}
+.clan-rank-edit-content .check-rank .left-ranks .one-rank .v-align,.clan-rank-edit-content .check-rank .right-ranks .one-rank .v-align{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.clan-info-content .scroll-wrapper .scroll-pane .ribbon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -449px -821px no-repeat}
+.clan-quests-content .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.clan-skills-content .black{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.clan-skills-content .clan-skill-reset .button .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=9ba6b5fe1722a) -6px -3px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/clan/clan-skills.png?v=9ba6b5fe1722a)}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-1{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -271px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-2{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -283px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-3{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -295px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-4{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -307px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-5{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -319px no-repeat}
+.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-6{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -850px -247px no-repeat}
+.one-clan-skill .skill-clan-info .skill-progress .skill-points-wrapper .use-lvl{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -490px -336px no-repeat}
+.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.left{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -490px -315px no-repeat}
+.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.middle{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -518px -315px no-repeat}
+.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.right{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -546px -315px no-repeat}
+.chat-ban .days .banday-row{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.registration .disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.registration .check-area{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.depo .bottom-section .cards-menu .card:not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.event-calendar .background.bck-en{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-en.png?v=9ba6b5fe1722a) 0 -32px no-repeat}
+.event-calendar .background.bck-pl{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=9ba6b5fe1722a) 0 -32px no-repeat}
+.event-calendar .background .controlls .month-switch:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=9ba6b5fe1722a) no-repeat}
+.event-calendar-cell.en:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-en.png?v=9ba6b5fe1722a) no-repeat}
+.event-calendar-cell.pl:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/event-calendar-sprite-pl.png?v=9ba6b5fe1722a) no-repeat}
+.advent-cell.close{background:url(../assets-production/lupus.margonem.pl/img/gui/advent-windows.png?v=9ba6b5fe1722a) 50% 0 no-repeat}
+.advent-cell.open{background:url(../assets-production/lupus.margonem.pl/img/gui/advent-windows.png?v=9ba6b5fe1722a) 50% -61px no-repeat}
+.advent-cell .number{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.book .bg .right .flower .prev,.book .bg .right .flower .next{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.menu-list .menu-option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.menu-list .menu-option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=9ba6b5fe1722a)}
+.dropdown-menu .menu-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -849px -107px no-repeat}
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background:url(../assets-production/lupus.margonem.pl/img/gui/o.png?v=9ba6b5fe1722a)}
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.skills-window .left-column .skills-wrapper .skill{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper .icon-tip{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -499px -199px no-repeat}
+.additional-skill-panel{background:url(../assets-production/lupus.margonem.pl/img/gui/skills/skill_hot_skills.png?v=9ba6b5fe1722a)}
+.additional-skill-panel .graphics .additional-skill-panel-border{border-image:url(../assets-production/lupus.margonem.pl/img/gui/window-frame.png?v=9ba6b5fe1722a) 32 20 fill}
+.MBEditor .mb-label{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.skill .active{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -704px -125px no-repeat}
+.skill .quick-skill{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -683px -125px no-repeat}
+.tutorial .con .skip-tutorial-span{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+#lvl_up_notif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -763px -323px no-repeat}
+#consoleNotif,#loggedPriceNotif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -763px -365px no-repeat}
+#mailnotifier{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -762px -410px no-repeat}
+.ability-points .ability-content .ability-row .img-wrapper .img{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.help-profs-and-items .profs-content .help-one-prof .first-line .symbol{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.tw-list-item:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.divide-list-group .group-header{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.divide-list-group .direction{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -849px -107px no-repeat}
+.divide-list-group.active .direction{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -848px -128px no-repeat}
+.one-item-on-divide-list{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.one-item-on-divide-list.disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.show-eq .character-name{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+#cloud-tip .close .cross{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+#cloud-tip .cloud-tail{background:url(../assets-production/lupus.margonem.pl/img/gui/cloud_tail.png?v=9ba6b5fe1722a)}
+#cloud-tip .next{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.matchmaking-panel .all-pages .main-wnd .section table .hover-tr{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.matchmaking-panel .all-pages .choose-eq .choose-eq-bottom-panel .time-ball{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -296px -376px}
+.season-reward-main .your-reward-wrapper .your-outfits .outfit-check-wrapper{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot .item-chest-border.first{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.available-level,.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.available-level{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -42px -663px}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.available-level-last,.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.available-level-last{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -128px -663px}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.unavailable-level,.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.unavailable-level{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) 1px -663px}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.unavailable-level-last,.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.unavailable-level-last{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -85px -663px}
+.matchmaking-ranking .ranking-tabs .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=9ba6b5fe1722a) 11 13 fill}
+.matchmaking-ranking .ranking-tabs .cards-header .card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.matchmaking-ranking .ranking-tabs .cards-header .active{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.matchmaking-tile{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -16px -226px}
+.matchmaking-tile .matchmaking-tile-img{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
+.hidden-prof{background:url(../assets-production/lupus.margonem.pl/img/gui/professions.png?v=9ba6b5fe1722a)}
+.tp-scroll .right-column .scroll-wrapper .scroll-pane .mini-map-wrapper .mini-map-positioner .cords{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.rewards-calendar .month-wrapper .month-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.rewards-calendar .calendar-days-content .day-wrapper .day{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=9ba6b5fe1722a)}
+.rewards-calendar .calendar-days-content .day-wrapper .day .event-name{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=9ba6b5fe1722a)}
+.rewards-calendar .calendar-days-content .day-wrapper .day .reward .lock:after{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-icons.png?v=9ba6b5fe1722a)}
+.rewards-calendar .calendar-days-content .day-wrapper .day .is-open{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=9ba6b5fe1722a)}
+.rewards-calendar .calendar-days-content .day-wrapper .day .can-open{background-image:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-1.png?v=9ba6b5fe1722a)}
+.rewards-calendar .calendar-days-content .day-wrapper .today{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=9ba6b5fe1722a) 0 -27px no-repeat}
+.rewards-calendar .calendar-days-content .day-wrapper .today .event-name{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=9ba6b5fe1722a) no-repeat}
+.rewards-calendar .calendar-days-content .day-wrapper .today .reward .lock:after{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-icons.png?v=9ba6b5fe1722a) -34px 0 no-repeat}
+.rewards-calendar .calendar-days-content .day-wrapper .today .is-open{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=9ba6b5fe1722a) -34px -91px no-repeat}
+.rewards-calendar .calendar-days-content .day-wrapper .today .can-open{background:url(../assets-production/lupus.margonem.pl/img/gui/calendar-windows-2.png?v=9ba6b5fe1722a) 1px -126px no-repeat}
+body:not(.mobile-version) .item:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -832px -390px no-repeat}
+body:not(.mobile-version) .bottomItem:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -435px -56px no-repeat}
+.require-and-receive-item .require-wrapper .require-wrapper-align .require-item,.item-changer-group .grid .require-item,.cost-item{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -14px -444px no-repeat}
+.require-and-receive-item .require-wrapper .require-wrapper-align .require-item.can-choose-item,.item-changer-group .grid .require-item.can-choose-item,.cost-item.can-choose-item{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -99px -444px}
+.require-and-receive-item .require-wrapper .require-wrapper-align .require-item.can-choose-item:hover,.item-changer-group .grid .require-item.can-choose-item:hover,.cost-item.can-choose-item:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -136px -444px}
+.require-and-receive-item .arrow{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -814px -742px no-repeat}
+.require-and-receive-item .recive-wrapper .recive-wrapper-align .recive-item{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -53px -444px no-repeat}
+.news-panel .news-content .c-swiper .swiper-arrow--prev{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -641px -313px no-repeat}
+.news-panel .news-content .c-swiper .swiper-arrow--prev:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -691px -313px no-repeat}
+.news-panel .news-content .c-swiper .swiper-arrow--next{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -618px -313px no-repeat}
+.news-panel .news-content .c-swiper .swiper-arrow--next:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -668px -313px no-repeat}
+.news-panel .news-content .news-section a{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.news-time-promo-tile .buy-button-wrapper .buy-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.news-time-promo-tile .used-text-wrapper .used-text{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -211px -842px}
+.news-classic-tile .used-text{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -211px -782px}
+.quest-observe-window .quest-tracked:after{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -870px -107px no-repeat}
+.loot-preview .item-container{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -857px -828px no-repeat}
+.cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=9ba6b5fe1722a) 11 13 fill}
+.cards-header-wrapper .cards-header .card{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.cards-header-wrapper .cards-header .card:not(.disabled):hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.cards-header-wrapper .cards-header .card.active{background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.cost-icon-component .cost-icon-wrapper .icon.draconite-icon{background-image:url(../assets-production/lupus.margonem.pl/img/draconiteIconNormal.gif?v=9ba6b5fe1722a)}
+.cost-icon-component .cost-icon-wrapper .icon.money-icon{background:url(../assets-production/lupus.margonem.pl/img/goldIconNormal.png?v=9ba6b5fe1722a)}
+.cost-icon-component .cost-icon-wrapper .icon.honor-icon{background-image:url(../assets-production/lupus.margonem.pl/img/honorIconNormal.gif?v=9ba6b5fe1722a)}
+.outfit-selector-arrow{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/ReverseButton.png?v=9ba6b5fe1722a)}
+.outfit-selector-arrow:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/ReverseButtonHover.png?v=9ba6b5fe1722a)}
+.choose-outfit .choose-outfit-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.choose-outfit-window.transparent .choose-outfit .choose-outfit-wrapper:hover{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.sticky-tip .item-head{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.battle-pass-window .cards-header-wrapper .header-background-graphic{border-image:url(../assets-production/lupus.margonem.pl/img/gui/friend-header.png?v=9ba6b5fe1722a) 11 13 fill}
+.battle-pass-window .cards-header-wrapper .cards-header .card{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/width-card-button-active.png?v=9ba6b5fe1722a) 0 0/100% 100% no-repeat}
+.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-graphic.free-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) 0 -454px}
+.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-graphic.premium-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) 0 -383px}
+.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-icon.free-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -148px -210px}
+.battle-pass-window .battle-pass-header-wrapper .battle-pass-banner-icon.premium-banner{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -148px -134px}
+.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .tiles-wrapper-header{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -24px -303px}
+.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .tiles-wrapper-header-time{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -24px -337px}
+.battle-pass-window .section .scroll-wrapper .scroll-pane .battle-pass-tiles-wrapper .roll-mission-wrapper .roll-mission-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -874px -84px no-repeat}
+.battle-pass-window .section .scroll-wrapper .reward-header .battle-pass-icon-wrapper .battle-pass-icon.premium-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -102px -28px}
+.battle-pass-window .section .scroll-wrapper .reward-header .battle-pass-icon-wrapper .battle-pass-icon.free-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -17px -30px}
+.battle-pass-window .bottom-row-panel .your-all-points-wrapper .all-points-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -202px -342px}
+.battle-pass-mission-tile{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -24px -135px}
+.battle-pass-mission-tile .mission-prev-button,.battle-pass-mission-tile .mission-next-button{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.battle-pass-mission-tile .mission-prev-button{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -641px -313px no-repeat}
+.battle-pass-mission-tile .mission-prev-button:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -691px -313px no-repeat}
+.battle-pass-mission-tile .mission-next-button{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -618px -313px no-repeat}
+.battle-pass-mission-tile .mission-next-button:hover{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -668px -313px no-repeat}
+.battle-pass-mission-tile .mission-reward-wrapper{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -24px -361px}
+.battle-pass-mission-tile .mission-reward-wrapper .mission-reward-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -180px -361px}
+.mission-progress-bar .inner-wrapper .progress-bar-background{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) -24px -285px}
+.battle-pass-reward-record .battle-pass-table .reward-item-wrapper{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -51px -444px}
+.battle-pass-reward-record .battle-pass-reward-progress-barr-wrapper .vertical-progress-bar-wrapper .progress-bar-background{background:url(../assets-production/lupus.margonem.pl/img/gui/battlePass/battle_pass_sprite.png?v=9ba6b5fe1722a) 0 -285px}
+.small-currency-icon .small-draconite{background:url(../assets-production/lupus.margonem.pl/img/draconite_small.gif?v=9ba6b5fe1722a) -6px -3px no-repeat}
+.small-currency-icon .small-money{background:url(../assets-production/lupus.margonem.pl/img/money_small.png?v=9ba6b5fe1722a) -4px -5px no-repeat}
+.copy-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -772px -202px}
+.character-avatar:not(.disabled){cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.character-avatar.inactive{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
+.character-avatar.active{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
+.game-window-positioner.light-interface .interface-layer .widget-hamburger .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .widget-bar-visible-btn .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .column-visibility-toggle .icon.hamburger-icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -623px -12px no-repeat}
+.game-window-positioner.light-interface .interface-layer .top-left-column-visibility-toggle .icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -406px -12px no-repeat}
+.game-window-positioner.light-interface .interface-layer .top-right-column-visibility-toggle .icon{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a) -781px -670px no-repeat}
+.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .mail-notifier-light-mode{background:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=1749703318355?v=9ba6b5fe1722a) -782px -426px no-repeat}
 
 :root {
   --df-ink: #0b0d0e;
@@ -495,6 +660,435 @@ input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui
 .bottom-panel-of-bottom-positioner .exp-bar-wrapper,
 .bottom-panel-of-bottom-positioner .battle-bars-wrapper {
   font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.layer.interface-layer .main-column.left-column,
+.layer.interface-layer .main-column.right-column,
+.layer.interface-layer .main-column.right-column .border,
+.layer.interface-layer .main-column .extended-stats .border {
+  background-color: #101315;
+  background-image: linear-gradient(90deg, #07090a 0, #171b1d 8%, #111416 48%, #1b1f21 92%, #07090a 100%);
+  border-color: #6f4b28;
+  box-shadow: inset 0 0 18px #000c, inset 0 0 0 1px #302417;
+}
+
+.new-chat-window,
+.new-chat-window .chat-message-wrapper,
+.chat-input-wrapper,
+.chat-channel-card-wrapper,
+.chat-input-wrapper .magic-input-wrapper,
+.chat-input-wrapper .control-wrapper .menu-card,
+.chat-input-wrapper .control-wrapper .chat-config-wrapper {
+  background-color: #090b0c;
+  border-color: #664522;
+  box-shadow: inset 0 0 8px #000b;
+}
+
+.new-chat-window .chat-message-wrapper {
+  border-top-color: #73502b;
+  border-bottom-color: #3e2c1c;
+}
+
+.border-window:not(.transparent) {
+  background-color: #111416;
+  background-image: radial-gradient(circle at 50% 0, #28211b 0, #151719 45%, #090b0c 100%);
+}
+
+.border-window .content,
+.border-window.mAlert .paper-background,
+.border-window.mAlert-mobile-layer .paper-background {
+  color: var(--df-ivory);
+  background-color: #111315;
+  background-image: linear-gradient(135deg, #1c1a18 0, #101315 45%, #171210 100%);
+}
+
+.border-window .content a {
+  color: var(--df-teal-bright);
+}
+
+.border-window .header-label-positioner .header-label,
+.trade-window header .h_background .middle {
+  background-color: #17191a;
+  background-image: linear-gradient(#34302b 0, #17191a 28%, #090b0c 72%, #251a12 100%);
+  border-color: #76502d;
+  box-shadow: inset 0 1px #b88950, inset 0 2px #4c3825, inset 0 -1px #050606, 0 1px 4px #000;
+}
+
+.border-window .header-label-positioner .header-label .text,
+.trade-window header .h_content,
+.skills-window .left-column .list-label-wrapper .list-label .label,
+.addons-panel .left-column .main-header .addon-list-label {
+  color: var(--df-gold-bright);
+  text-shadow: 0 1px 2px #000;
+}
+
+.dialogue-window .border-image {
+  background-color: #090b0ce8;
+  border-color: #8a6032;
+  box-shadow: 0 0 0 1px #050606, 0 0 0 2px #8a6032, 0 0 0 3px #21170e, 0 4px 14px #000c;
+}
+
+.dialogue-window .dialogue-background-color {
+  background-color: #0b0d0ee8;
+  background-image: linear-gradient(100deg, #141719f2 0, #0a0c0de8 58%, #261113e8 100%);
+}
+
+.dialogue-window .content .npc-dialogue-wrapper .h_content {
+  color: var(--df-gold-bright);
+}
+
+.dialogue-window .content .npc-message,
+.dialogue-window .content .answers li {
+  color: #e2d8c8;
+}
+
+.dialogue-window .content .answers li {
+  border-bottom-color: #77532d80;
+}
+
+.dialogue-window .content .answers li:hover {
+  color: #fff1d3;
+  background-color: #5b1b2199;
+}
+
+.dialogue-window .content .answers li.exit,
+.dialogue-window .content .answers li.line_exit,
+.dialogue-window .content .npc-message a {
+  color: var(--df-gold-bright);
+}
+
+.shop-wrapper .shop-background .paper-1,
+.shop-wrapper .shop-background .paper-2,
+.shop-wrapper .shop-content .shop-items.scrollable {
+  background-color: #111315;
+  background-image: linear-gradient(135deg, #211b17 0, #0d1011 55%, #211013 100%);
+  box-shadow: inset 0 0 10px #000;
+}
+
+.button.green,
+.widget-button.green,
+.pressed,
+.btn-min {
+  color: var(--df-ivory);
+  background-color: #351216;
+  background-image: linear-gradient(#5b2026, #241014 55%, #0d0e0f);
+  border-color: #9a6b38;
+  box-shadow: inset 0 0 0 1px #120708, inset 0 0 0 3px #3b291b, 0 1px 2px #000;
+}
+
+.button.green:not(.disabled):hover,
+.widget-button.green:not(.disabled):hover,
+.btn-min:not(.disabled):hover {
+  color: #fff1d3;
+  background-image: linear-gradient(#78303a, #34151a 55%, #111315);
+  border-color: var(--df-gold-bright);
+}
+
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty,
+.clan,
+.clan .card-content,
+.addons-panel,
+.mail-box,
+.quest-log,
+.auctions {
+  color: var(--df-ivory);
+}
+
+.card-content table,
+.auctions table,
+.mail-box table {
+  border-color: #4e3924;
+  background-color: #101214;
+}
+
+.card-content table tr:nth-of-type(odd),
+.auctions table tr:nth-of-type(odd),
+.mail-box table tr:nth-of-type(odd) {
+  background-color: #25191a;
+}
+
+.card-content table td,
+.auctions table td,
+.mail-box table td {
+  border-color: #4e3924;
+}
+
+.game-window-positioner .character_wrapper .stats-wrapper {
+  background-color: #101315;
+  background-image: linear-gradient(145deg, #28221c 0, #121517 42%, #090b0c 100%);
+  border: 1px solid #6f4b28;
+  box-shadow: inset 0 0 0 1px #070809, inset 0 0 12px #000b, 0 1px 4px #000;
+}
+
+.game-window-positioner .character_wrapper .stats-wrapper .interface-element-active-card-background-stretch {
+  background-color: #17191a;
+  background-image: linear-gradient(#362820, #151719 48%, #260f13);
+  border-color: #8b6134;
+  border-image: none;
+  box-shadow: inset 0 0 0 1px #08090a, inset 0 0 7px #000b;
+}
+
+.game-window-positioner .character_wrapper .stats-wrapper .header-title-wrapper {
+  background-color: #161819;
+  background-image: linear-gradient(90deg, #281a12, #17191a 25%, #17191a 75%, #281a12);
+  border-bottom: 1px solid #7d562f;
+}
+
+.game-window-positioner .character_wrapper .stats-wrapper .header-title-wrapper .header-title {
+  color: var(--df-gold-bright);
+  text-shadow: 0 1px 2px #000;
+}
+
+.button,
+.widget-button,
+.btn-min,
+.card-button-test,
+.tw-tabs > div,
+.tw-one-tab,
+.tabs-nav > div {
+  color: var(--df-ivory);
+  background-color: #151719;
+  background-image: linear-gradient(#37322c 0, #17191a 42%, #0a0c0d 100%);
+  border-color: #74502c;
+  box-shadow: inset 0 0 0 1px #070809, inset 0 1px #9a7042, 0 1px 2px #000;
+}
+
+.button.active,
+.button.pressed,
+.widget-button.active,
+.widget-button.pressed,
+.card-button-test.active,
+.tw-tabs > div.active,
+.tw-tabs > div.is-active,
+.tw-one-tab.active,
+.tw-one-tab.is-active,
+.tabs-nav > div.active {
+  color: #fff0cf;
+  background-color: #3b1419;
+  background-image: linear-gradient(#6a2830 0, #321318 48%, #111315 100%);
+  border-color: #b08045;
+  box-shadow: inset 0 0 0 1px #140709, inset 0 1px #d3a25e, 0 0 5px #000;
+}
+
+.button:not(.disabled):hover,
+.widget-button:not(.disabled):hover,
+.btn-min:not(.disabled):hover,
+.card-button-test:not(.disabled):hover,
+.tw-tabs > div:not(.disabled):hover,
+.tw-one-tab:not(.disabled):hover,
+.tabs-nav > div:not(.disabled):hover {
+  color: #fff4dc;
+  background-color: #291217;
+  background-image: linear-gradient(#553039 0, #241317 52%, #0d0f10 100%);
+  border-color: var(--df-gold-bright);
+}
+
+.button.disabled,
+.widget-button.disabled,
+.btn-min.disabled,
+.tw-tabs > div.disabled,
+.tw-one-tab.disabled {
+  color: #756d62;
+  background-color: #111315;
+  background-image: linear-gradient(#242424, #101112);
+  border-color: #403528;
+  box-shadow: inset 0 0 5px #000;
+}
+
+.main-header,
+.header-bar,
+.section-header,
+.table-header,
+.cards-header-wrapper,
+.points-header-wrapper,
+.list-label-wrapper,
+.addon-header {
+  color: var(--df-gold-bright);
+  background-color: #151719;
+  background-image: linear-gradient(90deg, #26180f 0, #25221e 12%, #101315 50%, #25221e 88%, #26180f 100%);
+  border-color: #76502d;
+  text-shadow: 0 1px 2px #000;
+  box-shadow: inset 0 1px #a87842, inset 0 -1px #070809;
+}
+
+.border-window.transparent .border-image,
+.game-window-positioner .widget-window .border-image,
+.game-window-positioner .configuration-window .border-image {
+  background-color: #0d1011eb;
+  background-image: linear-gradient(145deg, #24201c 0, #101315 45%, #1f1013 100%);
+  border: 1px solid #7d562f;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1px #070809, inset 0 0 12px #000b, 0 3px 10px #000b;
+}
+
+.border-window.transparent .content,
+.game-window-positioner .widget-window .content,
+.game-window-positioner .configuration-window .content {
+  color: var(--df-ivory);
+  background-color: transparent;
+  background-image: none;
+}
+
+.border-window.transparent .header-label-positioner .header-label,
+.game-window-positioner .widget-window header,
+.game-window-positioner .configuration-window header {
+  color: var(--df-gold-bright);
+  background-color: #151719;
+  background-image: linear-gradient(90deg, #2b1b12, #151719 24%, #151719 76%, #2b1b12);
+  border-bottom: 1px solid #76502d;
+  text-shadow: 0 1px 2px #000;
+}
+
+.game-window-positioner input[type="checkbox"],
+.game-window-positioner input[type="radio"] {
+  accent-color: #7b3038;
+}
+
+.skills-window .left-column,
+.skills-window .right-column,
+.skills-window .left-column .scroll-wrapper,
+.skills-window .right-column .scroll-wrapper,
+.skills-window .left-column .scroll-pane,
+.skills-window .right-column .scroll-pane {
+  color: var(--df-ivory);
+  background-color: #101315;
+  background-image: linear-gradient(145deg, #211b17 0, #111416 52%, #1e1013 100%);
+}
+
+.skills-window .left-column .list-label-wrapper,
+.skills-window .right-column .points-header-wrapper {
+  color: var(--df-gold-bright);
+  background-color: #151719;
+  background-image: linear-gradient(90deg, #2a1b12 0, #2a2722 14%, #111416 50%, #2a2722 86%, #2a1b12 100%);
+  border-color: #76502d;
+  box-shadow: inset 0 1px #a87842, inset 0 -1px #070809;
+}
+
+.skills-window .left-column .skills-wrapper .description-wrapper,
+.skills-window .right-column .description-wrapper,
+.skills-window .right-column .board-wrapper {
+  color: var(--df-ivory);
+  background-color: #151719;
+  border-color: #513923;
+}
+
+.skills-window .left-column .skills-wrapper .description-wrapper:nth-of-type(odd) {
+  background-color: #211719;
+}
+
+:is(
+  .skills-window,
+  .quest-log,
+  .addons-panel,
+  .mail-box,
+  .mails-window,
+  .auctions,
+  .clan,
+  .trade-window,
+  .shop-wrapper,
+  .depo,
+  .friend-enemy-list,
+  .help-window2,
+  .settings-window,
+  .recovery-item,
+  .gold-shop,
+  .premium-panel,
+  .loot-window,
+  .battle-controller,
+  .showcase,
+  .item-changer,
+  .achievement-panel,
+  .news-panel,
+  .motel-window,
+  .divide-panel,
+  .left-grouped-list-and-right-description-window
+) {
+  color: var(--df-ivory);
+  background-color: #101315;
+}
+
+:is(
+  .skills-window,
+  .quest-log,
+  .addons-panel,
+  .mail-box,
+  .mails-window,
+  .auctions,
+  .clan,
+  .trade-window,
+  .shop-wrapper,
+  .depo,
+  .friend-enemy-list,
+  .help-window2,
+  .settings-window,
+  .recovery-item,
+  .gold-shop,
+  .premium-panel,
+  .loot-window,
+  .showcase,
+  .item-changer,
+  .achievement-panel,
+  .news-panel,
+  .motel-window,
+  .divide-panel,
+  .left-grouped-list-and-right-description-window
+) :is(.left-column, .right-column, .middle-column, .column) {
+  background-color: #111416;
+  background-image: linear-gradient(145deg, #211b17 0, #111416 48%, #1d1113 100%);
+  border-color: #5d4228;
+}
+
+:is(
+  .skills-window,
+  .quest-log,
+  .addons-panel,
+  .mail-box,
+  .mails-window,
+  .auctions,
+  .clan,
+  .trade-window,
+  .shop-wrapper,
+  .depo,
+  .friend-enemy-list,
+  .help-window2,
+  .settings-window,
+  .recovery-item,
+  .gold-shop,
+  .premium-panel,
+  .loot-window,
+  .showcase,
+  .item-changer,
+  .achievement-panel,
+  .news-panel,
+  .motel-window,
+  .divide-panel,
+  .left-grouped-list-and-right-description-window
+) :is(.main-header, .header, .header-bar, .section-header, .table-header, .list-label-wrapper, .points-header-wrapper) {
+  color: var(--df-gold-bright);
+  background-color: #151719;
+  background-image: linear-gradient(90deg, #291a11 0, #29251f 14%, #111416 50%, #29251f 86%, #291a11 100%);
+  border-color: #76502d;
+  text-shadow: 0 1px 2px #000;
+  box-shadow: inset 0 1px #a87842, inset 0 -1px #070809;
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item {
+  color: var(--df-ivory);
+  background-color: #241216;
+  border-color: #8f6536;
+  box-shadow: inset 0 0 0 1px #08090a, inset 0 0 10px #000b, 0 1px 3px #000;
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item:hover,
+.premium-panel .product-kind .premium-item-wrapper .premium-item.active {
+  background-color: #42191f;
+  border-color: var(--df-gold-bright);
+  box-shadow: inset 0 0 0 1px #16090a, inset 0 0 12px #0008, 0 0 6px #b9813b66;
+}
+
+.premium-panel .product-kind .premium-item-wrapper .premium-item .premium-text {
+  color: #f2e5d0;
+  text-shadow: 0 1px 2px #000;
 }
 
 :root {
