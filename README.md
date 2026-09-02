@@ -1,4 +1,4 @@
-# Margonem Dwarven Forge UI 1.0.12
+# Margonem Dwarven Forge UI 1.0.13
 
 Dwarven Forge przebudowuje klasyczny interfejs Margonem w stylu mrocznej krasnoludzkiej kuźni. Motyw używa czernionej stali, starego brązu, głębokiego burgundu, ciemnego drewna i oszczędnych turkusowych akcentów.
 
@@ -9,7 +9,7 @@ Dwarven Forge przebudowuje klasyczny interfejs Margonem w stylu mrocznej krasnol
 3. Zatwierdź instalację userscriptu.
 4. Wyłącz inne motywy interfejsu i odśwież kartę gry.
 
-Userscript nie modyfikuje mechaniki gry. Dołącza wersjonowany arkusz CSS, który korzysta z grafik znajdujących się w tym repozytorium.
+Userscript dołącza wersjonowany arkusz CSS i podmienia obraz natywnego znacznika celu ruchu. Nie dodaje obsługi kliknięć ani nie zmienia ruchu postaci. Układem widgetów nadal steruje klient gry.
 
 ## Zakres
 
@@ -20,7 +20,7 @@ Userscript nie modyfikuje mechaniki gry. Dołącza wersjonowany arkusz CSS, któ
 - walka, zadania, kalendarze i okna systemowe;
 - kolory tekstu, nagłówków, formularzy oraz stanów aktywnych i nieaktywnych.
 
-Wersja 1.0.12 łączy ramy i nagłówki okien w jeden skalowalny system, poprawia HUD-y, widgety, małe dialogi, kratki przedmiotów oraz paski postępu. Motyw używa jednej czcionki Segoe UI i zachowuje natywne grafiki postaci, NPC oraz walki.
+Wersja 1.0.13 łączy ramy i nagłówki okien w jeden skalowalny system, poprawia HUD-y, widgety, małe dialogi, kratki przedmiotów oraz paski postępu. Motyw używa jednej czcionki Segoe UI i zachowuje natywne grafiki postaci, NPC oraz walki.
 
 ## Struktura
 

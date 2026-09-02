@@ -1483,20 +1483,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/original-draconite.gif);
 }
 
-.layer.interface-layer .positioner.bottom .bg-additional-widget-left,
-.layer.interface-layer .positioner.bottom .bg-additional-widget-right {
-  display: none;
-}
-
-.game-window-positioner:has(.bottom-left-additional .widget-button:not(.empty-slot-widget))
-  .layer.interface-layer .positioner.bottom .bg-additional-widget-left,
-.game-window-positioner:has(.bottom-right-additional .widget-button:not(.empty-slot-widget))
-  .layer.interface-layer .positioner.bottom .bg-additional-widget-right,
-.game-window-positioner.additional-bar-br
-  .layer.interface-layer .positioner.bottom .bg-additional-widget-right {
-  display: block;
-}
-
 .bottom-panel-of-bottom-positioner .bottom-panel-graphic {
   bottom: -8px;
 }
@@ -1550,9 +1536,9 @@ textarea,
   box-sizing: content-box;
   background-size: auto;
   border-width: 32px 20px;
-  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/window-frame-9slice.png);
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v113/window-frame.svg);
   border-image-slice: 32 20 fill;
-  border-image-repeat: repeat;
+  border-image-repeat: stretch;
 }
 
 .border-window:not(.transparent) .header-label-positioner {
@@ -1582,9 +1568,8 @@ textarea,
   padding: 0 14px;
   overflow: hidden;
   background: none;
-  border: solid transparent;
-  border-width: 0 14px;
-  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 18 fill stretch;
+  border: 0;
+  border-image: none;
   box-shadow: none;
 }
 
@@ -1770,30 +1755,6 @@ textarea,
 .bubbledialog .content-layer .inner .container .answers .answer:hover,
 .bubbledialog .content-layer .inner .container .answers a:hover {
   color: #f2d89f;
-}
-
-/* Widget extensions are driven by real visible content, not stale edit nodes. */
-.layer.interface-layer .positioner.bottom .bg-additional-widget-left,
-.layer.interface-layer .positioner.bottom .bg-additional-widget-right {
-  display: none !important;
-  height: 70px;
-  bottom: 0;
-  background-image:
-    linear-gradient(to bottom, #2a1717f2, #130f10f6 22%, #100c0df8 78%, #2d1918f2),
-    url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png) !important;
-  border-top: 2px solid #161819;
-  box-shadow: inset 0 2px #755031, inset 0 4px #08090a;
-}
-
-.game-window-positioner.df-aw-l .layer.interface-layer .positioner.bottom .bg-additional-widget-left,
-.game-window-positioner.df-aw-r .layer.interface-layer .positioner.bottom .bg-additional-widget-right {
-  display: block !important;
-}
-
-.game-window-positioner.chat-size-1.df-aw-l .layer.interface-layer .positioner.bottom .bg-additional-widget-left {
-  left: 241px;
-  width: 260px;
-  border-left: 1px solid #7c5633;
 }
 
 /* Top HUD uses one local 342 × 65 coordinate system. */
@@ -2079,26 +2040,161 @@ textarea,
   background: linear-gradient(90deg, #551018, #c5393f);
 }
 
-/* Userscript markers; the native map graphics and NPC sprites remain untouched. */
-.df-click {
+/* Native widget visibility, dimensions and silhouette are deliberately untouched.
+   The asset layer already replaces buttony.png with the coloured theme atlas. */
+
+.border-window:not(.transparent) .header-label-positioner .header-label .text {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor .close-button {
+  padding: 0;
+  margin: auto;
+  inset: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor .close-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(45deg, transparent 43%, #ead8bc 44% 56%, transparent 57%),
+              linear-gradient(-45deg, transparent 43%, #ead8bc 44% 56%, transparent 57%);
+}
+
+/* Keep the optional native footer and its controls; blend its surface with the frame. */
+.border-window:not(.transparent) > .c-window__bottom-bar > .interface-element-bottom-bar-background-stretch {
+  left: 10px;
+  right: 10px;
+  bottom: 24px;
+  border-image: none;
+  border: 0;
+  background: linear-gradient(#292b29, #141617 35%, #0b0d0e);
+  box-shadow: inset 0 1px #796344;
+}
+
+/* Coordinates belong to the 342x65 artwork, so native window scaling applies to all. */
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname {
+  left: 50px;
+  top: 7px;
+  width: 244px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map_ball {
+  left: 30px;
+  top: 19px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data {
+  margin-top: 24px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data .location {
+  left: 55px;
+  width: 128px;
+  height: 12px;
+  line-height: 12px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data .location.short {
+  left: 69px;
+  width: 114px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data .coords {
+  left: 187px;
+  right: auto;
+  top: 0;
+  width: 49px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 9px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .world-name {
+  left: 239px;
+  top: 24px;
+  width: 55px;
+  height: 12px;
+  line-height: 12px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .btn-min.gold-btn { left: 52px; top: 39px; }
+.layer.interface-layer .positioner.top .hud-container .btn-min.credits-btn { left: 173px; top: 39px; }
+.layer.interface-layer .positioner.top .hud-container .btn-min {
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+  line-height: 15px;
+  font-size: 17px;
+  text-align: center;
+  padding: 0;
+}
+
+.layer.interface-layer .positioner.top .hud-container .herogold.herogold,
+.layer.interface-layer .positioner.top .hud-container .herocredits.herocredits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  top: 39px;
+  width: 88px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 9px;
   pointer-events: none;
-  z-index: 30;
-  width: 42px;
-  height: 42px;
-  position: fixed;
-  margin: -21px 0 0 -21px;
-  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/click.png) center / contain no-repeat;
-  animation: df-click .45s ease-out forwards;
+}
+.layer.interface-layer .positioner.top .hud-container .herogold.herogold { left: 74px; }
+.layer.interface-layer .positioner.top .hud-container .herocredits.herocredits { left: 195px; width: 99px; }
+
+.layer.interface-layer .positioner.top .hud-container .gold-tip::before,
+.layer.interface-layer .positioner.top .hud-container .credits-tip::before { display: none; }
+.layer.interface-layer .positioner.top .hud-container .gold-tip { left: 74px; bottom: 11px; width: 88px; height: 15px; }
+.layer.interface-layer .positioner.top .hud-container .credits-tip { left: 195px; bottom: 11px; width: 99px; height: 15px; }
+
+.layer.interface-layer .positioner.top .hud-container .herogold::before,
+.layer.interface-layer .positioner.top .hud-container .herocredits::before {
+  content: "";
+  flex: 0 0 12px;
+  height: 12px;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/original-gold.png) center / contain no-repeat;
+}
+.layer.interface-layer .positioner.top .hud-container .herocredits::before {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/original-draconite.gif);
 }
 
-.df-click.blocked { background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/click-blocked.png); }
-
-@keyframes df-click {
-  0% { opacity: 0; transform: scale(.65); }
-  28% { opacity: 1; transform: scale(1); }
-  100% { opacity: 0; transform: scale(.9); }
+/* The existing forged rail is the EXP frame. No second frame over its rim. */
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress { top: 19px; }
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {
+  background: none;
 }
-
-@media (max-width: 1280px) {
-  .border-window:not(.transparent) .header-label-positioner .header-label .text { font-size: 11px; }
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay { background: none; }
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress,
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress {
+  top: 3px;
+  left: 13px;
+  width: 228px;
+  height: 5px;
+  border-radius: 0;
 }
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress { left: 8px; }
+
+/* Fill under the forged rim, without the second, smaller glass frame. */
+.bottom-panel-of-bottom-positioner .hp-indicator {
+  background: #190c0d;
+  -webkit-mask-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v113/hp-mask.svg);
+  mask-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v113/hp-mask.svg);
+}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic { z-index: 2; }
+.bottom-panel-of-bottom-positioner .glass { background: none; }
