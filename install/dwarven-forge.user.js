@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Margonem Dwarven Forge UI
 // @namespace    doiua97
-// @version      1.0.19
+// @version      1.0.20
 // @description  Installs the complete Dwarven Forge dark fantasy UI theme for Margonem.
 // @match        https://margonem.pl/*
 // @match        https://*.margonem.pl/*
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 (() => {
-  const base = "https://fastly.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v1.0.19";
+  const base = "https://fastly.jsdelivr.net/gh/Doiua97/margonem-dwarven-forge-ui@v1.0.20";
   const link = document.createElement("link");
   link.id = "dwarven-forge-ui-theme";
   link.rel = "stylesheet";

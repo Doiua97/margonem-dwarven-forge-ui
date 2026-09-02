@@ -1,0 +1,97 @@
+{
+  "scope": "Native nested templates with client padding, selected item and maximum upgrade states; local Chrome.",
+  "windows": [
+    {
+      "name": "crafting",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": [
+        {
+          "class": "right-column",
+          "gap": 0
+        },
+        {
+          "class": "left-column",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "name": "quest-window",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": [
+        {
+          "class": "right-column",
+          "gap": 0
+        },
+        {
+          "class": "left-column",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "name": "world-window",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": []
+    },
+    {
+      "name": "console-window",
+      "padding": "0px",
+      "barTop": 357,
+      "panels": []
+    },
+    {
+      "name": "settings-window",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": [
+        {
+          "class": "notifications-config section",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "name": "friend-enemy-list",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": [
+        {
+          "class": "column",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "name": "auction-window",
+      "padding": "10px 0px",
+      "barTop": 601,
+      "panels": [
+        {
+          "class": "main-column-auction",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "name": "depo",
+      "padding": "10px 0px",
+      "barTop": 459,
+      "panels": []
+    },
+    {
+      "name": "addons-panel",
+      "padding": "10px 0px",
+      "barTop": 0,
+      "panels": []
+    }
+  ],
+  "unaffected": [
+    "skills-window",
+    "premium-panel",
+    "loot-window"
+  ]
+}

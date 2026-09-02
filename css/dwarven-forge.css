@@ -3100,3 +3100,178 @@ body[data-res="1024x768"] .layer.interface-layer .positioner.bottom .content .bo
 .depo .find-and-manage-money-section .right-part .date-available {
   margin-top: 2px;
 }
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic {
+  -webkit-mask-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v120/shield-mask.svg);
+  mask-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v120/shield-mask.svg);
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter {
+  left: 413px;
+}
+
+.game-window-positioner.classic-interface .layer.interface-layer .positioner.top .hud-container {
+  top: 50%;
+  translate: 0 -50%;
+  transform-origin: 50% 50%;
+}
+
+.border-window .crafting .bottom-row-panel :is(.choose-item-type, .choose-prof),
+.border-window .world-window .bottom-bar > :is(.choose-prof, .choose-type),
+.border-window :is(.crafting .bottom-row-panel, .world-window .bottom-bar) :is(.start-lvl, .stop-lvl) {
+  top: 5px;
+}
+
+.border-window :is(.crafting .bottom-row-panel, .world-window .bottom-bar) :is(.start-lvl, .stop-lvl, .start-lvl-wrapper, .stop-lvl-wrapper) input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.border-window .crafting .bottom-row-panel :is(.choose-item-type-wrapper, .choose-prof-wrapper) > :is(.choose-item-type, .choose-prof) {
+  position: relative;
+  inset: auto;
+}
+
+.border-window .settings-window > .bottom-bar {
+  box-sizing: border-box;
+  padding: 5px 6px;
+}
+
+.border-window .settings-window > .bottom-bar .save-card-button {
+  height: 24px;
+  margin: 0;
+}
+
+.border-window .settings-window > .bottom-bar .button {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.border-window .world-window .activities .bottom-bar {
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.border-window .world-window .activities .bottom-bar .button {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.settings-window .hot-keys-list .table-header-tr > td,
+.world-window :is(.hunting-statistics-table, .hunting-statistics-table-header) th,
+.world-window .activities .c-table th {
+  color: #ead6b1;
+  background: linear-gradient(#5c2026, #351418 24%, #241114 70%, #120c0d);
+  border-color: #806648;
+}
+
+.world-window :is(.hunting-statistics-table, .hunting-statistics-table-header) th.can-hover:hover {
+  background: linear-gradient(#63333b, #351b22);
+}
+
+.skills-window .skill-description .board-wrapper > :is(.requirements-wrapper, .stats-wrapper) {
+  box-sizing: border-box;
+  border: 1px solid #806648;
+  border-image: none;
+  background: linear-gradient(#351418, #241114 70%, #120c0d);
+  box-shadow: inset 0 0 0 1px #090b0c;
+}
+
+.game-window-positioner.classic-interface .additional-skill-panel {
+  background: none;
+}
+
+.game-window-positioner.classic-interface .additional-skill-panel .graphics .additional-skill-panel-border {
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v118/window-frame-footer.svg);
+}
+
+.game-window-positioner.classic-interface .additional-skill-panel .header-tip {
+  box-sizing: border-box;
+  top: 5px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ead6b1;
+  border-bottom: 1px solid #806648;
+  background: linear-gradient(#5c2026, #351418 24%, #241114 70%, #120c0d);
+}
+
+.game-window-positioner.classic-interface .battle-controller .graphics .bottom-graphic {
+  bottom: 5px;
+}
+
+.game-window-positioner.classic-interface .battle-controller .battle-content .buttons-wrapper .button:not(.square) {
+  bottom: 22px;
+  box-sizing: border-box;
+  height: 24px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-window-positioner.classic-interface .battle-controller .battle-content .buttons-wrapper .button:not(.square) .label {
+  margin: 0;
+  padding: 0 8px;
+  line-height: 22px;
+}
+
+.border-window:not(.transparent):has(> .content > .inner-content > .mails-window) {
+  isolation: isolate;
+}
+
+.border-window:not(.transparent):has(> .content > .inner-content > .mails-window)::before {
+  content: "";
+  position: absolute;
+  inset: -3px -10px -28px;
+  z-index: -1;
+  pointer-events: none;
+  background: #171a1a url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png) repeat;
+}
+
+.mails-window :is(.received-content, .sent-content) > .mail-column {
+  bottom: 12px;
+}
+
+.mails-window :is(.received-content, .sent-content) > .mail-column > .footer {
+  bottom: -29px;
+  height: 24px;
+  color: #ead8b8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.border-window .mails-window :is(.received-content, .sent-content) > .mail-column > .footer > .button {
+  box-sizing: border-box;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  top: 0;
+  margin: 0;
+}
+
+.border-window .mails-window :is(.received-content, .sent-content) > .mail-column > .footer > .button .label {
+  padding: 0 8px;
+  margin: 0;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper :is(.msg-content, .mail-footer, .one-mail-head .from b) {
+  color: #ead8b8;
+}
+
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .special b {
+  color: #74b8e6;
+}
+
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content {
+  border-color: #806648;
+}

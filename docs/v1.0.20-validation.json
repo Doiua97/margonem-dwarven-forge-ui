@@ -1,0 +1,456 @@
+{
+  "scope": "Local Chromium with native client CSS and component templates; no live game session.",
+  "cases": [
+    {
+      "name": "crafting-recipes",
+      "height": 350,
+      "controls": [
+        {
+          "class": "default",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "default",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": []
+    },
+    {
+      "name": "crafting-recipes",
+      "height": 530,
+      "controls": [
+        {
+          "class": "default",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "default",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": []
+    },
+    {
+      "name": "settings-general",
+      "height": 350,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "settings-general",
+      "height": 530,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "settings-controls",
+      "height": 350,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small ",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "settings-controls",
+      "height": 530,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small ",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "world-statistics",
+      "height": 350,
+      "controls": [
+        {
+          "class": "default",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "default",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "world-statistics",
+      "height": 530,
+      "controls": [
+        {
+          "class": "default",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "default",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        },
+        {
+          "class": "button small bck",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "world-activities",
+      "height": 350,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "world-activities",
+      "height": 530,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": null,
+      "mailText": [],
+      "headers": [
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))",
+        "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+      ]
+    },
+    {
+      "name": "mail-received",
+      "height": 350,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 426,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 421,
+        "height": 34
+      },
+      "mailGap": 0,
+      "mailText": [
+        "rgb(234, 216, 184)",
+        "rgb(234, 216, 184)",
+        "rgb(234, 216, 184)"
+      ],
+      "headers": []
+    },
+    {
+      "name": "mail-received",
+      "height": 530,
+      "controls": [
+        {
+          "class": "button small ",
+          "y": 606,
+          "height": 24,
+          "centerError": 0,
+          "inside": true
+        }
+      ],
+      "bar": {
+        "y": 601,
+        "height": 34
+      },
+      "mailGap": 0,
+      "mailText": [
+        "rgb(234, 216, 184)",
+        "rgb(234, 216, 184)",
+        "rgb(234, 216, 184)"
+      ],
+      "headers": []
+    }
+  ],
+  "battle": {
+    "buttons": [
+      {
+        "bottom": 22,
+        "height": 24,
+        "inside": true,
+        "labelOffset": 0
+      },
+      {
+        "bottom": 22,
+        "height": 24,
+        "inside": true,
+        "labelOffset": 0
+      }
+    ],
+    "header": "linear-gradient(rgb(92, 32, 38), rgb(53, 20, 24) 24%, rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+  },
+  "skillBoxes": [
+    {
+      "border": "none",
+      "width": "1px",
+      "background": "linear-gradient(rgb(53, 20, 24), rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+    },
+    {
+      "border": "none",
+      "width": "1px",
+      "background": "linear-gradient(rgb(53, 20, 24), rgb(36, 17, 20) 70%, rgb(18, 12, 13))"
+    }
+  ],
+  "mask": [
+    {
+      "x": 240,
+      "y": 20,
+      "alpha": 0
+    },
+    {
+      "x": 350,
+      "y": 20,
+      "alpha": 0
+    },
+    {
+      "x": 214,
+      "y": 36,
+      "alpha": 255
+    },
+    {
+      "x": 245,
+      "y": 32,
+      "alpha": 255
+    },
+    {
+      "x": 345,
+      "y": 33,
+      "alpha": 255
+    },
+    {
+      "x": 294,
+      "y": 4,
+      "alpha": 255
+    }
+  ]
+}

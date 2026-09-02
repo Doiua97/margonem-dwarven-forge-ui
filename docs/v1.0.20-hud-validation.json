@@ -1,0 +1,443 @@
+{
+  "scope": "Local Chromium, native client templates/CSS and window-mode rules; no logged-in game session.",
+  "modes": [
+    {
+      "mode": "_DEFAULT",
+      "width": 1920,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_920_X_555",
+      "width": 920,
+      "geom": [
+        {
+          "topCenterX": -0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 98.4000244140625,
+          "scale": "matrix(0.82, 0, 0, 0.82, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": -0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 98.4000244140625,
+          "scale": "matrix(0.82, 0, 0, 0.82, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1024_X_768",
+      "width": 1024,
+      "geom": [
+        {
+          "topCenterX": 0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 108,
+          "scale": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 108,
+          "scale": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1173_X_555",
+      "width": 1173,
+      "geom": [
+        {
+          "topCenterX": 0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 108,
+          "scale": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0.0000152587890625,
+          "topCenterY": 0,
+          "lagSlotGap": 108,
+          "scale": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1277_X_768",
+      "width": 1277,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1200_X_675",
+      "width": 1200,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1253_X_675",
+      "width": 1253,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1366_X_768",
+      "width": 1366,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1619_X_768",
+      "width": 1619,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1600_X_900",
+      "width": 1600,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1853_X_900",
+      "width": 1853,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    },
+    {
+      "mode": "_1920_X_1080",
+      "width": 1920,
+      "geom": [
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        },
+        {
+          "topCenterX": 0,
+          "topCenterY": 0,
+          "lagSlotGap": 120,
+          "scale": "none",
+          "clipped": false,
+          "shieldClipped": false,
+          "overlaps": []
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    [
+      {
+        "w": 132,
+        "h": 40,
+        "y": 436
+      },
+      {
+        "w": 132,
+        "h": 40,
+        "y": 436
+      },
+      {
+        "w": 132,
+        "h": 40,
+        "y": 436
+      },
+      {
+        "w": 132,
+        "h": 40,
+        "y": 436
+      }
+    ],
+    [
+      {
+        "w": 105.59375,
+        "h": 40,
+        "y": 438
+      },
+      {
+        "w": 105.609375,
+        "h": 40,
+        "y": 438
+      },
+      {
+        "w": 105.59375,
+        "h": 40,
+        "y": 438
+      },
+      {
+        "w": 105.609375,
+        "h": 40,
+        "y": 438
+      },
+      {
+        "w": 105.59375,
+        "h": 40,
+        "y": 438
+      }
+    ]
+  ],
+  "item": {
+    "x": 0,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "battle": [
+    {
+      "percent": 0,
+      "width": 0,
+      "track": 170,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    },
+    {
+      "percent": 0,
+      "width": 0,
+      "track": 175,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    },
+    {
+      "percent": 50,
+      "width": 85,
+      "track": 170,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    },
+    {
+      "percent": 50,
+      "width": 87.5,
+      "track": 175,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    },
+    {
+      "percent": 100,
+      "width": 170,
+      "track": 170,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    },
+    {
+      "percent": 100,
+      "width": 175,
+      "track": 175,
+      "height": 7,
+      "trackHeight": 7,
+      "clear": true,
+      "background": "none",
+      "gap": 0
+    }
+  ],
+  "mask": {
+    "image": "url(\"http://127.0.0.1:52105/theme/img/gui/dwarven-forge/v120/shield-mask.svg\")",
+    "size": "590px 100px"
+  },
+  "exp": [
+    {
+      "background": "rgb(16, 15, 18)",
+      "height": 5
+    },
+    {
+      "background": "rgb(16, 15, 18)",
+      "height": 5
+    },
+    {
+      "background": "rgb(16, 15, 18)",
+      "height": 0
+    },
+    {
+      "background": "rgb(16, 15, 18)",
+      "height": 0
+    }
+  ],
+  "skills": {
+    "leftGap": 0,
+    "rightGap": 0,
+    "headerTop": 0,
+    "headerBottom": 0,
+    "columnGap": 0,
+    "footerGap": 0,
+    "footerTopGap": 0
+  }
+}
