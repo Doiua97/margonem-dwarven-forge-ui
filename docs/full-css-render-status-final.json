@@ -1,0 +1,17 @@
+{
+  "css_unique_assets": 108,
+  "mode_counts": {
+    "custom": 102,
+    "original-content": 6
+  },
+  "missing_production_files": [],
+  "original_content": [
+    "/img/gui/advent-calendar.png",
+    "/img/gui/battle-banner.jpg",
+    "/img/gui/books-flower.png",
+    "/img/gui/books-paper.jpg",
+    "/img/gui/shop/gold-shop-lm.png",
+    "/img/gui/shop/gold-shop.png"
+  ],
+  "ui_replacements_complete": true
+}
