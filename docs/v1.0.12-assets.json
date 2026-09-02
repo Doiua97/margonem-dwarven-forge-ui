@@ -1,0 +1,53 @@
+{
+  "version": "1.0.12",
+  "assets": {
+    "item-slot-thin.png": [
+      33,
+      33
+    ],
+    "oneItemSlotToRepeat.png": [
+      33,
+      33
+    ],
+    "exp-left.png": [
+      250,
+      18
+    ],
+    "exp-right.png": [
+      250,
+      18
+    ],
+    "enhance-rail.png": [
+      138,
+      16
+    ],
+    "resource-red.png": [
+      153,
+      9
+    ],
+    "resource-blue.png": [
+      153,
+      9
+    ],
+    "resource-yellow.png": [
+      153,
+      9
+    ],
+    "click.png": [
+      42,
+      42
+    ],
+    "click-blocked.png": [
+      42,
+      42
+    ],
+    "window-frame-9slice.png": [
+      80,
+      80
+    ],
+    "bottom-panel-hp-shield.png": [
+      590,
+      100
+    ]
+  }
+}

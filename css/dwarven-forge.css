@@ -88,7 +88,6 @@
 .loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .relogger__one-world{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis.active,.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
-.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background-image:url(../assets-production/lupus.margonem.pl/img/away.gif?v=9ba6b5fe1722a)}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .wanted-wrapper .skull{background-image:url(../assets-production/lupus.margonem.pl/img/gui/notyfikacje-sprite.png?v=9ba6b5fe1722a)}
 .dialogue-window .content .answers li{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .dialogue-window .content .answers li div.icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png?v=9ba6b5fe1722a)}
@@ -152,7 +151,6 @@
 .captcha-pre-info__arrow{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .captcha-toggle-btn{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .party__list .party-member.stasis .stasis-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
-.party__list .party-member.stasis-incoming .stasis-incoming-icon{background-image:url(../assets-production/lupus.margonem.pl/img/away.gif?v=9ba6b5fe1722a)}
 .party__list .party-member .table-wrapper .hp .hp-bck{background-image:url(../assets-production/lupus.margonem.pl/img/gui/progressbary.png?v=9ba6b5fe1722a)}
 .party__list .party-member .table-wrapper .hp .hp-bar{background-image:url(../assets-production/lupus.margonem.pl/img/gui/progressbary.png?v=9ba6b5fe1722a)}
 .party__list .party-member .table-wrapper .party__crown{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
@@ -285,7 +283,6 @@ input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui
 .combo-wrapper .combo-point.active.left{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .combo-wrapper .combo-point.active.middle{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .combo-wrapper .combo-point.active.right{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
-.battle-window .one-warrior .warrior .buff{background-image:url(../assets-production/lupus.margonem.pl/img/buffs.gif?v=9ba6b5fe1722a)}
 .battle-window .one-warrior .warrior-buffs-wrapper .buff{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=9ba6b5fe1722a)}
 .battle-window .battlelog{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .battle-window .battlelog div.attack{background-image:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=9ba6b5fe1722a)}
@@ -1527,4 +1524,581 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 
 .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right {
   left: 378px;
+}
+
+:root {
+  --df-font-family: "Segoe UI", Arial, sans-serif;
+  --df-hud-w: 342px;
+  --df-bottom-w: 664px;
+  --df-frame-gold: #8f673b;
+  --df-frame-light: #c09255;
+  --df-frame-dark: #090a0b;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.bubbledialog,
+.bubbledialog * {
+  font-family: var(--df-font-family) !important;
+}
+
+/* One continuous, scalable window frame. */
+.border-window:not(.transparent) {
+  box-sizing: content-box;
+  background-size: auto;
+  border-width: 32px 20px;
+  border-image-source: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/window-frame-9slice.png);
+  border-image-slice: 32 20 fill;
+  border-image-repeat: repeat;
+}
+
+.border-window:not(.transparent) .header-label-positioner {
+  top: -31px;
+  left: 31px;
+  right: 31px;
+  height: 27px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: visible;
+}
+
+.border-window:not(.transparent) .header-label-positioner .draggable-window-element {
+  height: 27px;
+}
+
+.border-window:not(.transparent) .header-label-positioner .header-label {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: calc(100% - 14px);
+  min-width: 82px;
+  height: 25px;
+  margin: 0;
+  padding: 0 14px;
+  overflow: hidden;
+  background: none;
+  border: solid transparent;
+  border-width: 0 14px;
+  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 18 fill stretch;
+  box-shadow: none;
+}
+
+.border-window:not(.transparent) .header-label-positioner .header-label .left-decor,
+.border-window:not(.transparent) .header-label-positioner .header-label .right-decor {
+  display: none;
+}
+
+.border-window:not(.transparent) .header-label-positioner .header-label .text,
+.border-window:not(.transparent).fixed-wnd .header-label .text {
+  box-sizing: border-box;
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 25px;
+  overflow: hidden;
+  color: #dfbd7f;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: .01em;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 1px #000;
+  white-space: nowrap;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor {
+  z-index: 8;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  top: -31px;
+  right: -19px;
+  background: linear-gradient(145deg, #4d1b1e, #170d0f 62%, #08090a);
+  border: 1px solid #08090a;
+  box-shadow: inset 0 0 0 1px #805032, inset 0 1px #be8552, 0 1px 2px #000;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor .close-button {
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+  top: 3px;
+  right: 3px;
+  background: linear-gradient(#69262c, #2a1115);
+  border: 1px solid #a36b40;
+  color: #ead8bc;
+  font-size: 0;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px #12090a;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor .close-button::after {
+  content: "×";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.border-window:not(.transparent) .close-button-corner-decor .close-button:hover {
+  background: linear-gradient(#8c363d, #351318);
+  border-color: #d0a062;
+}
+
+.border-window:not(.transparent) > .bottom-bar,
+.border-window:not(.transparent) .content > .bottom-bar {
+  box-sizing: border-box;
+  border-top: 1px solid #7e5730;
+  box-shadow: inset 0 1px #111315, inset 0 2px #ad7c46;
+}
+
+/* Continuous inner headers: no decorative marks under the label. */
+.interface-element-header-1-background,
+.interface-element-header-1-background-stretch,
+.interface-element-table-header-1-background,
+.clan .header-bar,
+.showcase .header-bar,
+.skills-window .left-column .list-label-wrapper .list-label,
+.skills-window .right-column .points-header-wrapper .skills-points-wrapper,
+.news-panel .news-content .section-header {
+  box-sizing: border-box;
+  background-color: #251114;
+  background-image:
+    linear-gradient(to bottom, #5c2026 0, #351418 24%, #241114 70%, #120c0d 100%),
+    url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png) !important;
+  background-repeat: repeat !important;
+  border: 0 !important;
+  border-image: none !important;
+  box-shadow:
+    inset 0 0 0 1px #13090a,
+    inset 0 1px #a87843,
+    inset 0 2px #4c3523,
+    inset 0 -1px #070809 !important;
+}
+
+.interface-element-header-1 span,
+.clan .header-bar .header-text,
+.showcase .header-bar .header-text {
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.tabs-nav::before,
+.cards-header-wrapper .header-background-graphic,
+.matchmaking-ranking .ranking-tabs .header-background-graphic,
+.mails-window .cards-header-wrapper .header-background-graphic,
+.battle-pass-window .cards-header-wrapper .header-background-graphic {
+  background: linear-gradient(#292c2c, #111314 58%, #08090a) !important;
+  border: 0 !important;
+  border-image: none !important;
+  box-shadow: inset 0 1px #87613a, inset 0 -1px #08090a !important;
+}
+
+/* Small NPC bubble: scalable frame and theme surface. */
+.bubbledialog {
+  color: #e7dcc9;
+  filter: drop-shadow(0 2px 3px #000b);
+}
+
+.bubbledialog .content-layer .inner {
+  box-sizing: border-box;
+  padding: 10px 10px 22px;
+}
+
+.bubbledialog .content-layer .inner .container {
+  box-sizing: border-box;
+  min-height: 34px;
+  padding: 5px 8px;
+  color: #d8c9ae;
+  background: linear-gradient(#1a1c1d, #0d0f10);
+  border: 1px solid #5d4228;
+  box-shadow: inset 0 0 0 1px #08090a;
+}
+
+.bubbledialog .bg-layer .top-frame,
+.bubbledialog .bg-layer .bottom-frame,
+.bubbledialog .bg-layer .left-frame,
+.bubbledialog .bg-layer .right-frame {
+  box-sizing: border-box;
+  background-image: none;
+  background-color: #111314;
+  border-color: #8d6338;
+}
+
+.bubbledialog .bg-layer .top-frame {
+  width: 100%;
+  height: 10px;
+  border: 1px solid #15100d;
+  border-top-color: #b18049;
+  box-shadow: inset 0 2px #333738;
+}
+
+.bubbledialog .bg-layer .bottom-frame,
+.bubbledialog .left .bottom-frame {
+  width: 100%;
+  height: 22px;
+  border: 1px solid #15100d;
+  border-bottom-color: #9c6d3c;
+  clip-path: polygon(0 0, 44% 0, 48% 100%, 54% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.bubbledialog .bg-layer .left-frame {
+  width: 10px;
+  top: 10px;
+  bottom: 22px;
+  border-left: 2px solid #9b6c3d;
+}
+
+.bubbledialog .bg-layer .right-frame {
+  width: 10px;
+  top: 10px;
+  bottom: 22px;
+  border-right: 2px solid #9b6c3d;
+}
+
+.bubbledialog .content-layer .inner .container .answers .answer,
+.bubbledialog .content-layer .inner .container .answers a {
+  color: #c8a66c;
+}
+
+.bubbledialog .content-layer .inner .container .answers .answer:hover,
+.bubbledialog .content-layer .inner .container .answers a:hover {
+  color: #f2d89f;
+}
+
+/* Widget extensions are driven by real visible content, not stale edit nodes. */
+.layer.interface-layer .positioner.bottom .bg-additional-widget-left,
+.layer.interface-layer .positioner.bottom .bg-additional-widget-right {
+  display: none !important;
+  height: 70px;
+  bottom: 0;
+  background-image:
+    linear-gradient(to bottom, #2a1717f2, #130f10f6 22%, #100c0df8 78%, #2d1918f2),
+    url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png) !important;
+  border-top: 2px solid #161819;
+  box-shadow: inset 0 2px #755031, inset 0 4px #08090a;
+}
+
+.game-window-positioner.df-aw-l .layer.interface-layer .positioner.bottom .bg-additional-widget-left,
+.game-window-positioner.df-aw-r .layer.interface-layer .positioner.bottom .bg-additional-widget-right {
+  display: block !important;
+}
+
+.game-window-positioner.chat-size-1.df-aw-l .layer.interface-layer .positioner.bottom .bg-additional-widget-left {
+  left: 241px;
+  width: 260px;
+  border-left: 1px solid #7c5633;
+}
+
+/* Top HUD uses one local 342 × 65 coordinate system. */
+.layer.interface-layer .positioner.top .hud-container {
+  box-sizing: border-box;
+  width: var(--df-hud-w);
+  height: 65px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname {
+  box-sizing: border-box;
+  top: 1px;
+  left: 58px;
+  width: 226px;
+  height: 17px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map_ball {
+  top: 22px;
+  left: 27px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data {
+  margin-top: 23px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data .location {
+  box-sizing: border-box;
+  top: 0;
+  left: 50px;
+  width: 145px;
+  height: 14px;
+  overflow: hidden;
+  line-height: 14px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.layer.interface-layer .positioner.top .hud-container .map-data .coords {
+  box-sizing: border-box;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.layer.interface-layer .positioner.top .hud-container .world-name {
+  box-sizing: border-box;
+  top: 22px;
+  left: 247px;
+  width: 56px;
+  height: 14px;
+  overflow: hidden;
+  line-height: 14px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.layer.interface-layer .positioner.top .hud-container .gold-tip,
+.layer.interface-layer .positioner.top .hud-container .credits-tip {
+  bottom: 3px;
+  width: 19px;
+  height: 19px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .gold-tip { left: 53px; }
+.layer.interface-layer .positioner.top .hud-container .credits-tip { left: 175px; }
+
+.layer.interface-layer .positioner.top .hud-container .gold-tip::before,
+.layer.interface-layer .positioner.top .hud-container .credits-tip::before {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+}
+
+.layer.interface-layer .positioner.top .hud-container .herogold.herogold,
+.layer.interface-layer .positioner.top .hud-container .herocredits.herogold,
+.layer.interface-layer .positioner.top .hud-container .herogold.herocredits,
+.layer.interface-layer .positioner.top .hud-container .herocredits.herocredits {
+  box-sizing: border-box;
+  top: 43px;
+  width: 91px;
+  height: 14px;
+  overflow: hidden;
+  line-height: 14px;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.layer.interface-layer .positioner.top .hud-container .herogold.herogold,
+.layer.interface-layer .positioner.top .hud-container .herocredits.herogold { left: 72px; }
+.layer.interface-layer .positioner.top .hud-container .herogold.herocredits,
+.layer.interface-layer .positioner.top .hud-container .herocredits.herocredits { left: 194px; }
+
+/* Bottom HUD, authored EXP rail and transparent shield centre. */
+.bottom-panel-of-bottom-positioner {
+  width: var(--df-bottom-w);
+}
+
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic {
+  bottom: 0;
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/bottom-panel-hp-shield.png);
+}
+
+.bottom-panel-of-bottom-positioner .hp-indicator-wrapper {
+  left: calc(var(--df-bottom-w) / 2 - 51px);
+  bottom: 0;
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress {
+  top: 20px;
+  height: 18px;
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left { left: 36px; }
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right { left: 378px; }
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay {
+  width: 250px;
+  height: 18px;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/exp-left.png) no-repeat;
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/exp-right.png);
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress,
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress {
+  top: 4px;
+  left: 8px;
+  width: 234px;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress .inner {
+  background: linear-gradient(#361014, #9b2730 38%, #6d171f 65%, #1a090b);
+  box-shadow: inset 0 1px #d59b4f, inset 0 -1px #27070a;
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress.noexp .inner {
+  background: linear-gradient(#252728, #77746d 40%, #3c3d3d 66%, #151617);
+}
+
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .end-game-ribbon {
+  background-image: none !important;
+  border-color: #9c713e;
+  filter: drop-shadow(0 1px 1px #000);
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter {
+  box-sizing: border-box;
+  width: 30px;
+  height: 24px;
+  bottom: 7px;
+  left: 403px;
+  border: 1px solid #17100d;
+  border-radius: 3px;
+  background: linear-gradient(#272a29, #0b0d0e);
+  box-shadow: inset 0 0 0 1px #79532f, inset 0 1px #b17d48;
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter .lag,
+.bottom-panel-of-bottom-positioner .lagmeter .lag[class*="lag-"] {
+  width: 18px;
+  height: 14px;
+  top: 3px;
+  left: 5px;
+  background: none;
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter .lag::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  width: 3px;
+  height: 4px;
+  background: #77a16e;
+  box-shadow: 5px -3px #77a16e, 10px -7px #77a16e;
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter .lag::after {
+  content: "ms";
+  position: absolute;
+  top: 11px;
+  left: 3px;
+  color: #cbb894;
+  font-size: 7px;
+  line-height: 7px;
+}
+
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-3::before,
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-4::before { background: #c29a46; box-shadow: 5px -3px #c29a46, 10px -7px #4b3a25; }
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-5::before { background: #a33a3f; box-shadow: 5px -3px #4d2326, 10px -7px #332326; }
+
+/* Thin item rim leaves the icon visually dominant. */
+.interface-element-one-item-slot-background-to-repeat,
+.interface-element-one-item-slot {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/item-slot-thin.png);
+  background-size: 33px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.interface-element-one-item-slot-2 {
+  box-sizing: border-box;
+  width: 37px;
+  height: 37px;
+  background: #151717;
+  border: 1px solid #77512f;
+  outline: 1px solid #090a0a;
+  box-shadow: inset 0 0 0 1px #34312c;
+}
+
+.interface-element-one-item-slot-decor,
+.enhance__item {
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #2f3030, #111313 55%, #070809);
+  border: 1px solid #805832;
+  outline: 1px solid #080909;
+  box-shadow: inset 0 0 0 1px #3c3831, 0 1px 2px #000;
+}
+
+.enhance__progressbar {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.enhance__progress-bg {
+  z-index: 2;
+  pointer-events: none;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/enhance-rail.png) 0 0 / 100% 100% no-repeat;
+}
+
+.enhance__progress {
+  top: 3px;
+  left: 3px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.enhance__progress--current { background: linear-gradient(#7c9a49, #36531e 62%, #17210f); }
+.enhance__progress--preview { background: linear-gradient(#b8d776, #668c38 62%, #263a16); }
+
+/* Visible resource bars and thin fighter bars use one colour system. */
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .overlay {
+  box-sizing: border-box;
+  background: linear-gradient(#2c2e2d, #090b0c);
+  border: 1px solid #815a33;
+  border-radius: 5px;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow .inner {
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/resource-red.png) 0 0 / 153px 9px no-repeat;
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow .inner {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/resource-blue.png);
+}
+
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .bar-overflow .inner {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/resource-yellow.png);
+}
+
+.battle-window .one-warrior .progress-bar-wrapper .stat-bar {
+  background: #090b0c;
+  border-color: #60452b;
+  box-shadow: 0 1px #000;
+}
+
+.battle-window .one-warrior .progress-bar-wrapper .stat-bar.health-points .inner {
+  background: linear-gradient(90deg, #551018, #c5393f);
+}
+
+/* Userscript markers; the native map graphics and NPC sprites remain untouched. */
+.df-click {
+  pointer-events: none;
+  z-index: 30;
+  width: 42px;
+  height: 42px;
+  position: fixed;
+  margin: -21px 0 0 -21px;
+  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/click.png) center / contain no-repeat;
+  animation: df-click .45s ease-out forwards;
+}
+
+.df-click.blocked { background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/v112/click-blocked.png); }
+
+@keyframes df-click {
+  0% { opacity: 0; transform: scale(.65); }
+  28% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(.9); }
+}
+
+@media (max-width: 1280px) {
+  .border-window:not(.transparent) .header-label-positioner .header-label .text { font-size: 11px; }
 }
