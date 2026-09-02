@@ -1,18 +1,31 @@
 {
   "source_bytes": 804535,
-  "delta_bytes": 101948,
-  "asset_rules": 516,
-  "custom_assets_included": 96,
-  "custom_assets_matched": 95,
+  "delta_bytes": 98958,
+  "asset_rules": 494,
+  "custom_assets_included": 83,
+  "custom_assets_matched": 82,
   "unmatched_assets": [
     "/img/gui/stats-scroll-bar.png"
   ],
   "excluded_functional_sprites": [
+    "/img/def-npc.gif",
     "/img/draconiteIconNormal.gif",
     "/img/draconite_small.gif",
+    "/img/emo/battle.gif",
     "/img/goldIconNormal.png",
+    "/img/gui/addons-icons.png",
     "/img/gui/chat-sprite.png",
     "/img/gui/draconite_small.gif",
-    "/img/gui/item_frames/frames/item_frames.png"
+    "/img/gui/item_frames/frames/item_frames.png",
+    "/img/rip1.gif",
+    "/img/rip2.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/auctions_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/daily_quest_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/depo_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/heal_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/inn_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/mail_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/quest_mark.gif",
+    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/shop_mark.gif"
   ]
 }

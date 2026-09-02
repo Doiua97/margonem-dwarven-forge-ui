@@ -87,7 +87,6 @@
 .loot-window .items-wrapper .loot-item-wrapper .button .label.not{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .relogger__one-world{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
-.who-is-here .scroll-wrapper .scroll-pane .one-other .center .battle.active{background-image:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=9ba6b5fe1722a)}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis.active,.who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background-image:url(../assets-production/lupus.margonem.pl/img/away.gif?v=9ba6b5fe1722a)}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .wanted-wrapper .skull{background-image:url(../assets-production/lupus.margonem.pl/img/gui/notyfikacje-sprite.png?v=9ba6b5fe1722a)}
@@ -175,14 +174,6 @@
 .elite-timer-edit .info-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .draconite:after{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .button .label .small-money{background-image:url(../assets-production/lupus.margonem.pl/img/gui/notyfikacje-sprite.png?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-NORMAL_QUEST{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/quest_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-DAILY_QUEST{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/daily_quest_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-INKEEPER{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/inn_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-AUCTION{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/auctions_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-MAIL{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/mail_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-DEPO,.emo-npc-icon.i-DEPO_CLAN{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/depo_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-HEAL{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/heal_mark.gif?v=9ba6b5fe1722a)}
-.emo-npc-icon.i-SHOP{background-image:url(../assets-production/micc.garmory-cdn.cloud/obrazki/interface/emo/shop_mark.gif?v=9ba6b5fe1722a)}
 .emo-npc-icon.i-gateway{background-image:url(../assets-production/lupus.margonem.pl/img/gui/map-icons.png?v=9ba6b5fe1722a)}
 .layer.interface-layer .positioner.top .bg{background-image:url(../assets-production/lupus.margonem.pl/img/gui/belka-gora-dol.png?v=9ba6b5fe1722a)}
 .layer.interface-layer .positioner.top .hud-container{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
@@ -240,15 +231,6 @@
 .divide-button .button .label .icon .pause{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .divide-button .button .label .icon .play{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .widget-button .icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
-.widget-button .icon.send-clan-msg{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.quick-party{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.loot-filter-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.timer-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.clock-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.ground-items-browser-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.inventory-browser-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.autoHeal{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
-.widget-button .icon.addon_1,.widget-button .icon.addon_2,.widget-button .icon.addon_3,.widget-button .icon.addon_4,.widget-button .icon.addon_5,.widget-button .icon.addon_6,.widget-button .icon.addon_7,.widget-button .icon.addon_8,.widget-button .icon.addon_9,.widget-button .icon.addon_10,.widget-button .icon.addon_11,.widget-button .icon.addon_12,.widget-button .icon.addon_13,.widget-button .icon.addon_14,.widget-button .icon.addon_15,.widget-button .icon.addon_16,.widget-button .icon.addon_17,.widget-button .icon.addon_18,.widget-button .icon.addon_19,.widget-button .icon.addon_20,.widget-button .icon.addon_21,.widget-button .icon.addon_22,.widget-button .icon.addon_23,.widget-button .icon.addon_24,.widget-button .icon.addon_25,.widget-button .icon.addon_27,.widget-button .icon.addon_29{background-image:url(../assets-production/lupus.margonem.pl/img/gui/addons-icons.png?v=9ba6b5fe1722a)}
 .info-icon{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .attach-icon{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto;background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .battle-msg{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.png?v=9ba6b5fe1722a),url(../assets-production/lupus.margonem.pl/img/gui/cursor/1n.cur?v=9ba6b5fe1722a),auto}
@@ -303,11 +285,8 @@ input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui
 .combo-wrapper .combo-point.active.left{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .combo-wrapper .combo-point.active.middle{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .combo-wrapper .combo-point.active.right{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
-.battle-window .one-warrior .warrior.grave-warrior-npc{background-image:url(../assets-production/lupus.margonem.pl/img/rip2.gif?v=9ba6b5fe1722a)}
-.battle-window .one-warrior .warrior.grave-warrior-other{background-image:url(../assets-production/lupus.margonem.pl/img/rip1.gif?v=9ba6b5fe1722a)}
 .battle-window .one-warrior .warrior .buff{background-image:url(../assets-production/lupus.margonem.pl/img/buffs.gif?v=9ba6b5fe1722a)}
 .battle-window .one-warrior .warrior-buffs-wrapper .buff{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buffs-in-fight.png?v=9ba6b5fe1722a)}
-.battle-window .one-warrior .current-arrow .css-arrow{background-image:url(../assets-production/lupus.margonem.pl/img/emo/battle.gif?v=9ba6b5fe1722a)}
 .battle-window .battlelog{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .battle-window .battlelog div.attack{background-image:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-green2.png?v=9ba6b5fe1722a)}
 .battle-window .battlelog div.attack2{background-image:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-red2.png?v=9ba6b5fe1722a)}
@@ -326,7 +305,6 @@ input.default:disabled{cursor:url(../assets-production/lupus.margonem.pl/img/gui
 .battlelog .scroll-pane div.neu{background-image:url(../assets-production/lupus.margonem.pl/img/gui/line-highlight-yellow2.png?v=9ba6b5fe1722a)}
 .ansRound .unit{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
 .scroll-wrapper .scrollbar-wrapper .track .handle{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
-.quest-box .quest-content .q_icon{background-image:url(../assets-production/lupus.margonem.pl/img/def-npc.gif?v=9ba6b5fe1722a)}
 .checkbox{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .checkbox.active{background-image:url(../assets-production/lupus.margonem.pl/img/gui/buttony.png?v=9ba6b5fe1722a)}
 .settings-window .notifications-config .scroll-wrapper .scroll-pane .all-notification .sound-notif{cursor:url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.png?v=9ba6b5fe1722a) 4 0,url(../assets-production/lupus.margonem.pl/img/gui/cursor/5n.cur?v=9ba6b5fe1722a) 4 0,auto}
@@ -555,7 +533,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button,
-.widget-button,
 .btn-min,
 .game-window-positioner button,
 .game-window-positioner input[type="button"],
@@ -565,29 +542,24 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button:not(.disabled):hover,
-.widget-button:not(.disabled):hover,
 .btn-min:not(.disabled):hover {
   color: #fff1d3;
 }
 
 .button.disabled,
-.widget-button.disabled,
 .btn-min.disabled,
 .game-window-positioner button:disabled {
   color: var(--df-disabled);
   filter: saturate(.45) brightness(.72);
 }
 
-.main-buttons-container .widget-button,
 .main-buttons-container .button {
   background-color: #191719;
   border-color: #76502d;
   box-shadow: inset 0 0 0 1px #090909, inset 0 0 8px #0009;
 }
 
-.main-buttons-container .widget-button:hover,
 .main-buttons-container .button:hover,
-.main-buttons-container .widget-button.active,
 .main-buttons-container .button.active {
   background-color: #42171b;
   border-color: var(--df-bronze);
@@ -654,6 +626,24 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   border-color: var(--df-bronze);
 }
 
+:is(.alerts-layer, .console-layer, .mAlert-layer, .mAlert-mobile-layer)
+  .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option,
+.menu-list .menu-option {
+  color: var(--df-ivory);
+  background-color: #111416;
+  border-color: #604425;
+}
+
+:is(.alerts-layer, .console-layer, .mAlert-layer, .mAlert-mobile-layer)
+  .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled),
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option:hover,
+.menu-list .menu-option:hover:not(.disabled) {
+  color: var(--df-gold-bright);
+  background-color: #2b1719;
+  border-color: var(--df-bronze);
+}
+
 .tip-wrapper,
 .tip-wrapper .content {
   color: var(--df-ivory);
@@ -696,7 +686,8 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 .layer.interface-layer .main-column.right-column .border,
 .layer.interface-layer .main-column .extended-stats .border {
   background-color: #101315;
-  background-image: linear-gradient(90deg, #07090a 0, #171b1d 8%, #111416 48%, #1b1f21 92%, #07090a 100%);
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
   border-color: #6f4b28;
   box-shadow: inset 0 0 18px #000c, inset 0 0 0 1px #302417;
 }
@@ -794,8 +785,7 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button.green,
-.widget-button.green,
-.pressed,
+.button.pressed,
 .btn-min {
   color: var(--df-ivory);
   background-color: #351216;
@@ -805,7 +795,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button.green:not(.disabled):hover,
-.widget-button.green:not(.disabled):hover,
 .btn-min:not(.disabled):hover {
   color: #fff1d3;
   background-image: linear-gradient(#78303a, #34151a 55%, #111315);
@@ -847,7 +836,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button,
-.widget-button,
 .btn-min,
 .card-button-test,
 .tw-tabs > div,
@@ -862,8 +850,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 
 .button.active,
 .button.pressed,
-.widget-button.active,
-.widget-button.pressed,
 .card-button-test.active,
 .tw-tabs > div.active,
 .tw-tabs > div.is-active,
@@ -878,7 +864,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button:not(.disabled):hover,
-.widget-button:not(.disabled):hover,
 .btn-min:not(.disabled):hover,
 .card-button-test:not(.disabled):hover,
 .tw-tabs > div:not(.disabled):hover,
@@ -891,7 +876,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
 }
 
 .button.disabled,
-.widget-button.disabled,
 .btn-min.disabled,
 .tw-tabs > div.disabled,
 .tw-one-tab.disabled {
@@ -902,9 +886,7 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   box-shadow: inset 0 0 5px #000;
 }
 
-.border-window.transparent .border-image,
-.game-window-positioner .widget-window .border-image,
-.game-window-positioner .configuration-window .border-image {
+.border-window.transparent .border-image {
   background-color: #0d1011eb;
   background-image: linear-gradient(145deg, #24201c 0, #101315 45%, #1f1013 100%);
   border: 1px solid #7d562f;
@@ -912,19 +894,21 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   box-shadow: inset 0 0 0 1px #070809, inset 0 0 12px #000b, 0 3px 10px #000b;
 }
 
-.border-window.transparent .content,
-.game-window-positioner .widget-window .content,
-.game-window-positioner .configuration-window .content {
+.border-window.transparent .content {
   color: var(--df-ivory);
   background-color: transparent;
   background-image: none;
 }
 
-.border-window.transparent .header-label-positioner .header-label,
-.game-window-positioner .widget-window header,
-.game-window-positioner .configuration-window header {
+.border-window.transparent .header-label-positioner .header-label {
   color: var(--df-gold-bright);
   text-shadow: 0 1px 2px #000;
+}
+
+.game-window-positioner :is(.widget-window, .configuration-window) .content {
+  background-color: #111416;
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/panel-surface.png);
+  background-repeat: repeat;
 }
 
 .game-window-positioner input[type="checkbox"],
@@ -1046,53 +1030,9 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   color: #fff0cf;
 }
 
-.interface-element-active-card-border-image,
-.interface-element-active-card-background-stretch {
-  background: none;
-  border-style: solid;
-  border-width: 0 28px;
-  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 48 fill stretch;
-}
-
-.interface-element-active-card-border-image {
-  position: relative;
-}
-
-.interface-element-active-card-background {
-  position: relative;
-  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
-}
-
-.main-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.header-bar :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.section-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.table-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.cards-header-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.points-header-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.list-label-wrapper :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.addon-header :is(.interface-element-active-card-border-image, .interface-element-active-card-background, .interface-element-active-card-background-stretch)::before,
-.interface-element-header-1-background::before,
-.interface-element-header-1-background-stretch::before {
-  content: "";
-  pointer-events: none;
-  width: 126px;
-  height: 31px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background: url(../assets-production/lupus.margonem.pl/img/gui/dialogue/dialogi.png) 0 0 no-repeat;
-  transform: translate(-50%, -50%);
-}
-
 .interface-element-card-background,
 .interface-element-card-background-stretch {
   color: var(--df-muted);
-}
-
-.interface-element-card-background,
-.interface-element-card-background-stretch {
-  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
-  filter: saturate(.65) brightness(.72);
 }
 
 .interface-element-border-window-header-middle,
@@ -1109,22 +1049,6 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   text-shadow: 0 1px 2px #000;
 }
 
-.interface-element-header-1-background,
-.interface-element-header-1-background-stretch {
-  background: none;
-  border-style: solid;
-  border-width: 0 28px;
-  border-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) 0 48 fill stretch;
-}
-
-.interface-element-header-1-background {
-  position: relative;
-}
-
-.interface-element-table-header-1-background {
-  background: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/inner-header.png) center / 100% 100% no-repeat;
-}
-
 .interface-element-header-1,
 .main-header,
 .header-bar,
@@ -1137,6 +1061,42 @@ body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-produ
   color: var(--df-gold-bright);
   text-shadow: 0 1px 2px #000;
 }
+
+.widget-button .icon,
+.widget-button .add-bck {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/original-buttony.png);
+}
+
+.chat-channel-card-wrapper .chat-channel-card .chat-channel-card-icon {
+  background-image: url(../assets-production/lupus.margonem.pl/img/gui/dwarven-forge/chat-channel-icons.png);
+  background-repeat: no-repeat;
+}
+
+.chat-channel-card-wrapper .chat-channel-card.GENERAL-channel .chat-channel-card-icon { background-position: 0 -20px; }
+.chat-channel-card-wrapper .chat-channel-card.GLOBAL-channel .chat-channel-card-icon { background-position: -24px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.LOCAL-channel .chat-channel-card-icon { background-position: -48px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.TRADE-channel .chat-channel-card-icon { background-position: -72px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.GROUP-channel .chat-channel-card-icon { background-position: -96px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.CLAN-channel .chat-channel-card-icon { background-position: -120px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.SYSTEM-channel .chat-channel-card-icon { background-position: -144px -20px; }
+.chat-channel-card-wrapper .chat-channel-card.PRIVATE-channel .chat-channel-card-icon { background-position: -168px -20px; }
+
+.chat-channel-card-wrapper .chat-channel-card.GENERAL-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.GENERAL-channel .chat-channel-card-icon:hover { background-position: 0 0; }
+.chat-channel-card-wrapper .chat-channel-card.GLOBAL-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.GLOBAL-channel .chat-channel-card-icon:hover { background-position: -24px 0; }
+.chat-channel-card-wrapper .chat-channel-card.LOCAL-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.LOCAL-channel .chat-channel-card-icon:hover { background-position: -48px 0; }
+.chat-channel-card-wrapper .chat-channel-card.TRADE-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.TRADE-channel .chat-channel-card-icon:hover { background-position: -72px 0; }
+.chat-channel-card-wrapper .chat-channel-card.GROUP-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.GROUP-channel .chat-channel-card-icon:hover { background-position: -96px 0; }
+.chat-channel-card-wrapper .chat-channel-card.CLAN-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.CLAN-channel .chat-channel-card-icon:hover { background-position: -120px 0; }
+.chat-channel-card-wrapper .chat-channel-card.SYSTEM-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.SYSTEM-channel .chat-channel-card-icon:hover { background-position: -144px 0; }
+.chat-channel-card-wrapper .chat-channel-card.PRIVATE-channel.active .chat-channel-card-icon,
+.chat-channel-card-wrapper .chat-channel-card.PRIVATE-channel .chat-channel-card-icon:hover { background-position: -168px 0; }
 
 :root {
   --dwarven-hp-width: 102px;
